@@ -1,0 +1,395 @@
+    1 ↵ ──(Tue,Feb22)─┘
+/Users/dylan/ga_seir/unit1/homework/u1_hw_star_wars
+┌─(~/ga_seir/unit1/homework/u1_hw_star_wars)────────────────────────────────────(dylan@Dylans-MBP:s000)─┐
+└─(16:08:46 on main)──> mkdir star_wars                                                   ──(Tue,Feb22)─┘
+┌─(~/ga_seir/unit1/homework/u1_hw_star_wars)───────────────────────────────────┌─┌┌─(~/ga_seir/unit1/homework/u1_hw_star_wars)────────────────────────────────────(dylan@Dylans-MBP:s000)─┐
+└─(16:09:07 on main)──> ls                                        ──(Tue,Feb22)─┘
+README.md    act1.sh      act2.sh      act3.sh      solution.txt star_wars
+┌─(~/ga_seir/unit1/homework/u1_hw_star_wars)────────────(dylan@Dylans-MBP:s000)─┐
+└─(16:09:23 on main)──> cd star_wars                              ──(Tue,Feb22)─┘
+┌─(..._seir/unit1/homework/u1_hw_star_wars/star_wars)───(dylan@Dylans-MBP:s000)─┐
+└─(16:09:29 on main)──> mkdir empire rebellion                    ──(Tue,Feb22)─┘
+┌─(..._seir/unit1/homework/u1_hw_star_wars/star_wars)───(dylan@Dylans-MBP:s000)─┐
+└─(16:09:43 on main)──> ls                                        ──(Tue,Feb22)─┘
+empire    rebellion
+┌─(..._seir/unit1/homework/u1_hw_star_wars/star_wars)───(dylan@Dylans-MBP:s000)─┐
+└─(16:09:44 on main)──> cd empire                                 ──(Tue,Feb22)─┘
+┌─(...nit1/homework/u1_hw_star_wars/star_wars/empire)───(dylan@Dylans-MBP:s000)─┐
+└─(16:10:01 on main)──> touch darth_vader.txt                     ──(Tue,Feb22)─┘
+┌─(...nit1/homework/u1_hw_star_wars/star_wars/empire)───(dylan@Dylans-MBP:s000)─┐
+└─(16:10:06 on main ✭)──> ls                                      ──(Tue,Feb22)─┘
+darth_vader.txt
+┌─(...nit1/homework/u1_hw_star_wars/star_wars/empire)───(dylan@Dylans-MBP:s000)─┐
+└─(16:10:07 on main ✭)──> echo "...heavy breathing..." >> ~/.darth_vader.txt
+┌─(...nit1/homework/u1_hw_star_wars/star_wars/empire)───(dylan@Dylans-MBP:s000)─┐
+└─(16:11:27 on main ✭)──> cat darth_varder.txt                    ──(Tue,Feb22)─┘
+cat: darth_varder.txt: No such file or directory
+┌─(...nit1/homework/u1_hw_star_wars/star_wars/empire)───(dylan@Dylans-MBP:s000)─┐
+└─(16:11:34 on main ✭)──> ls                                  1 ↵ ──(Tue,Feb22)─┘
+darth_vader.txt
+┌─(...nit1/homework/u1_hw_star_wars/star_wars/empire)───(dylan@Dylans-MBP:s000)─┐
+└─(16:11:41 on main ✭)──> pwd                                     ──(Tue,Feb22)─┘
+/Users/dylan/ga_seir/unit1/homework/u1_hw_star_wars/star_wars/empire
+┌─(...nit1/homework/u1_hw_star_wars/star_wars/empire)───(dylan@Dylans-MBP:s000)─┐
+└─(16:13:16 on main ✭)──> touch emperor_palpatine.txt             ──(Tue,Feb22)─┘
+┌─(...nit1/homework/u1_hw_star_wars/star_wars/empire)───(dylan@Dylans-MBP:s000)─┐
+└─(16:13:40 on main ✭)──> ls                                      ──(Tue,Feb22)─┘
+darth_vader.txt       emperor_palpatine.txt
+┌─(...nit1/homework/u1_hw_star_wars/star_wars/empire)───(dylan@Dylans-MBP:s000)─┐
+└─(16:13:41 on main ✭)──> pwd                                     ──(Tue,Feb22)─┘
+/Users/dylan/ga_seir/unit1/homework/u1_hw_star_wars/star_wars/empire
+┌─(...nit1/homework/u1_hw_star_wars/star_wars/empire)───(dylan@Dylans-MBP:s000)─┐
+└─(16:14:09 on main ✭)──> mkdir death_star                        ──(Tue,Feb22)─┘
+┌─(...nit1/homework/u1_hw_star_wars/star_wars/empire)───(dylan@Dylans-MBP:s000)─┐
+└─(16:14:14 on main ✭)──> ls                                      ──(Tue,Feb22)─┘
+darth_vader.txt       death_star            emperor_palpatine.txt
+┌─(...nit1/homework/u1_hw_star_wars/star_wars/empire)───(dylan@Dylans-MBP:s000)─┐
+└─(16:14:15 on main ✭)──> mv darth_vader.txt death_star/          ──(Tue,Feb22)─┘
+┌─(...nit1/homework/u1_hw_star_wars/star_wars/empire)───(dylan@Dylans-MBP:s000)─┐
+└─(16:15:35 on main ✭)──> ls                                      ──(Tue,Feb22)─┘
+death_star            emperor_palpatine.txt
+┌─(...nit1/homework/u1_hw_star_wars/star_wars/empire)───(dylan@Dylans-MBP:s000)─┐
+└─(16:15:38 on main ✭)──> cd death_star                           ──(Tue,Feb22)─┘
+┌─(...rk/u1_hw_star_wars/star_wars/empire/death_star)───(dylan@Dylans-MBP:s000)─┐
+└─(16:15:44 on main ✭)──> ls                                      ──(Tue,Feb22)─┘
+darth_vader.txt
+┌─(...rk/u1_hw_star_wars/star_wars/empire/death_star)───(dylan@Dylans-MBP:s000)─┐
+└─(16:15:45 on main ✭)──> cd ..                                   ──(Tue,Feb22)─┘
+┌─(...nit1/homework/u1_hw_star_wars/star_wars/empire)───(dylan@Dylans-MBP:s000)─┐
+└─(16:15:48 on main ✭)──> ls                                      ──(Tue,Feb22)─┘
+death_star            emperor_palpatine.txt
+┌─(...nit1/homework/u1_hw_star_wars/star_wars/empire)───(dylan@Dylans-MBP:s000)─┐
+└─(16:15:49 on main ✭)──> cd ..                                   ──(Tue,Feb22)─┘
+┌─(..._seir/unit1/homework/u1_hw_star_wars/star_wars)───(dylan@Dylans-MBP:s000)─┐
+└─(16:16:40 on main ✹ ✭)──> ls                                    ──(Tue,Feb22)─┘
+empire    rebellion
+┌─(..._seir/unit1/homework/u1_hw_star_wars/star_wars)───(dylan@Dylans-MBP:s000)─┐
+└─(16:16:42 on main ✹ ✭)──> cd rebellion                          ──(Tue,Feb22)─┘
+┌─(...1/homework/u1_hw_star_wars/star_wars/rebellion)───(dylan@Dylans-MBP:s000)─┐
+└─(16:16:48 on main ✹ ✭)──> pwd                                   ──(Tue,Feb22)─┘
+/Users/dylan/ga_seir/unit1/homework/u1_hw_star_wars/star_wars/rebellion
+┌─(...1/homework/u1_hw_star_wars/star_wars/rebellion)───(dylan@Dylans-MBP:s000)─┐
+└─(16:19:12 on main ✹ ✭)──> touch princess_leia.txt && echo "Help me, Obi-Wan..." >> ~/.princess_leia.txt
+┌─(...1/homework/u1_hw_star_wars/star_wars/rebellion)───(dylan@Dylans-MBP:s000)─┐
+└─(16:19:55 on main ✹ ✭)──> open princess_leia.txt                ──(Tue,Feb22)─┘
+┌─(...1/homework/u1_hw_star_wars/star_wars/rebellion)───(dylan@Dylans-MBP:s000)─┐
+└─(16:20:07 on main ✹ ✭)──> cat princess_leia.txt                 ──(Tue,Feb22)─┘
+┌─(...1/homework/u1_hw_star_wars/star_wars/rebellion)───(dylan@Dylans-MBP:s000)─┐
+└─(16:20:38 on main ✹ ✭)──> ls                                    ──(Tue,Feb22)─┘
+princess_leia.txt
+┌─(...1/homework/u1_hw_star_wars/star_wars/rebellion)───(dylan@Dylans-MBP:s000)─┐
+└─(16:21:32 on main ✹ ✭)──> rm princess_leia.txt                  ──(Tue,Feb22)─┘
+┌─(...1/homework/u1_hw_star_wars/star_wars/rebellion)───(dylan@Dylans-MBP:s000)─┐
+└─(16:21:41 on main ✹ ✭)──> ls                                    ──(Tue,Feb22)─┘
+┌─(...1/homework/u1_hw_star_wars/star_wars/rebellion)───(dylan@Dylans-MBP:s000)─┐
+└─(16:21:43 on main ✹ ✭)──> touch princess_leia.txt && echo "Help me, Obi-Wan..." >> princess_leia.txt
+┌─(...1/homework/u1_hw_star_wars/star_wars/rebellion)───(dylan@Dylans-MBP:s000)─┐
+└─(16:22:13 on main ✹ ✭)──> cat princess_leia.txt                 ──(Tue,Feb22)─┘
+Help me, Obi-Wan...
+┌─(...1/homework/u1_hw_star_wars/star_wars/rebellion)───(dylan@Dylans-MBP:s000)─┐
+└─(16:22:18 on main ✹ ✭)──> cd ..                                 ──(Tue,Feb22)─┘
+┌─(..._seir/unit1/homework/u1_hw_star_wars/star_wars)───(dylan@Dylans-MBP:s000)─┐
+└─(16:22:46 on main ✹ ✭)──> cd empire                             ──(Tue,Feb22)─┘
+┌─(...nit1/homework/u1_hw_star_wars/star_wars/empire)───(dylan@Dylans-MBP:s000)─┐
+└─(16:22:49 on main ✹ ✭)──> cd death_star                         ──(Tue,Feb22)─┘
+┌─(...rk/u1_hw_star_wars/star_wars/empire/death_star)───(dylan@Dylans-MBP:s000)─┐
+└─(16:22:55 on main ✹ ✭)──> echo "...heavy breathing..." >> darth_vader.txt
+┌─(...rk/u1_hw_star_wars/star_wars/empire/death_star)───(dylan@Dylans-MBP:s000)─┐
+└─(16:23:10 on main ✹ ✭)──> cat darth_vader.txt                   ──(Tue,Feb22)─┘
+...heavy breathing...
+┌─(...rk/u1_hw_star_wars/star_wars/empire/death_star)───(dylan@Dylans-MBP:s000)─┐
+└─(16:23:15 on main ✹ ✭)──> cd ../..                              ──(Tue,Feb22)─┘
+┌─(..._seir/unit1/homework/u1_hw_star_wars/star_wars)───(dylan@Dylans-MBP:s000)─┐
+└─(16:23:24 on main ✹ ✭)──> ls                                    ──(Tue,Feb22)─┘
+empire    rebellion
+┌─(..._seir/unit1/homework/u1_hw_star_wars/star_wars)───(dylan@Dylans-MBP:s000)─┐
+└─(16:23:25 on main ✹ ✭)──> cd rebellion                          ──(Tue,Feb22)─┘
+┌─(...1/homework/u1_hw_star_wars/star_wars/rebellion)───(dylan@Dylans-MBP:s000)─┐
+└─(16:23:29 on main ✹ ✭)──> ls                                    ──(Tue,Feb22)─┘
+princess_leia.txt
+┌─(...1/homework/u1_hw_star_wars/star_wars/rebellion)───(dylan@Dylans-MBP:s000)─┐
+└─(16:23:30 on main ✹ ✭)──> touch obi_wan.txt                     ──(Tue,Feb22)─┘
+┌─(...1/homework/u1_hw_star_wars/star_wars/rebellion)───(dylan@Dylans-MBP:s000)─┐
+└─(16:24:16 on main ✹ ✭)──> ls                                    ──(Tue,Feb22)─┘
+obi_wan.txt       princess_leia.txt
+┌─(...1/homework/u1_hw_star_wars/star_wars/rebellion)───(dylan@Dylans-MBP:s000)─┐
+└─(16:24:17 on main ✹ ✭)──> touch luke_skywalker.txt              ──(Tue,Feb22)─┘
+┌─(...1/homework/u1_hw_star_wars/star_wars/rebellion)───(dylan@Dylans-MBP:s000)─┐
+└─(16:24:39 on main ✹ ✭)──> mkdir millenium_falcon                ──(Tue,Feb22)─┘
+┌─(...1/homework/u1_hw_star_wars/star_wars/rebellion)───(dylan@Dylans-MBP:s000)─┐
+└─(16:24:56 on main ✹ ✭)──> ls                                    ──(Tue,Feb22)─┘
+luke_skywalker.txt millenium_falcon   obi_wan.txt        princess_leia.txt
+┌─(...1/homework/u1_hw_star_wars/star_wars/rebellion)───(dylan@Dylans-MBP:s000)─┐
+└─(16:24:57 on main ✹ ✭)──> cd millenium_falcon                   ──(Tue,Feb22)─┘
+┌─(...star_wars/star_wars/rebellion/millenium_falcon)───(dylan@Dylans-MBP:s000)─┐
+└─(16:25:06 on main ✹ ✭)──> touch han_solo.txt chewbacca.txt      ──(Tue,Feb22)─┘
+┌─(...star_wars/star_wars/rebellion/millenium_falcon)───(dylan@Dylans-MBP:s000)─┐
+└─(16:25:25 on main ✹ ✭)──> ls                                    ──(Tue,Feb22)─┘
+chewbacca.txt han_solo.txt
+┌─(...star_wars/star_wars/rebellion/millenium_falcon)───(dylan@Dylans-MBP:s000)─┐
+└─(16:25:26 on main ✹ ✭)──> cd ..                                 ──(Tue,Feb22)─┘
+┌─(...1/homework/u1_hw_star_wars/star_wars/rebellion)───(dylan@Dylans-MBP:s000)─┐
+└─(16:26:00 on main ✹ ✭)──> ls                                    ──(Tue,Feb22)─┘
+luke_skywalker.txt millenium_falcon   obi_wan.txt        princess_leia.txt
+┌─(...1/homework/u1_hw_star_wars/star_wars/rebellion)───(dylan@Dylans-MBP:s000)─┐
+└─(16:26:01 on main ✹ ✭)──> mv luke_skywalker.txt obi_wan.txt princess_leia.txt millenium_falcon/
+┌─(...1/homework/u1_hw_star_wars/star_wars/rebellion)───(dylan@Dylans-MBP:s000)─┐
+└─(16:27:00 on main ✹ ✭)──> ls                                    ──(Tue,Feb22)─┘
+millenium_falcon
+┌─(...1/homework/u1_hw_star_wars/star_wars/rebellion)───(dylan@Dylans-MBP:s000)─┐
+└─(16:27:02 on main ✹ ✭)──> cd millenium_falcon                   ──(Tue,Feb22)─┘
+┌─(...star_wars/star_wars/rebellion/millenium_falcon)───(dylan@Dylans-MBP:s000)─┐
+└─(16:27:10 on main ✹ ✭)──> ls                                    ──(Tue,Feb22)─┘
+chewbacca.txt      luke_skywalker.txt princess_leia.txt
+han_solo.txt       obi_wan.txt
+┌─(...star_wars/star_wars/rebellion/millenium_falcon)───(dylan@Dylans-MBP:s000)─┐
+└─(16:27:11 on main ✹ ✭)──> mv millenium_falcon ~./death_star     ──(Tue,Feb22)─┘
+zsh: no such user or named directory: .
+┌─(...star_wars/star_wars/rebellion/millenium_falcon)───(dylan@Dylans-MBP:s000)─┐
+└─(16:28:06 on main ✹ ✭)──> mv millenium_falcon ~/death_star  1 ↵ ──(Tue,Feb22)─┘
+mv: rename millenium_falcon to /Users/dylan/death_star: No such file or directory
+┌─(...star_wars/star_wars/rebellion/millenium_falcon)───(dylan@Dylans-MBP:s000)─┐
+└─(16:28:15 on main ✹ ✭)──> ls                                1 ↵ ──(Tue,Feb22)─┘
+chewbacca.txt      luke_skywalker.txt princess_leia.txt
+han_solo.txt       obi_wan.txt
+┌─(...star_wars/star_wars/rebellion/millenium_falcon)───(dylan@Dylans-MBP:s000)─┐
+└─(16:28:24 on main ✹ ✭)──> cd ..                                 ──(Tue,Feb22)─┘
+┌─(...1/homework/u1_hw_star_wars/star_wars/rebellion)───(dylan@Dylans-MBP:s000)─┐
+└─(16:28:27 on main ✹ ✭)──> ls                                    ──(Tue,Feb22)─┘
+millenium_falcon
+┌─(...1/homework/u1_hw_star_wars/star_wars/rebellion)───(dylan@Dylans-MBP:s000)─┐
+└─(16:28:28 on main ✹ ✭)──> mv millenium_falcon/ ~/death_star/    ──(Tue,Feb22)─┘
+┌─(...1/homework/u1_hw_star_wars/star_wars/rebellion)───(dylan@Dylans-MBP:s000)─┐
+└─(16:30:06 on main ✹ ✭)──> ls                                    ──(Tue,Feb22)─┘
+┌─(...1/homework/u1_hw_star_wars/star_wars/rebellion)───(dylan@Dylans-MBP:s000)─┐
+└─(16:30:08 on main ✹ ✭)──> cd ..                                 ──(Tue,Feb22)─┘
+┌─(..._seir/unit1/homework/u1_hw_star_wars/star_wars)───(dylan@Dylans-MBP:s000)─┐
+└─(16:30:14 on main ✹ ✭)──> ls                                    ──(Tue,Feb22)─┘
+empire    rebellion
+┌─(..._seir/unit1/homework/u1_hw_star_wars/star_wars)───(dylan@Dylans-MBP:s000)─┐
+└─(16:30:15 on main ✹ ✭)──> cd empire                             ──(Tue,Feb22)─┘
+┌─(...nit1/homework/u1_hw_star_wars/star_wars/empire)───(dylan@Dylans-MBP:s000)─┐
+└─(16:30:17 on main ✹ ✭)──> cd death_star                         ──(Tue,Feb22)─┘
+┌─(...rk/u1_hw_star_wars/star_wars/empire/death_star)───(dylan@Dylans-MBP:s000)─┐
+└─(16:30:22 on main ✹ ✭)──> ls                                    ──(Tue,Feb22)─┘
+darth_vader.txt
+┌─(...rk/u1_hw_star_wars/star_wars/empire/death_star)───(dylan@Dylans-MBP:s000)─┐
+└─(16:30:23 on main ✹ ✭)──> pwd                                   ──(Tue,Feb22)─┘
+/Users/dylan/ga_seir/unit1/homework/u1_hw_star_wars/star_wars/empire/death_star
+┌─(...rk/u1_hw_star_wars/star_wars/empire/death_star)───(dylan@Dylans-MBP:s000)─┐
+└─(16:30:40 on main ✹ ✭)──> cd ..                                 ──(Tue,Feb22)─┘
+┌─(...nit1/homework/u1_hw_star_wars/star_wars/empire)───(dylan@Dylans-MBP:s000)─┐
+└─(16:30:49 on main ✹ ✭)──> cd ..                                 ──(Tue,Feb22)─┘
+┌─(..._seir/unit1/homework/u1_hw_star_wars/star_wars)───(dylan@Dylans-MBP:s000)─┐
+└─(16:30:51 on main ✹ ✭)──> ls                                    ──(Tue,Feb22)─┘
+empire    rebellion
+┌─(..._seir/unit1/homework/u1_hw_star_wars/star_wars)───(dylan@Dylans-MBP:s000)─┐
+└─(16:30:52 on main ✹ ✭)──> cd rebellion                          ──(Tue,Feb22)─┘
+┌─(...1/homework/u1_hw_star_wars/star_wars/rebellion)───(dylan@Dylans-MBP:s000)─┐
+└─(16:30:55 on main ✹ ✭)──> ls                                    ──(Tue,Feb22)─┘
+┌─(...1/homework/u1_hw_star_wars/star_wars/rebellion)───(dylan@Dylans-MBP:s000)─┐
+└─(16:30:56 on main ✹ ✭)──> cd                                    ──(Tue,Feb22)─┘
+┌─(~)───────────────────────────────────────────────────(dylan@Dylans-MBP:s000)─┐
+└─(16:31:57)──> ls                                                ──(Tue,Feb22)─┘
+Applications Documents    Library      Music        Public       ga_seir
+Desktop      Downloads    Movies       Pictures     death_star   git_example
+┌─(~)───────────────────────────────────────────────────(dylan@Dylans-MBP:s000)─┐
+└─(16:31:58)──> mv death_star ~/ga_seir/unit1/homework/u1_hw_star_wars/star_wars/rebellion/millenium_falcon/
+┌─(~)───────────────────────────────────────────────────(dylan@Dylans-MBP:s000)─┐
+└─(16:33:04)──> cd ga_seir/unit1/homework/u1_hw_star_wars/star_wars/rebellion 
+┌─(...1/homework/u1_hw_star_wars/star_wars/rebellion)───(dylan@Dylans-MBP:s000)─┐
+└─(16:33:22 on main ✹ ✭)──> ls                                    ──(Tue,Feb22)─┘
+millenium_falcon
+┌─(...1/homework/u1_hw_star_wars/star_wars/rebellion)───(dylan@Dylans-MBP:s000)─┐
+└─(16:33:23 on main ✹ ✭)──> cd millenium_falcon                   ──(Tue,Feb22)─┘
+┌─(...star_wars/star_wars/rebellion/millenium_falcon)───(dylan@Dylans-MBP:s000)─┐
+└─(16:33:30 on main ✹ ✭)──> ls                                    ──(Tue,Feb22)─┘
+chewbacca.txt      luke_skywalker.txt princess_leia.txt
+han_solo.txt       obi_wan.txt
+┌─(...star_wars/star_wars/rebellion/millenium_falcon)───(dylan@Dylans-MBP:s000)─┐
+└─(16:33:31 on main ✹ ✭)──> cd ..                                 ──(Tue,Feb22)─┘
+┌─(...1/homework/u1_hw_star_wars/star_wars/rebellion)───(dylan@Dylans-MBP:s000)─┐
+└─(16:33:37 on main ✹ ✭)──> mv millenium_falcon ~/ga_seir/unit1/homework/u1_hw_star_wars/star_wars/empire/death_star/millenium_falcon/
+┌─(...1/homework/u1_hw_star_wars/star_wars/rebellion)───(dylan@Dylans-MBP:s000)─┐
+└─(16:36:31 on main ✹ ✭)──> cd ..                                 ──(Tue,Feb22)─┘
+┌─(..._seir/unit1/homework/u1_hw_star_wars/star_wars)───(dylan@Dylans-MBP:s000)─┐
+└─(16:36:33 on main ✹ ✭)──> ls                                    ──(Tue,Feb22)─┘
+empire    rebellion
+┌─(..._seir/unit1/homework/u1_hw_star_wars/star_wars)───(dylan@Dylans-MBP:s000)─┐
+└─(16:36:34 on main ✹ ✭)──> cd empire                             ──(Tue,Feb22)─┘
+┌─(...nit1/homework/u1_hw_star_wars/star_wars/empire)───(dylan@Dylans-MBP:s000)─┐
+└─(16:36:36 on main ✹ ✭)──> cd death_star                         ──(Tue,Feb22)─┘
+┌─(...rk/u1_hw_star_wars/star_wars/empire/death_star)───(dylan@Dylans-MBP:s000)─┐
+└─(16:36:39 on main ✹ ✭)──> ls                                    ──(Tue,Feb22)─┘
+darth_vader.txt  millenium_falcon
+┌─(...rk/u1_hw_star_wars/star_wars/empire/death_star)───(dylan@Dylans-MBP:s000)─┐
+└─(16:36:41 on main ✹ ✭)──> cd millenium_falcon                   ──(Tue,Feb22)─┘
+┌─(...s/star_wars/empire/death_star/millenium_falcon)───(dylan@Dylans-MBP:s000)─┐
+└─(16:36:47 on main ✹ ✭)──> ls                                    ──(Tue,Feb22)─┘
+chewbacca.txt      luke_skywalker.txt princess_leia.txt
+han_solo.txt       obi_wan.txt
+┌─(...s/star_wars/empire/death_star/millenium_falcon)───(dylan@Dylans-MBP:s000)─┐
+└─(16:36:49 on main ✹ ✭)──> cd ..                                 ──(Tue,Feb22)─┘
+┌─(...rk/u1_hw_star_wars/star_wars/empire/death_star)───(dylan@Dylans-MBP:s000)─┐
+└─(16:38:29 on main ✹ ✭)──> cd millenium_falcon                   ──(Tue,Feb22)─┘
+┌─(...s/star_wars/empire/death_star/millenium_falcon)───(dylan@Dylans-MBP:s000)─┐
+└─(16:38:53 on main ✹ ✭)──> ls                                    ──(Tue,Feb22)─┘
+chewbacca.txt      luke_skywalker.txt princess_leia.txt
+han_solo.txt       obi_wan.txt
+┌─(...s/star_wars/empire/death_star/millenium_falcon)───(dylan@Dylans-MBP:s000)─┐
+└─(16:38:55 on main ✹ ✭)──> cd ..                                 ──(Tue,Feb22)─┘
+┌─(...rk/u1_hw_star_wars/star_wars/empire/death_star)───(dylan@Dylans-MBP:s000)─┐
+└─(16:40:20 on main ✹ ✭)──> mv millenium_falcon/ ~./death_star    ──(Tue,Feb22)─┘
+zsh: no such user or named directory: .
+┌─(...rk/u1_hw_star_wars/star_wars/empire/death_star)───(dylan@Dylans-MBP:s000)─┐
+└─(16:40:34 on main ✹ ✭)──> ls                                1 ↵ ──(Tue,Feb22)─┘
+darth_vader.txt  millenium_falcon
+┌─(...rk/u1_hw_star_wars/star_wars/empire/death_star)───(dylan@Dylans-MBP:s000)─┐
+└─(16:40:46 on main ✹ ✭)──> mv millenium_falcon/ ../              ──(Tue,Feb22)─┘
+┌─(...rk/u1_hw_star_wars/star_wars/empire/death_star)───(dylan@Dylans-MBP:s000)─┐
+└─(16:41:19 on main ✹ ✭)──> ls                                    ──(Tue,Feb22)─┘
+darth_vader.txt
+┌─(...rk/u1_hw_star_wars/star_wars/empire/death_star)───(dylan@Dylans-MBP:s000)─┐
+└─(16:41:20 on main ✹ ✭)──> cd ..                                 ──(Tue,Feb22)─┘
+┌─(...nit1/homework/u1_hw_star_wars/star_wars/empire)───(dylan@Dylans-MBP:s000)─┐
+└─(16:41:32 on main ✹ ✭)──> ls                                    ──(Tue,Feb22)─┘
+death_star            emperor_palpatine.txt millenium_falcon
+┌─(...nit1/homework/u1_hw_star_wars/star_wars/empire)───(dylan@Dylans-MBP:s000)─┐
+└─(16:41:33 on main ✹ ✭)──> mv millenium_falcon death_star/       ──(Tue,Feb22)─┘
+┌─(...nit1/homework/u1_hw_star_wars/star_wars/empire)───(dylan@Dylans-MBP:s000)─┐
+└─(16:42:06 on main ✹ ✭)──> ls                                    ──(Tue,Feb22)─┘
+death_star            emperor_palpatine.txt
+┌─(...nit1/homework/u1_hw_star_wars/star_wars/empire)───(dylan@Dylans-MBP:s000)─┐
+└─(16:42:07 on main ✹ ✭)──> cd death_star                         ──(Tue,Feb22)─┘
+┌─(...rk/u1_hw_star_wars/star_wars/empire/death_star)───(dylan@Dylans-MBP:s000)─┐
+└─(16:42:11 on main ✹ ✭)──> ls                                    ──(Tue,Feb22)─┘
+darth_vader.txt  millenium_falcon
+┌─(...rk/u1_hw_star_wars/star_wars/empire/death_star)───(dylan@Dylans-MBP:s000)─┐
+└─(16:42:12 on main ✹ ✭)──> mv millenium_falcon/* ~/death_star    ──(Tue,Feb22)─┘
+mv: /Users/dylan/death_star is not a directory
+┌─(...rk/u1_hw_star_wars/star_wars/empire/death_star)───(dylan@Dylans-MBP:s000)─┐
+└─(16:43:22 on main ✹ ✭)──> mv millenium_falcon/* ../death_star
+┌─(...rk/u1_hw_star_wars/star_wars/empire/death_star)───(dylan@Dylans-MBP:s000)─┐
+└─(16:44:28 on main ✹ ✭)──> ls                                    ──(Tue,Feb22)─┘
+chewbacca.txt      han_solo.txt       millenium_falcon   princess_leia.txt
+darth_vader.txt    luke_skywalker.txt obi_wan.txt
+┌─(...rk/u1_hw_star_wars/star_wars/empire/death_star)───(dylan@Dylans-MBP:s000)─┐
+└─(16:44:31 on main ✹ ✭)──> rm ob_wan.txt                         ──(Tue,Feb22)─┘
+rm: ob_wan.txt: No such file or directory
+┌─(...rk/u1_hw_star_wars/star_wars/empire/death_star)───(dylan@Dylans-MBP:s000)─┐
+└─(16:45:12 on main ✹ ✭)──> ls                                1 ↵ ──(Tue,Feb22)─┘
+chewbacca.txt      han_solo.txt       millenium_falcon   princess_leia.txt
+darth_vader.txt    luke_skywalker.txt obi_wan.txt
+┌─(...rk/u1_hw_star_wars/star_wars/empire/death_star)───(dylan@Dylans-MBP:s000)─┐
+└─(16:45:13 on main ✹ ✭)──> rm obi_wan.txt                        ──(Tue,Feb22)─┘
+┌─(...rk/u1_hw_star_wars/star_wars/empire/death_star)───(dylan@Dylans-MBP:s000)─┐
+└─(16:45:23 on main ✹ ✭)──> ls                                    ──(Tue,Feb22)─┘
+chewbacca.txt      han_solo.txt       millenium_falcon
+darth_vader.txt    luke_skywalker.txt princess_leia.txt
+┌─(...rk/u1_hw_star_wars/star_wars/empire/death_star)───(dylan@Dylans-MBP:s000)─┐
+└─(16:45:24 on main ✹ ✭)──> mv han_solo.txt luke_skywalker.txt chewbacca.txt princess_leia.txt millenium_falcon/
+┌─(...rk/u1_hw_star_wars/star_wars/empire/death_star)───(dylan@Dylans-MBP:s000)─┐
+└─(16:46:32 on main ✹ ✭)──> ls                                    ──(Tue,Feb22)─┘
+darth_vader.txt  millenium_falcon
+┌─(...rk/u1_hw_star_wars/star_wars/empire/death_star)───(dylan@Dylans-MBP:s000)─┐
+└─(16:46:35 on main ✹ ✭)──> cd millenium_falcon                   ──(Tue,Feb22)─┘
+┌─(...s/star_wars/empire/death_star/millenium_falcon)───(dylan@Dylans-MBP:s000)─┐
+└─(16:46:38 on main ✹ ✭)──> ls                                    ──(Tue,Feb22)─┘
+chewbacca.txt      han_solo.txt       luke_skywalker.txt princess_leia.txt
+┌─(...s/star_wars/empire/death_star/millenium_falcon)───(dylan@Dylans-MBP:s000)─┐
+└─(16:46:40 on main ✹ ✭)──> cd ..                                 ──(Tue,Feb22)─┘
+┌─(...rk/u1_hw_star_wars/star_wars/empire/death_star)───(dylan@Dylans-MBP:s000)─┐
+└─(16:47:18 on main ✹ ✭)──> ls                                    ──(Tue,Feb22)─┘
+darth_vader.txt  millenium_falcon
+┌─(...rk/u1_hw_star_wars/star_wars/empire/death_star)───(dylan@Dylans-MBP:s000)─┐
+└─(16:47:20 on main ✹ ✭)──> mv millenium_falcon ../rebellion      ──(Tue,Feb22)─┘
+┌─(...rk/u1_hw_star_wars/star_wars/empire/death_star)───(dylan@Dylans-MBP:s000)─┐
+└─(16:47:39 on main ✹ ✭)──> ls                                    ──(Tue,Feb22)─┘
+darth_vader.txt
+┌─(...rk/u1_hw_star_wars/star_wars/empire/death_star)───(dylan@Dylans-MBP:s000)─┐
+└─(16:47:46 on main ✹ ✭)──> cd ..                                 ──(Tue,Feb22)─┘
+┌─(...nit1/homework/u1_hw_star_wars/star_wars/empire)───(dylan@Dylans-MBP:s000)─┐
+└─(16:47:48 on main ✹ ✭)──> ls                                    ──(Tue,Feb22)─┘
+death_star            emperor_palpatine.txt rebellion
+┌─(...nit1/homework/u1_hw_star_wars/star_wars/empire)───(dylan@Dylans-MBP:s000)─┐
+└─(16:47:50 on main ✹ ✭)──> cd ..                                 ──(Tue,Feb22)─┘
+┌─(..._seir/unit1/homework/u1_hw_star_wars/star_wars)───(dylan@Dylans-MBP:s000)─┐
+└─(16:48:02 on main ✹ ✭)──> ls                                    ──(Tue,Feb22)─┘
+empire    rebellion
+┌─(..._seir/unit1/homework/u1_hw_star_wars/star_wars)───(dylan@Dylans-MBP:s000)─┐
+└─(16:48:03 on main ✹ ✭)──> cd empire                             ──(Tue,Feb22)─┘
+┌─(...nit1/homework/u1_hw_star_wars/star_wars/empire)───(dylan@Dylans-MBP:s000)─┐
+└─(16:48:19 on main ✹ ✭)──> cd rebellion                          ──(Tue,Feb22)─┘
+┌─(...ork/u1_hw_star_wars/star_wars/empire/rebellion)───(dylan@Dylans-MBP:s000)─┐
+└─(16:48:23 on main ✹ ✭)──> ls                                    ──(Tue,Feb22)─┘
+chewbacca.txt      han_solo.txt       luke_skywalker.txt princess_leia.txt
+┌─(...ork/u1_hw_star_wars/star_wars/empire/rebellion)───(dylan@Dylans-MBP:s000)─┐
+└─(16:48:24 on main ✹ ✭)──> cd ..                                 ──(Tue,Feb22)─┘
+┌─(...nit1/homework/u1_hw_star_wars/star_wars/empire)───(dylan@Dylans-MBP:s000)─┐
+└─(16:48:36 on main ✹ ✭)──> cd rebellion ../death_star/millenium_falcon
+cd: string not in pwd: rebellion
+┌─(...nit1/homework/u1_hw_star_wars/star_wars/empire)───(dylan@Dylans-MBP:s000)─┐
+└─(16:49:26 on main ✹ ✭)──> ls                                1 ↵ ──(Tue,Feb22)─┘
+death_star            emperor_palpatine.txt rebellion
+┌─(...nit1/homework/u1_hw_star_wars/star_wars/empire)───(dylan@Dylans-MBP:s000)─┐
+└─(16:49:52 on main ✹ ✭)──> mv ../death_star/millenium_falcon     ──(Tue,Feb22)─┘
+usage: mv [-f | -i | -n] [-v] source target
+       mv [-f | -i | -n] [-v] source ... directory
+┌─(...nit1/homework/u1_hw_star_wars/star_wars/empire)───(dylan@Dylans-MBP:s000)─┐
+└─(16:50:03 on main ✹ ✭)──> mv rebellion ../death_star/millenium_falcon
+mv: rename rebellion to ../death_star/millenium_falcon: No such file or directory
+┌─(...nit1/homework/u1_hw_star_wars/star_wars/empire)───(dylan@Dylans-MBP:s000)─┐
+└─(16:50:20 on main ✹ ✭)──> ls                                1 ↵ ──(Tue,Feb22)─┘
+death_star            emperor_palpatine.txt
+┌─(...nit1/homework/u1_hw_star_wars/star_wars/empire)───(dylan@Dylans-MBP:s000)─┐
+└─(16:51:45 on main ✹ ✭)──> cd death_star                         ──(Tue,Feb22)─┘
+┌─(...rk/u1_hw_star_wars/star_wars/empire/death_star)───(dylan@Dylans-MBP:s000)─┐
+└─(16:51:50 on main ✹ ✭)──> ls                                    ──(Tue,Feb22)─┘
+darth_vader.txt  millenium_falcon
+┌─(...rk/u1_hw_star_wars/star_wars/empire/death_star)───(dylan@Dylans-MBP:s000)─┐
+└─(16:51:52 on main ✹ ✭)──> mv millenium_falcon  ~/ga_seir/unit1/homework/u1_hw_star_wars/star_wars/rebellion
+┌─(...rk/u1_hw_star_wars/star_wars/empire/death_star)───(dylan@Dylans-MBP:s000)─┐
+└─(16:54:22 on main ✹ ✭)──> cd                                    ──(Tue,Feb22)─┘
+┌─(~)───────────────────────────────────────────────────(dylan@Dylans-MBP:s000)─┐
+└─(16:54:24)──> ls                                                ──(Tue,Feb22)─┘
+Applications Documents    Library      Music        Public       git_example
+Desktop      Downloads    Movies       Pictures     ga_seir
+┌─(~)───────────────────────────────────────────────────(dylan@Dylans-MBP:s000)─┐
+└─(16:54:29)──> cd ga_seir/unit1/homework/u1_hw_star_wars/star_wars/rebellion 
+┌─(...1/homework/u1_hw_star_wars/star_wars/rebellion)───(dylan@Dylans-MBP:s000)─┐
+└─(16:54:56 on main ✹ ✭)──> ls                                    ──(Tue,Feb22)─┘
+millenium_falcon
+┌─(...1/homework/u1_hw_star_wars/star_wars/rebellion)───(dylan@Dylans-MBP:s000)─┐
+└─(16:54:58 on main ✹ ✭)──> cd ..                                 ──(Tue,Feb22)─┘
+┌─(..._seir/unit1/homework/u1_hw_star_wars/star_wars)───(dylan@Dylans-MBP:s000)─┐
+└─(16:55:25 on main ✹ ✭)──> ls                                    ──(Tue,Feb22)─┘
+empire    rebellion
+┌─(..._seir/unit1/homework/u1_hw_star_wars/star_wars)───(dylan@Dylans-MBP:s000)─┐
+└─(16:55:26 on main ✹ ✭)──> cd empire                             ──(Tue,Feb22)─┘
+┌─(...nit1/homework/u1_hw_star_wars/star_wars/empire)───(dylan@Dylans-MBP:s000)─┐
+└─(16:55:29 on main ✹ ✭)──> ls                                    ──(Tue,Feb22)─┘
+death_star            emperor_palpatine.txt
+┌─(...nit1/homework/u1_hw_star_wars/star_wars/empire)───(dylan@Dylans-MBP:s000)─┐
+└─(16:55:30 on main ✹ ✭)──> cd death_star                         ──(Tue,Feb22)─┘
+┌─(...rk/u1_hw_star_wars/star_wars/empire/death_star)───(dylan@Dylans-MBP:s000)─┐
+└─(16:55:33 on main ✹ ✭)──> mv darth_vader.txt ../                ──(Tue,Feb22)─┘
+┌─(...rk/u1_hw_star_wars/star_wars/empire/death_star)───(dylan@Dylans-MBP:s000)─┐
+└─(16:55:42 on main ✹ ✭)──> ls                                    ──(Tue,Feb22)─┘
+┌─(...rk/u1_hw_star_wars/star_wars/empire/death_star)───(dylan@Dylans-MBP:s000)─┐
+└─(16:55:43 on main ✹ ✭)──> cd ..                                 ──(Tue,Feb22)─┘
+┌─(...nit1/homework/u1_hw_star_wars/star_wars/empire)───(dylan@Dylans-MBP:s000)─┐
+└─(16:55:48 on main ✹ ✭)──> ls                                    ──(Tue,Feb22)─┘
+darth_vader.txt       death_star            emperor_palpatine.txt
+┌─(...nit1/homework/u1_hw_star_wars/star_wars/empire)───(dylan@Dylans-MBP:s000)─┐
+└─(16:55:49 on main ✹ ✭)──> rm death_star                         ──(Tue,Feb22)─┘
+rm: death_star: is a directory
+┌─(...nit1/homework/u1_hw_star_wars/star_wars/empire)───(dylan@Dylans-MBP:s000)─┐
+└─(16:56:24 on main ✹ ✭)──> pwd                               1 ↵ ──(Tue,Feb22)─┘
+/Users/dylan/ga_seir/unit1/homework/u1_hw_star_wars/star_wars/empire
+┌─(...nit1/homework/u1_hw_star_wars/star_wars/empire)───(dylan@Dylans-MBP:s000)─┐
+└─(16:56:44 on main ✹ ✭)──> rm -rf death_star                     ──(Tue,Feb22)─┘
+┌─(...nit1/homework/u1_hw_star_wars/star_wars/empire)───(dylan@Dylans-MBP:s000)─┐
+└─(16:56:54 on main ✹ ✭)──> ls                                    ──(Tue,Feb22)─┘
+darth_vader.txt       emperor_palpatine.txt
+┌─(...nit1/homework/u1_hw_star_wars/star_wars/empire)───(dylan@Dylans-MBP:s000)─┐
+└─(16:56:55 on main ✹ ✭)──>  
