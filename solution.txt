@@ -1,0 +1,251 @@
+➜  u1_hw_star_wars git:(main) history | tail -n 250
+   28  ...
+   29  ..
+   30  .
+   31  cd -
+   32  ls
+   33  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"\n
+   34  echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/kwan/.zprofile\n    eval "$(/opt/homebrew/bin/brew shellenv)"
+   35  brew version
+   36  brew --version
+   37  brew install zsh
+   38  sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+   39  ls
+   40  mkdir ga_seir
+   41  ls
+   42  cd ga_seir
+   43  mkdir unit1 unit2 unit3 unit4
+   44  mkdir projects
+   45  ls
+   46  mkdir unit1/lessons
+   47  mkdir unit1/lessons/labs uni1/homework
+   48  mkdir unit1/lessons/labs unit1/homework
+   49  ls
+   50  cd uni1
+   51  cd unit1
+   52  ls
+   53  mkdir labs
+   54  ls
+   55  cd ../unit2
+   56  ls
+   57  mksir lessons leabs homework
+   58  mkdir lessons leabs homework
+   59  ls
+   60  rm leabs
+   61  -rf leabs
+   62  -rf
+   63  -rf leabs
+   64  mkdir labs
+   65  cd ..
+   66  cd unit3
+   67  mkdir labs lessons homework
+   68  cd ..
+   69  mkdir unit4/lessons unit4/labs unit4/homework
+   70  ls
+   71  cd unit4
+   72  ks
+   73  ls
+   74  cd ..
+   75  cd projects
+   76  touch name.txt
+   77  ls
+   78  echo "Hi, my name is Tak" >> name.txt
+   79  cat name.txt
+   80  rm name.txt
+   81  ls
+   82  cd ..
+   83  cd unit3
+   84  ls
+   85  cd ..
+   86  cd unit2
+   87  ls
+   88  trash leabs
+   89  cd..
+   90  cd ..
+   91  brew install trash
+   92  cd unit2
+   93  ls
+   94  trash leabs
+   95  ls
+   96  cd ..
+   97  cd ga
+   98  ls
+   99  cd unit1
+  100  ls
+  101  cd lessons
+  102  ls
+  103  mkdir git-pratice
+  104  cd git-practice
+  105  cd git-pratice
+  106  git init
+  107  ls -a
+  108  touch index.html
+  109  code .
+  110  git add index.html
+  111  git commit -m "create html file"
+  112  git remote -v
+  113  git remote add origin https://github.com/TakKwan/git-pratice.git
+  114  get remote -v
+  115  git remote -v
+  116  git remote remove origin
+  117  get remote -v
+  118  git remote add origin git@github.com:TakKwan/git-pratice.git
+  119  git remote -v
+  120  git branch -M main
+  121  git push origin main
+  122  trash git-pratice
+  123  ..
+  124  trash git-pratice
+  125  ls
+  126  ..
+  127  ls
+  128  cd lessons
+  129  ls
+  130  trash labs
+  131  git clone git@github.com:TakKwan/u1_lesson_VSCode.git
+  132  cd ul_lesson_VSCode
+  133  ls
+  134  cd u1_lesson_VSCode
+  135  ls
+  136  code .
+  137  ls
+  138  brew install python3
+  139  npm i -g prettier
+  140  touch ~/.prettierrc
+  141  echo "{"trailingComma": "none", "tabWidth": 2, "bracketSpacing": true, "useTabs": false, "semi": false, "singleQuote": true}" > ~/.prettierrc
+  142  cd ..
+  143  cd homework
+  144  git clone git@github.com:TakKwan/u1_hw_star_wars.git
+  145  code .
+  146  ls
+  147  cd ga_seir
+  148  ls
+  149  cd unit1
+  150  ls
+  151  cd homework
+  152  ls
+  153  code .
+  154  ls
+  155  u1_hw_stars_wars
+  156  cd u1_hw_stars_wars
+  157  cd u1_hw_star_wars
+  158  ls
+  159  cd ..
+  160  ls
+  161  cd u1_hw_star_wars
+  162  mkdir empire rebellion
+  163  ls
+  164  trash empire rebellion
+  165  ls
+  166  mkdir star_wars
+  167  ls
+  168  cd star_wars
+  169  mkdir empire rebellion
+  170  touch darth_vader.txt
+  171  ls
+  172  trash darth_vader.txt
+  173  ls
+  174  cd empire
+  175  touch darth_vader.txt
+  176  echo ">>heavy breathing.."
+  177  echo darth_vader "...heavy breathing..."
+  178  echo darth_vader.txt "...heavy breathing..."
+  179  echo "...heavy breathing..." >> darth_vader.txt
+  180  ls
+  181  touch emperor_palpatine.txt
+  182  ls
+  183  mkdir death_star
+  184  mv darth_vader.txt death_star
+  185  ls
+  186  git add .
+  187  cd ..
+  188  git add .
+  189  git commit -m "completed act 1"
+  190  git add .
+  191  git commit -m "completed act 1"
+  192  git restore ../act1.sh
+  193  cd ..
+  194  ls
+  195  cd u1_hw_star_wars
+  196  git add .
+  197  git commit -m "completed act 1"
+  198  git add .
+  199  git commit -m "completed act 1"
+  200  ls
+  201  cd star_wars
+  202  ls
+  203  cd rebellion
+  204  touch princess_leia.txt && echo "Help me, Obi-Wan…" >> princess_leia.txt
+  205  ls
+  206  cat
+  207  cat princess_leia.txt
+  208  ls
+  209  touch obi_wan.txt
+  210  ls
+  211  touch luke_skywalker.txt
+  212  mkdir millenium_falcon
+  213  cd millenium_falcon
+  214  touch han_solo.txt chewbacca.txt
+  215  ls
+  216  cd ..
+  217  mv luke_skywalker.txt obi_wan.txt princess_leia.txt millenium_falcon
+  218  ls
+  219  cd millenium
+  220  cd millenium_falcon
+  221  ls
+  222  cd ..
+  223  ls
+  224  cd empire
+  225  ls
+  226  cd ..
+  227  ls
+  228  rebellion
+  229  ls
+  230  mv millenium_falcon ../empire/death_star
+  231  ls
+  232  cd ..
+  233  ls
+  234  cd empire
+  235  ls
+  236  cd death_star
+  237  ls
+  238  cd ..
+  239  git add .
+  240  git commit -m "completed act2"
+  241  ls
+  242  cd star_wars
+  243  ls
+  244  cd empire/death_star
+  245  ls
+  246  mv millenium_falcon/* death_star
+  247  mv millenium_falcon/* .
+  248  ls
+  249  rm obi_wan.txt
+  250  ls
+  251  mv chewbacca.txt han_solo.txt luke_skywalker.txt princess_leia.txt millenium_falcon
+  252  ls
+  253  mv millenium_falcon ../../rebellion
+  254  ls
+  255  cd ..
+  256  ls
+  257  cd ..
+  258  ls
+  259  cd rebellion
+  260  ls
+  261  cd ..
+  262  ls
+  263  cd empire/death_star
+  264  mv darth_vader ..
+  265  mv darth_vader ..?
+  266  mv darth_vader ../
+  267  ls
+  268  mv darth_vader.txt ..
+  269  ls
+  270  cd ..
+  271  ls
+  272  rm death_star
+  273  rm -rf death_star
+  274  ls
+  275  cd ..
+  276  git add .
+  277  git commit -m "completed act3"
