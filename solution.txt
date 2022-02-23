@@ -1,4 +1,122 @@
-119  ls
+    1  chsh -s $(which zsh)
+    2  brew install node
+    3  node -v
+    4  brew install node
+    5  cd ~
+    6  mkdir ga_seir
+    7  ls
+    8  cd ga_seir
+    9  mkdir unit1 unit2 unit3 unit4
+   10  ls
+   11  mkdir projects
+   12  ls
+   13  mkdir unit1/lessons
+   14  cd unit1
+   15  ls
+   16  cd ..
+   17  mkdir unit1/labs
+   18  mkdir unit1/homework
+   19  cd unit1
+   20  ls
+   21  cd ..
+   22  cd unit2
+   23  ls
+   24  mkdir lessons labs homework
+   25  ls
+   26  cd ..
+   27  cd unit3
+   28  mkdir lessons labs homework
+   29  ls
+   30  cd ..
+   31  cd unit4
+   32  mkdir lessons labs homework
+   33  ls
+   34  cd ..
+   35  cd projects
+   36  touch name.txt
+   37  ls
+   38  echo "Hi, my name is Daniel" >> name.txt
+   39  ls
+   40  cat name.txt
+   41  atom name.txt
+   42  Atom name.txt
+   43  rm name.txt
+   44  ls
+   45  cd ..
+   46  cd unit1
+   47  cd lessons
+   48  mkdir git-practice
+   49  cd git-practice
+   50  git init
+   51  touch index.html
+   52  ls
+   53  code .
+   54  git add index.html
+   55  git status
+   56  git commit -m "added doctype to file"
+   57  ls
+   58  git remote -v
+   59  git remote add origin https://github.com/kuntzd99/git-practice.git
+   60  git remote -v
+   61  git remote remove origin
+   62  git remote -v
+   63  git remote add origin git@github.com:kuntzd99/git-practice.git
+   64  git remote -v
+   65  git branch -M main
+   66  git push origin main
+   67  cd ..
+   68  git clone git@github.com:kuntzd99/u1_lesson_VSCode.git
+   69  cd 
+   70  clear
+   71  brew install node
+   72  node -v
+   73  brew install git
+   74  git config --global user.name "Daniel Kuntz"
+   75  pwd
+   76  git config --global user.name "Daniel Kuntz"
+   77  git config --global user.email "kuntzd99@gmail.com"
+   78  ls
+   79  cd ga_s
+   80  cd ga_seir
+   81  ls
+   82  cd unit1
+   83  ls
+   84  cd lessons
+   85  ls
+   86  cd git-practicve
+   87  cd git-practice
+   88  ls
+   89  git init
+   90  cd ~
+   91  xcode-select --install
+   92  git config --global user.name "Daniel Kuntz"
+   93  git config --global user.email "kuntzd99@gmail.com"
+   94  ssh-keygen -t rsa -b 4096 -C "kuntzd99@gmail.com"
+   95  eval "$(ssh-agent -s)"
+   96  pbcopy < ~/.ssh/id_rsa.pub
+   97  ssh git@github.com
+   98  brew install --cask visual-studio-code
+   99  code .
+  100  npm i -g prettier
+  101  touch ~/.prettierrc
+  102  echo "{"trailingComma": "none", "tabWidth": 2, "bracketSpacing": true, "useTabs": false, "semi": false, "singleQuote": true}" > ~/.prettierrc
+  103  ls
+  104  cd ga_seir
+  105  ls
+  106  cd unit1
+  107  ls
+  108  cd homework
+  109  ls
+  110  mkdir star_wars
+  111  cd star_wars
+  112  git clone git@github.com:kuntzd99/u1_hw_star_wars.git
+  113  ls
+  114  cd u1_hw_star_wars
+  115  code .
+  116  mkdir star_wars
+  117  ls
+  118  cd ..
+  119  ls
   120  rm -rf star_wars
   121  git clone git@github.com:kuntzd99/u1_hw_star_wars.git
   122  code .
@@ -48,3 +166,8 @@
   166  git status
   167  git commit -m "Act three finished"
   168  history | tail -n 250
+  169  history | tail -n 50
+  170  git status
+  171  git add .
+  172  git status
+  173  git commit -m "Solution file updated with 50 command line code lines capturing my homework process"
