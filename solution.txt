@@ -1,0 +1,131 @@
+emilys-MacBook-Air:empire emily$ history | tail -n 250
+    1  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    2  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    3  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    4  xcode-select --install
+    5  xcode-select --install
+    6  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    7  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    8  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    9  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   10  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   11  rm -rf /Library/Developer/CommandLineTools
+   12  xcode-select --install
+   13  sudo rm -rf /Library/Developer/CommandLineTools
+   14  xcode-select --install
+   15  xcode-select --install
+   16  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   17  brew install zsh
+   18  sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+   19  mkdir star_wars
+   20  cd act1.sh
+   21  cd u1_hw_star_wars
+   22  cd act1.sh
+   23  mkdir star_wars
+   24  mkdir empire rebellion
+   25  cd star_wars
+   26  mkdir empire rebellion
+   27  cd empire
+   28  darth_vader.txt
+   29  touch darth_vader.txt
+   30  echo "...heavy breathing..." >> darth_vader.txt
+   31  cat darth_vader.txt
+   32  touch emperor_palpatine.txt
+   33  mkdir death_star
+   34  mv darth_vader.txt death_star
+   35  .. 
+   36  cd rebellion
+   37  cd .. 
+   38  cd rebellion
+   39  touch princess_leia.txt && echo "Help me, Obi-Wan..." >>princess_leia.txt
+   40  cat princess_leia.txt
+   41  touch obi_wan.txt
+   42  touch luke_skywalker.txt
+   43  mkdir millenium_falcon
+   44  cd millenium_falcon
+   45  touch han_solo.txt chewbacca.txt
+   46  mv luke_skywalker.txt princess_leia.txt obi_wan.txt millenium_falcon
+   47  cd rebellion
+   48  cd ..
+   49  mv luke_skywalker.txt millenium_falcon
+   50  mv princess_leia.txt obi_wan.txt millenium_falcon
+   51  cd ..
+   52  mv millenium_falcon death_star
+   53  cd rebellion
+   54  mkdir millenium_falcon
+   55  mv millenium_falcon star_wars
+   56  rm rebellion
+   57  cd rebellion
+   58  cd rebellion
+   59  touch princess_leia.txt && echo "Help me, Obi-Wan...">> princess_leia.txt
+   60  touch princess_leia.txt
+   61  cd u1_hw_star_wars
+   62  cd star_wars/rebellion
+   63  touch princess_leia.txt && echo "Help me, Obi Wan..."
+   64  touch obi_wan.txt
+   65  touch luke_skywalker.txt
+   66  mkdir millenium_falcon
+   67  cd millenium_falcon
+   68  touch han_solo.txt
+   69  touch chewbacca.txt
+   70  cd ..
+   71  mv luke_skywalker.txt ~rebellion/millenium_falcon
+   72  mv luke_skywalker.txt millenium_falcon
+   73  mv obi_wan.txt millenium_falcon
+   74  mv princess_leia.txt millenium_falcon
+   75  cd ..
+   76  mv millenium_falcon empire
+   77  cd rebellion
+   78  touch princess_leia.txt && echo "Help me, Obi-Wan..." >> princess_leia.txt
+   79  touch luke_skywalker.txt
+   80  touch obi_wan.txt
+   81  mkdir millenium_falcon
+   82  cd millenium_falcon
+   83  touch han_solo.txt chewbacca.txt
+   84  cd rebellion
+   85  cd ..
+   86  mv luke skywalker millenium_falcon
+   87  mv luke_skywalker.txt millenium_falcon
+   88  mv obi_wan.txt princess_leia.txt millenium_falcon
+   89  mv millenium_falcon ../star_wars
+   90  cd millenium_falcon
+   91  cd ..
+   92  mv millenium_falcon ..
+   93  mv millenium_falcon death_star
+   94  cd star_wars
+   95  cd ..
+   96  mv millenium_falcon death_star
+   97  mv millenium_falcon /star_wars/empire/death_star
+   98  mv millenium_falcon ~ star_wars/empire/death_star
+   99  mv millenium_falcon empire
+  100  mv millenium_falcon death_star
+  101  cd empire
+  102  mv millenium_falcon death_star
+  103  cd death_star
+  104  mv /millenium_falcon death_star
+  105  millenium_falcon/*
+  106  cd millenium_falcon
+  107  mv chewbacca.txt han_solo.txt luke_skywalker.txt obi_wan.txt princess_leia.txt ../
+  108  cd ..
+  109  rm obi_want.txt
+  110  rm obi_wan.txt
+  111  mv chewbacca.txt princess_leia.txt han_solo.txt luke_skywalker.txt millenium_falcon
+  112  mv millenium_falcon ../
+  113  mv millenium_falcon ../
+  114  cd empire
+  115  cd ..
+  116  mv millenium_falcon ../
+  117  cd ..
+  118  mv millenium_falcon rebellion
+  119  cd ..
+  120  cd empire
+  121  cd star_wars
+  122  cd empire
+  123  cd death_star
+  124  mv darth_vader ../
+  125  mv darth_vader.txt ../
+  126  mv darth_vader.txt ../
+  127  cd empire
+  128  cd ..
+  129  rm death_star
+  130  rm -rf death_star
