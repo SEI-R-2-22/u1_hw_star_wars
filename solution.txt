@@ -1,0 +1,377 @@
+516  mkdir star_wars
+  517  ls
+  518  star_wars
+  519  mkdir empire rebellion
+  520  ls
+  521  empire
+  522  touch darth_vader.txt
+  523  ls
+  524  pwd
+  525  ls
+  526  ga_seir
+  527  ls
+  528  unit1
+  529  ls
+  530  homework
+  531  ls
+  532  u1_hw_star_wars-1
+  533  ls
+  534  star_wars
+  535  ls
+  536  empire
+  537  ls
+  538  echo "...heavy_breathing..." >>darth_vader.txt
+  539  ls
+  540  cat darth_vader.txt
+  541  touch emperor_palpatine.txt
+  542  ls
+  543  mkdir death_star
+  544  ls
+  545  mv darth_vader.txt death_star
+  546  ls
+  547  death_star
+  548  ls
+  549  cd star_wars
+  550  cd ../
+  551  git add .
+  552  git commit -m "finished act1"
+  553  git status
+  554  ls
+  555  rebellion
+  556  touch princess_leia.txt && echo "Help me, Obi-Wan..." >>princess_leia.txt
+  557  ls
+  558  cat princess_leia.txt
+  559  touch obi_wan.txt
+  560  touch luke_skywalker.txt
+  561  ls
+  562  mkdir millenium_falcon
+  563  ls
+  564  millenium_falcon
+  565  touch han_solo.txt chewbacca.txt
+  566  ls
+  567  cd ../
+  568  ls
+  569  mv luke_skywalker.txt millenium_falcon
+  570  mv obi_wan.txt millenium_falcon
+  571  mv princess_leia.txt millenium_falcon
+  572  ls
+  573  millenium_falcon
+  574  ls
+  575  cd ../
+  576  ls
+  577  mv millenium_falcon death_star
+  578  ls
+  579  mv death_star millenium_falcon
+  580  ls
+  581  millenium_falcon
+  582  mv millenium_falcon death_star
+  583  ls
+  584  cd ../
+  585  mv millenium_falcon death_star
+  586  rebllion
+  587  rebellion
+  588  ls
+  589  star_wars
+  590  cd ..
+  591  rebellion
+  592  star_wars
+  593  cd star_wars
+  594  star_wars
+  595  cd
+  596  pwd
+  597  ls
+  598  ga_seir
+  599  ls
+  600  unit1
+  601  ls
+  602  homework
+  603  ls
+  604  u1
+  605  u1_hw_star_wars-1
+  606  ls
+  607  star_wars
+  608  ls
+  609  rebellion
+  610  ls
+  611  rm -rf millenium_falcon
+  612  ls
+  613  mkdir millenium_falcon
+  614  ls
+  615  rm -rf millenium_falcon
+  616  ls
+  617  mkdir rebellion/millenium_falcon
+  618  ls
+  619  mkdir millenium_falcon
+  620  ls
+  621  cd ..
+  622  ls
+  623  mkdir millenium_falcon
+  624  ls
+  625  millenium_falcon
+  626  cd ..
+  627  ls
+  628  empire
+  629  ls
+  630  mkdir millenium_falcon
+  631  rm -rf millenium_falcon
+  632  ls
+  633  cd ..
+  634  rm -rf millenium_falcon
+  635  rebellion
+  636  ls
+  637  rm -rf millenium_falcon
+  638  ls
+  639  mkdir millenium_falcon
+  640  rm -rf millenium_falcon
+  641  ls
+  642  cd ..
+  643  mkdir rebellion/millenium_falcon
+  644  ls
+  645  rebellion
+  646  ls
+  647  rm -rf millenium_falcon
+  648  ls
+  649  mkdir act2
+  650  ls
+  651  mkdir rebllion/millenium_falcon
+  652  ls
+  653  rm -rf act2
+  654  ls
+  655  touch princess_leia.txt && echo "Help me, Obi-Wan..." >>princess_leia.txt
+  656  ls
+  657  touch obi_wan.txt
+  658  touch luke_skywalker.txt
+  659  ls
+  660  mkdir millenium_falcon
+  661  ls
+  662  millenium_falcon
+  663  ls
+  664  touch han_solo.txt chewbacca.txt
+  665  ls
+  666  cd ..
+  667  ls
+  668  mv luke_skywalker touch han_solo.txt chewbacca.txt
+  669  mv luke_skywalker millenium_falcon
+  670  mv luke_skywalker.txt millenium_falcon
+  671  ls
+  672  mv obi_wan.txt millenium_falcon
+  673  ls
+  674  mv princess_leia.txt millenium_falcon
+  675  ls
+  676  mv millenium_falcon death_star
+  677  ls
+  678  mv death_star millenium_falcon
+  679  ls
+  680  rm -rf millenium_falcon
+  681  ls
+  682  mkdir millenium_falcon
+  683  ls
+  684  rm -rf millenium_falcon
+  685  ls
+  686  touch princess_leia.txt && echo "Help me, Obi-Wan..." >>princess_leia.txt
+  687  ls
+  688  touch obi_wan.txt
+  689  touch luke_skywalker.txt
+  690  ls
+  691  mkdir millenium_falcon
+  692  ls
+  693  millenium_falcon
+  694  touch han_solo.txt chewbacca.txt
+  695  ls
+  696  cd ..
+  697  ls
+  698  mv luke_skywalker.txt millenium_falcon
+  699  ls
+  700  mv obi_wan.txt millenium_falcon
+  701  ls
+  702  mv princess_leia.txt millenium_falcon
+  703  ls
+  704  millenium_falcon
+  705  ls
+  706  git add .
+  707  git status
+  708  git commit -m "everyone in the falcon"
+  709  git status
+  710  ls
+  711  cd ..
+  712  ls
+  713  rm -rf millenium_falcon
+  714  ls
+  715  touch princess_leia.txt && echo "Help me, Obi-Wan..." >>princess_leia.txt
+  716  ls
+  717  touch obi_wan.txt
+  718  touch luke_skywalker.txt
+  719  ls
+  720  mkdir millenium_falcon
+  721  ls
+  722  millenium_falcon
+  723  touch han_solo.txt chewbacca.txt
+  724  ls
+  725  cd ..
+  726  mv luke_skywalker.txt millenium_falcon
+  727  ls
+  728  mv obi_wan.txt millenium_falcon
+  729  ls
+  730  mv princess_leia.txt millenium_falcon
+  731  ls
+  732  millenium_falcon
+  733  ls
+  734  cd ..
+  735  ls
+  736  empire
+  737  ls
+  738  death_star
+  739  mv millenium_falcon death_star
+  740  cd ..
+  741  ls
+  742  rebllion
+  743  rebellion
+  744  ls
+  745  rm -rf millenium_falcon
+  746  ls
+  747  mkdir millenium_falcon
+  748  ls
+  749  rm -rf millenium_falcon
+  750  touch princess_leia.txt && echo "Help me, Obi-Wan..." >>princess_leia.txt
+  751  touch obi_wan.txt
+  752  touch luke_skywalker.txt
+  753  mkdir millenium_falcon
+  754  millenium_falcon
+  755  touch han_solo.txt chewbacca.txt
+  756  cd ..
+  757  ls
+  758  git add .
+  759  git commit -m "act2 fix"
+  760  git status
+  761  mv luke_skywalker.txt millenium_falcon
+  762  mv obi_wan.txt millenium_falcon
+  763  mv princess_leia.txt millenium_falcon
+  764  git status
+  765  cd ..
+  766  ls
+  767  ga_seir
+  768  ls
+  769  unit1
+  770  ls
+  771  homework
+  772  ls
+  773  u1_hw_star_wars-1
+  774  ls
+  775  star_wars
+  776  ls
+  777  git status
+  778  git add .
+  779  git commit -m "act2 all aboard"
+  780  git status
+  781  ls
+  782  rebellion
+  783  ls
+  784  git status
+  785  git add .
+  786  git commit -m"rogue"
+  787  ls
+  788  cd ..
+  789  git add .
+  790  git commit -m "act2 2nd attempt"
+  791  git status
+  792  git add .
+  793  git commit -m "ds_store added"
+  794  git status
+  795  ls
+  796  rebellion
+  797  git status
+  798  ls
+  799  mv millenium_falcon /empire/death_star
+  800  cd ..
+  801  mv rebllion/millenium_falcon empire/death_star
+  802  ls
+  803  rebllion
+  804  mv rebellion/millenium_falcon empire/death_star
+  805  git add .
+  806  git status
+  807  git commit -m "act2 update finish"
+  808  git status
+  809  ls
+  810  mv /millenium_falcon/chewbacca.txt/han_solo.txt/luke_skywalker.txt/obi_wan.txt/princess_leia.txt empire/death_star
+  811  ls
+  812  empire
+  813  ls
+  814  death_star
+  815  ls
+  816  mv chewbacca.txt/han_solo.txt/luke_skywalker.txt/obi_wan.txt/princess_leia.txt death_star
+  817  cd ..
+  818  mv /chewbacca.txt/han_solo.txt/luke_skywalker.txt/obi_wan.txt/princess_leia.txt /death_star
+  819  ls
+  820  death_star
+  821  ls
+  822  git status
+  823  ls
+  824  mv millenium_falcon/* death_star
+  825  cd ..
+  826  mv millenium_falcon/* death_star
+  827  mv millenium_falcon death_star
+  828  ls
+  829  death_star
+  830  ls
+  831  millenium_falcon
+  832  ls
+  833  mv millenium_falcon/* death_star
+  834  cd ..
+  835  mv millenium_falcon* death_star
+  836  millenium_falcon/* mv death_star
+  837  cd ..
+  838  mv  death_star/millenium_falcon/*  empire/death_star
+  839  mv  death_star/millenium_falcon*  empire/death_star
+  840  mv ~/death_star/millenium_falcon/*  ~/empire/death_star
+  841  ls
+  842  empire
+  843  ls
+  844  death_star
+  845  ls
+  846  millenium_falcon
+  847  mv millenium_falcon ../death_star
+  848  mv millenium_falcon/* ../death_star
+  849  millenium_falcon
+  850  ls
+  851  ..
+  852  millenium_falcon
+  853  ..
+  854  mv millenium_falcon/* ~/star_wars/empire/death_star
+  855  mv millenium_falcon* ~/star_wars/empire/death_star
+  856  man
+  857  mv
+  858  [-f]
+  859  mv [-f]
+  860  man
+  861  mv
+  862  ls
+  863  death_star
+  864  ls
+  865  millenium_falcon
+  866  ls
+  867  ..
+  868  mv death_star/millenium_falcon/* death_star
+  869  ls
+  870  death_star
+  871  ls
+  872  rm obi_wan.txt
+  873  ls
+  874  mv death_star/chewbacca.txt millenium_falcon
+  875  ls
+  876  mv chewbacca.txt millenium_falcon
+  877  mv han_solo.txt millenium_falcon
+  878  mv luke_skywalker.txt millenium_falcon
+  879  mv princess_leia.txt millenium_falcon
+  880  ls
+  881  ..
+  882  mv empire/death_star/millenium_falcon rebellion
+  883  mv empire/death_star/darth_vader.txt empire
+  884  ls
+  885  empire
+  886  ls
+  887  rm -rf death_star
+  888  ls
+  889  ..
+  890  git add .
+  891  git commit -m "finish act3"
+  892  git status
