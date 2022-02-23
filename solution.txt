@@ -1,0 +1,33 @@
+ACT 1
+
+➜  u1_hw_star_wars git:(main) pwd      
+/Users/jeangarcia/ga_seir/unit1/homework/u1_hw_star_wars
+➜  u1_hw_star_wars git:(main) cd u1_hw_star_wars
+cd: no such file or directory: u1_hw_star_wars
+➜  u1_hw_star_wars git:(main) ls
+README.md    act1.sh      act2.sh      act3.sh      solution.txt
+➜  u1_hw_star_wars git:(main) mkdir star_wars
+➜  u1_hw_star_wars git:(main) ls
+README.md    act1.sh      act2.sh      act3.sh      solution.txt star_wars
+➜  u1_hw_star_wars git:(main) mkdir star_wars/empire star_wars/rebellion
+➜  u1_hw_star_wars git:(main) touch star_wars/empire/darth_vader.txt
+➜  u1_hw_star_wars git:(main) ✗ ls
+README.md    act1.sh      act2.sh      act3.sh      solution.txt star_wars
+➜  u1_hw_star_wars git:(main) ✗ star_wars
+➜  star_wars git:(main) ✗ ls
+empire    rebellion
+➜  star_wars git:(main) ✗ cd empire
+➜  empire git:(main) ✗ echo "...heavy breathing ..." >> darth_vader.txt
+➜  empire git:(main) ✗ open darth_vader.txt
+➜  empire git:(main) ✗ touch emperor_palpatine.txt
+➜  empire git:(main) ✗ mkdir death_star
+➜  empire git:(main) ✗ ls
+darth_vader.txt       death_star            emperor_palpatine.txt
+➜  empire git:(main) ✗ mv darth_vader.txt death_star
+➜  empire git:(main) ✗ ls
+death_star            emperor_palpatine.txt
+➜  empire git:(main) ✗ 
+
+
+______________________________________
+
