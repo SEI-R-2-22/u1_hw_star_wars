@@ -1,0 +1,227 @@
+➜  ~ history | tail -n 250
+    1  chsh -s $(which zsh)
+    2  brew install node
+    3  node -v
+    4  git --version
+    5  git config --global user.name "mattiezanin"
+    6  git config --global user.email "matt.zanin@gmail.com"
+    7  ssh-keygen -t rsa -b 4096 -C "matt.zanin@gmail.com"
+    8  eval "$(ssh-agent -s)"
+    9  pbcopy < ~/.ssh/id_rsa.pub
+   10  ssh git@github.com
+   11  brew install --cask visual-studio-code
+   12  code . 
+   13  code . cd
+   14  cd
+   15  home
+   16  cd
+   17  pwd
+   18  ls 
+   19  rm derby.log
+   20  ls
+   21  cd isus
+   22  ls
+   23  rm update.ini
+   24  ls
+   25  cd ..
+   26  ls
+   27  cd applications
+   28  ls
+   29  cd ..
+   30  cd Applications
+   31  ls
+   32  cd ..
+   33  ls 
+   34  cd Dropbox
+   35  ls
+   36  ls/a
+   37  cd ..
+   38  cd Public
+   39  ls 
+   40  cd ..
+   41  mkdir ga_seir
+   42  cd ga_seir
+   43  mkdir unit1 unit2 unit3 unit4
+   44  ls
+   45  mkdir projects
+   46  ls
+   47  mkdir unit1/lessons unit1/labs unit1/homework
+   48  cd unit1
+   49  ls
+   50  cd ../unit2
+   51  mkdir lessons labs homwork
+   52  ls
+   53  cd ..
+   54  mkdir lessons labs homework
+   55  ls 
+   56  mv lessons labs homework unit3
+   57  ls
+   58  cd unit3
+   59  ls
+   60  cd ..
+   61  cd unit4
+   62  mkdir lessons labs homework
+   63  ls
+   64  cd ../unit2
+   65  cd ../projects
+   66  ls
+   67  cd ../unit1
+   68  ls
+   69  cd ../projects
+   70  touch name.txt
+   71  ls
+   72  echo "Hi, my name is Mattie" >> name.txt
+   73  cat name.txt
+   74  ls
+   75  rm name.txt
+   76  cd 
+   77  brew install trash
+   78  alias
+   79  cd gasei
+   80  ls
+   81  cd ga_seir
+   82  ls
+   83  cd unit1
+   84  cd lessons
+   85  mkdir git-practice
+   86  ls
+   87  cd git-practice
+   88  git init
+   89  ls -a
+   90  touch index.html
+   91  code .
+   92  git add index.html
+   93  git commit -m "create html file"
+   94  git remote -v
+   95  git remote add origin https://github.com/mattiezanin/git-practice.git
+   96  git remote -v
+   97  git remote remove origin
+   98  git remote -v
+   99  git remote add origin git@github.com:mattiezanin/git-practice.git
+  100  git remote -v
+  101  git branch -M main
+  102  git push origin main 
+  103  cd 
+  104  ls
+  105  cd ga_seir
+  106  ls
+  107  cd unit1
+  108  ls
+  109  cd lessons
+  110  git clone git@github.com:mattiezanin/u1_lesson_VSCode.git
+  111  ls
+  112  cd u1_lesson_VSCode
+  113  code .
+  114  npm i -g prettier 
+  115  touch ~/.prettierrc\n
+  116  echo "{"trailingComma": "none", "tabWidth": 2, "bracketSpacing": true, "useTabs": false, "semi": false, "singleQuote": true}" > ~/.prettierrc
+  117  cd ga_seir
+  118  ls
+  119  cd unit1
+  120  ls
+  121  cd homework
+  122  git@github.com:mattiezanin/u1_hw_star_wars.git
+  123  clone git@github.com:mattiezanin/u1_hw_star_wars.git
+  124  touch git@github.com:mattiezanin/u1_hw_star_wars.git
+  125  git clone git@github.com:mattiezanin/u1_hw_star_wars.git
+  126  ls
+  127  cd u1_hw_star_wars
+  128  code . 
+  129  mkdir star_wars
+  130  cd star_wars
+  131  mkdir empire rebellion
+  132  cd empire
+  133  touch darth_vader.txt
+  134  echo "...heavy breathing..." >> darth_vader.txt
+  135  touch emperor_palpatine.txt
+  136  mkdir death_star
+  137  mv darth_vader.txt >> death_star
+  138  mv darth_vader.txt death_star
+  139  cd ..
+  140  cd rebellion
+  141  touch princess_leia.txt
+  142  echo "Help me, Obi-Wan..." >> princess_leia.txt
+  143  touch obi_wan.txt
+  144  touch luke_skywalker.txt
+  145  mkdir millenium_falcon
+  146  mv luke_skylwalker.txt obi_wan.txt princess_leia.txt millenium_falcon
+  147  mv luke_skywalker.txt millenium_falcon
+  148  mv millenium_falcon death_star
+  149  cd ../millenium_falcon
+  150  cd..
+  151  ls
+  152  mv death_star empire
+  153  code .
+  154  cd star_wars
+  155  cd empire
+  156  ls
+  157  cd../rebellion
+  158  rm empire
+  159  rm rebellion
+  160  rm rebellion/empire
+  161  ls
+  162  cd ..
+  163  ls
+  164  cd rebellion
+  165  ls
+  166  rm empire
+  167  rm -rf empire
+  168  touch princess_leia.txt
+  169  echo "Help me, Obi-Wan..." >> princess_leia.txt
+  170  touch luke_skywalker.txt
+  171  touch obi_wan.txt
+  172  mkdir millenium_falcon
+  173  cd millenium_falcon
+  174  touch han_solo.txt chewbacca.txt
+  175  mv luke_skywalker.txt obi_wan.txt princess_leia.txt millenium_falcon
+  176  cd ..
+  177  mv luke_skywalker.txt obi_wan.txt princess_leia.txt millenium_falcon
+  178  ls
+  179  cd ..
+  180  pwd
+  181  mv millenium_falcon death_star
+  182  ls
+  183  cd rebellion
+  184  ls
+  185  mv millenium_falcon empire
+  186  mv empire millenium_falcon
+  187  pwed
+  188  pwd
+  189  cd millenium_falcon
+  190  ls
+  191  cd ..
+  192  ls
+  193  mv millenium_falcon /Users/MattZanin/ga_seir/unit1/homework/u1_hw_star_wars/star_wars/empire
+  194  cd..
+  195  cd ..
+  196  ls
+  197  cd empire
+  198  ls
+  199  cd death_star
+  200  ls
+  201  cd ..
+  202  ls
+  203  mv millenium_falcon /Users/MattZanin/ga_seir/unit1/homework/u1_hw_star_wars/star_wars/empire/death_star
+  204  mv millenium_falcon/* death_star
+  205  mv millenium_falcon* death_star
+  206  mv /Users/MattZanin/ga_seir/unit1/homework/u1_hw_star_wars/star_wars/empire/death_star/millenium_falcon /Users/MattZanin/ga_seir/unit1/homework/u1_hw_star_wars/star_wars/empire/death_star
+  207  cd death_star
+  208  ls
+  209  mv millenium_falcon death_star
+  210  mv death_star millenium_falcon
+  211  mv millenium_falcon /Users/MattZanin/ga_seir/unit1/homework/u1_hw_star_wars/star_wars/empire/death_star
+  212  ls
+  213  cd millenium_falcon
+  214  ls
+  215  rm obi_wan.txt
+  216  ls
+  217  cd ..
+  218  mv millenium_falcon /Users/MattZanin/ga_seir/unit1/homework/u1_hw_star_wars/star_wars/rebellion
+  219  ls
+  220  mv darth_vader.txt /Users/MattZanin/ga_seir/unit1/homework/u1_hw_star_wars/star_wars/empire
+  221  cd ..
+  222  ls
+  223  rm death_star
+  224  rm -rf death_star
+  225  ls
+  226  cd
