@@ -1,0 +1,152 @@
+316  cd u1_hw_star_wars
+  317  mkdir star_wars
+  318  ls
+  319  cd star_wars
+  320  ls
+  321  mkdir empire
+  322  mkdir rebellion
+  323  ls
+  324  cd empire
+  325  mkdir darth_vader.txt
+  326  ls
+  327  rm darth_vader.txt
+  328  rm -rf darth_vader.txt
+  329  ls
+  330  touch darth_vader.txt
+  331  ls
+  332  echo "...heavy breathing..."
+  333  cat darth_vader.txt
+  334  ls
+  335  echo "...heavy breathing..." >> darth_vader.txt
+  336  cat darth_vader.txt
+  337  pwd
+  338  touch emperor_palpatine.txt
+  339  mkdir death_star
+  340  mv darth_vader.txt death_star/
+  341  cd death_star
+  342  ls
+  343  git add.
+  344  git add .
+  345  git commit -m "created the empire directory and added characters"
+  346  git status
+  347  cd ..
+  348  git add .
+  349  git status
+  350  cd rebellion
+  351  touch obi_wan.txt
+  352  ls
+  353  touch luke_skywalker.txt
+  354  ls
+  355  mkdir millenium_falcon
+  356  ls
+  357  cd millenium_falcon
+  358  touch han_solo.txt
+  359  touch chewbacca.txt
+  360  mv luke_skywalker.txt millenium_falcon/
+  361  cd ..
+  362  mv luke_skywalker.txt millenium_falcon/
+  363  mv obi_wan.txt millenium_falcon/
+  364  ls
+  365  touch princess_leia.txt && echo "Help me, Obi-Wan..." >> princess_leia.txt
+  366  ls
+  367  cat princess_leia.txt
+  368  mv princess_leia.txt millenium_falcon/
+  369  cd millenium_falcon
+  370  ls
+  371  mv millenium_falcon empire
+  372  mv millenium_falcon star_wars
+  373  mv millenium_falcon star_wars/
+  374  mv millenium_falcon star_wars
+  375  mv ~/ga_seir/Unit1/Homework/u1_hw_star_wars/_star_wars/rebellion/millenium_falcon ~/ga_seir/Unit1/Homework/u1_hw_star_wars/star_wars/empire/death_star
+  376  cd
+  377  ls
+  378  cd ga_seir
+  379  ls
+  380  cd Unit1
+  381  cd Homework
+  382  cd u1_hw_star_wars
+  383  mv ~/ga_seir/Unit1/Homework/u1_hw_star_wars/_star_wars/rebellion/millenium_falcon ~/ga_seir/Unit1/Homework/u1_hw_star_wars/star_wars/empire/death_star
+  384  cd rebellion
+  385  ls
+  386  cd star_wars
+  387  mv ~/ga_seir/Unit1/Homework/u1_hw_star_wars/_star_wars/rebellion/millenium_falcon ~/ga_seir/Unit1/Homework/u1_hw_star_wars/star_wars/empire/death_star
+  388  ls
+  389  cd rebellion
+  390  ls
+  391  mv millenium_falcon ~/ga_seir/Unit1/Homework/u1_hw_star_wars/star_wars
+  392  ls
+  393  cd ..
+  394  ls
+  395  mv millenium_falcon ~/ga_seir/Unit1/Homework/u1_hw_star_wars/star_wars/empire
+  396  cd empire
+  397  ls
+  398  mv millenium_falcon ~/ga_seir/Unit1/Homework/u1_hw_star_wars/star_wars/empire/death_star
+  399  ls
+  400  cd death_star
+  401  ls
+  402  git add .
+  403  cd ..
+  404  git add .
+  405  git commit -m "created the rebellion directory and chars, moved millenium falcon to death star"
+  406  git status
+  407  cd star_wars
+  408  cd_empire
+  409  cd empire
+  410  cd millenium_falcon
+  411  ls
+  412  cd death_star
+  413  cd millenium_falcon
+  414  ls
+  415  mv -t ~/ga_seir/Unit1/Homework/u1_hw_star_wars/star_wars/death_star chewbacca.txt han_solo.txt luke_skywalker.txt obi_wan.txt princess_leia.txt
+  416  mv ~/ga_seir/Unit1/Homework/u1_hw_star_wars/star_wars/death_star chewbacca.txt han_solo.txt luke_skywalker.txt obi_wan.txt princess_leia.txt
+  417  mv chewbacca.txt han_solo.txt luke_skywalker.txt obi_wan.txt princess_leia.txt death_star
+  418  cd ..
+  419  mv chewbacca.txt han_solo.txt luke_skywalker.txt obi_wan.txt princess_leia.txt death_star
+  420  cd ..
+  421  mv chewbacca.txt han_solo.txt luke_skywalker.txt obi_wan.txt princess_leia.txt death_star
+  422  ls
+  423  cd death_star
+  424  cd millenium_falcon
+  425  mv chewbacca.txt han_solo.txt luke_skywalker.txt obi_wan.txt princess_leia.txt death_star
+  426  mv chewbacca.txt han_solo.txt luke_skywalker.txt obi_wan.txt princess_leia.txt ~/ga_seir/Unit1/Homework/u1_hw_star_wars/star_wars/empire/death_star
+  427  cd ..
+  428  ls
+  429  cd ..
+  430  git add .
+  431  git commit -m "unloaded heroes into death star"
+  432  git status
+  433  cd star_wars
+  434  cd_empire
+  435  cd empire
+  436  cd death_star
+  437  ls
+  438  rm obi_wan.txt
+  439  ls
+  440  mv chewbacca.txt han_solo.txt luke_skywalker.txt princess_leia.txt ~/ga_seir/Unit1/Homework/u1_hw_star_wars/star_wars/empire/millenium_falcon
+  441  ls
+  442  mv chewbacca.txt han_solo.txt luke_skywalker.txt princess_leia.txt ~/ga_seir/Unit1/Homework/u1_hw_star_wars/star_wars/empire/millenium_falcon/
+  443  mv chewbacca.txt han_solo.txt luke_skywalker.txt princess_leia.txt millenium_falcon
+  444  ls
+  445  mv millenium_falcon ~ga_seir/Unit1/Homework/u1_hw_star_wars/star_wars/rebellion
+  446  mv millenium_falcon ~/ga_seir/Unit1/Homework/u1_hw_star_wars/star_wars/rebellion
+  447  cd ..
+  448  cd rebellion
+  449  ls
+  450  cd millenium_falcon
+  451  ls
+  452  cd ..
+  453  cd empire
+  454  cd death_star
+  455  ls
+  456  mv darth_vader.txt ~/ga_seir/Unit1/Homework/u1_hw_star_wars/star_wars/empire
+  457  ls
+  458  cd ..
+  459  cd empire
+  460  ls
+  461  rm -rf death_star
+  462  ls
+  463  git add .
+  464  cd ..
+  465  git add .
+  466  git commit -m "heroes escaped, death star destroyed"
+  467  git status
