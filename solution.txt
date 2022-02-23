@@ -1,0 +1,122 @@
+  cd ga_seir
+  217  cd unit1
+  218  cd HomeWork
+  219  cd u1_hw_star_wars
+  220  cd star_wars
+  221  cd empire
+  222  rm -r death_star
+  223  touch darth_vader.txt
+  224  echo "...heavy breathing..." >> darth_vader.txt
+  225  cat darth_vader.txt
+  226  touch emperor_palpatine.txt
+  227  mkdir death_star
+  228  mv darth_vader.txt death_star
+  229  git ad
+  230  git add
+  231  git add.
+  232  git add .
+  233  git commit -m "finished act 1"
+  234  cd ..
+  235  cd rebellion
+  236  touch princess_leia.txt && echo "Help me, Obi-wan..." >> princess_leia.txt
+  237  cat princess_leia.txt
+  238  ls
+  239  touch obi_wan.txt
+  240  mkdir millenium_falcon
+  241  cd millenium_falcon
+  242  touch han_solo.txt && touch chewbacca.txt
+  243  cd ..
+  244  touch luke_skywalker.txt
+  245  mv luke_skywalker.txt millenium_falcon && mv obi_wan.txt millenium_falcon && mv princess_leia.txt millenium_falcon
+  246  mv millenium_falcon death_star
+  247  mv death_star millenium_falcon
+  248  cd ..
+  249  mv millenium_falcon death_star
+  250  cd rebellion
+  251  ls
+  252  mv millenium_falcon ~/death_star
+  253  touch princess_leia.txt && echo "Help me, Obi-Wan..." >> princess.leia.txt
+  254  rm -r princess.leia.txt
+  255  rm -r princess_leia.txt
+  256  touch princess_leia.txt && echo "Help me, Obi-Wan..." >> princess_leia.txt
+  257  touch luke_skywalker.txt
+  258  mkdir millenium_falcon
+  259  cd millenium_falcon
+  260  touch han_solo.txt && touch chewbacca.txt
+  261  mv luke_skywalker.txt millenium_falcon && mv obi_wan.txt millenium_falcon && mv princess_leia.txt millenium_falcon
+  262  cd ..
+  263  mv luke_skywalker.txt millenium_falcon && mv obi_wan.txt millenium_falcon && mv princess_leia.txt millenium_falcon
+  264  pwd
+  265  touch obi_wan.txt
+  266  mv obi_wan.txt millenium_falcon
+  267  mv princess_leia.txt millenium_falcon
+  268  mv ~/millenium_falcon/ ~/death_star
+  269  cd ..
+  270  mv /rebellion/millenium_falcon/ ~/death_star  
+  271  cd rebellion
+  272  %mv millenium_falcon death_star 
+  273  cd ..
+  274  cd rebellion
+  275  mv millenium_falcon ~/death_star
+  276  cd ..
+  277  millenium_falcon
+  278  ls
+  279  ls -a
+  280  cd ..
+  281  ls
+  282  ls -a
+  283  cd ..
+  284  ls -a
+  285  cd ..
+  286  ls
+  287  mv death_star ~/ga_seir/unit1/HomeWork/u1_hw_star_wars/star_wars/empire
+  288  pwd
+  289  mv 
+  290  pwd
+  291  cd death_star
+  292  cd ..
+  293  mv death_star ~/Users/guillermopalencia/ga_seir/unit1/HomeWork/u1_hw_star_wars/star_wars/empire
+  294  mv ~/death_star/ ~/Users/guillermopalencia/ga_seir/unit1/HomeWork/u1_hw_star_wars/star_wars/empire/   
+  295  mv ~/death_star ~/ga_seir/unit1/HomeWork/u1_hw_star_wars/star_wars/empire
+  296  mv death_star empire
+  297  cd ..
+  298  cd guillermopalencia
+  299  pwd
+  300  ls
+  301  mv empire death_star
+  302  git add .
+  303  cd ga_seir/unit1/HomeWork/u1_hw_star_wars/star_wars
+  304  git add .
+  305  git commit -m "finsihed act 2 millenium falcon"
+  306  mv empire/death_star/millenium_falcon/ empire/death_star
+  307  cd empire
+  308  cd death_star
+  309  cd millenium_falcon
+  310  mv chewbacca.txt deah_star
+  311  cd ..
+  312  ls
+  313  cd millenium_falcon
+  314  mv deah_star chewbacca.txt
+  315  mv chewbacca.txt ~/death_star
+  316  touch chewbacca.txt 
+  317  cd ..
+  318  mv millenium_falcon/chewbacca.txt ~/death_star
+  319  cd ..
+  320  mv empire/death_star/millenium_falcon/chewbacca.txt empire/death_star
+  321  mv empire/death_star/chewbacca.txt empire/death_star/millenium_falcon
+  322  mv empire/death_star/millenium_falcon/ empire/death_star
+  323  mv empire/death_star/millenium_falcon/chewbacca.txt empire/death_star/millenium_falcon/han_solo.txt empire/death_star/millenium_falcon/luke_skywalker.txt empire/death_star/millenium_falcon/obi_wan.txt empire/death_star/millenium_falcon/princess_leia.txt empire/death_star
+  324  cd empire/death_star
+  325  rm -r obi_wan.txt
+  326  cd ..
+  327  mv empire/death_star/chewbacca.txt empire/death_star/han_solo.txt empire/death_star/han_solo.txt empire/death_star/luke_skywalker.txt empire/death_star/princess_leia.txt empire/death_star/millenium_falcon
+  328  mv empire/death_star/millenium_falcon rebellion
+  329  mv empire/death_star/darth_vader.txt empire
+  330  cd empire
+  331  rm -r death_star
+  332  git add .
+  333  git commit -m "destroyed the death star saved the day"
+  334  remote -v
+  335  git remote add
+  336  git remote add origin git@github.com:guillermopalencia/u1_hw_star_wars.git
+  337  git remote -v
