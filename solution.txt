@@ -1,0 +1,350 @@
+  104  git remote -v
+  105  git remote add origin git@github.com:Tamollyo/git-practice.git
+  106  cd lessons
+  107  .. cd lessons
+  108  ~ cd
+  109  cd ga_seir
+  110  lessons
+  111  unit1
+  112  lessons
+  113  mkdir git-prac
+  114  ls
+  115  git-prac
+  116  git init
+  117  ls -a
+  118  ..
+  119  cd git-prac
+  120  touch index.hmtl
+  121  cd ga_seir
+  122  unit1
+  123  lessons
+  124  mkdir git-work
+  125  ls
+  126  cd git-work
+  127  git init
+  128  ls -a
+  129  ..
+  130  cd git-work
+  131  touch index.html
+  132  code .
+  133  git add index.html
+  134  git commit -m "create html file" 
+  135  git remote -v
+  136  git remote add origin git@github.com:Tamollyo/git-practice.git
+  137  git remote -v
+  138  git status
+  139  git add .
+  140  git status
+  141  git commit -m "created html boiler" 
+  142  git push origin master
+  143  cd ~
+  144  unit 1
+  145  unit1
+  146  ga_seir
+  147  unit1
+  148  lessons
+  149  git clone git@github.com:Tamollyo/u1_lesson_VSCode.git
+  150  ls
+  151  cd u1_lesson_VSCode
+  152  code .
+  153  ls -a
+  154  ls
+  155  npm i -g prettier
+  156  touch ~/.prettierr
+  157  echo "{"trailingComma": "none", "tabWidth": 2, "bracketSpacing": true, "useTabs": false, "semi": false, "singleQuote": true}" > ~/.prettierrc
+  158  ~cd
+  159  ~ cd
+  160  .. cd
+  161  ~ cd
+  162  cd
+  163  ga_seir
+  164  unit1
+  165  homework
+  166  git clone git@github.com:Tamollyo/u1_hw_star_wars.git
+  167  cd u1_hw_star_wars
+  168  code .
+  169  mkdir star_wars
+  170  mkdir star_wars/empire star_wars/rebellion
+  171  cd empire
+  172  cd star_wars
+  173  cd empire
+  174  touch darth_vadar.txt
+  175  echo "...heavy breathing..." >> darth_vadar.txt
+  176  git commit -m "breathing file" 
+  177  git status
+  178  git add . 
+  179  git status
+  180  git add darth_vadar.txt
+  181  git commit -m "Created txt file" 
+  182  git status
+  183  git add. 
+  184  git commit -a
+  185  cd ga_seir
+  186  unit1
+  187  homework
+  188  u1_hw_star_wars
+  189  ls
+  190  trash star_wars
+  191  rm star_wars
+  192  rm -rf star wars
+  193  git status
+  194  git push
+  195  git status
+  196  git add . 
+  197  git status
+  198  ls
+  199  cd homework
+  200  .. cd homework
+  201  .. ga_seir
+  202  ~ cd
+  203  cd ga_seir
+  204  unit1
+  205  homework
+  206  ls
+  207  rm -rf u1_hw_star_wars
+  208  ls
+  209  git clone git@github.com:Tamollyo/u1_hw_star_wars.git
+  210  code . 
+  211  u1_hw_star_wars
+  212  mkdir star_wars
+  213  ls
+  214  star_wars
+  215  ls
+  216  mkdir rebellion
+  217  ls
+  218  empire
+  219  ls
+  220  touch emperor_palpatine.txt
+  221  git add . 
+  222  git commit -m "Emperor P txt file"
+  223  mkdir death_star
+  224  ls
+  225  pwd
+  226  %mv /Users/mollyo/ga_seir/unit1/homework/u1_hw_star_wars/star_wars/empire/death_star/darth_vadar.txt
+  227  mv /Users/mollyo/ga_seir/unit1/homework/u1_hw_star_wars/star_wars/empire/death_star/darth_vadar.txt
+  228  ls
+  229  darth_vadar.txt
+  230  mv old/empire/darth_vadar.txt new/empire/death_star/darth_vadar.txt
+  231  mv old/darth_vadar.txt new/death_star/darth_vadar.txt
+  232  mv ~/empire/darth_vadar.txt ~/empire/death_star/darth_vadar.txt
+  233  mv  ~/Users/mollyo/ga_seir/unit1/homework/u1_hw_star_wars/star_wars/empire/darth_vadar.txt ~/Users/mollyo/ga_seir/unit1/homework/u1_hw_star_wars/star_wars/empire/death_star/darth_vadar.txt
+  234  mv ~/empire/darth_vadar.txt /empire/death_star
+  235  ls
+  236  mv darth_vadar.txt death_star
+  237  git commit -m "move vadar to death star"
+  238  ls
+  239  u1_hw_star_wars
+  240  ls
+  241  star_wars
+  242  rebellion
+  243  cd ../
+  244  rebellion
+  245  touch princess_leia && echo "Help me, Obi-Wan..." >> princess_leia.txt
+  246  rm princess.leia
+  247  touch obi_wan.txt
+  248  touch luke_skywalker.txt
+  249  mkdir millenium_falcon
+  250  millenium_falcon
+  251  touch han_solo.txt
+  252  touch chewbacca.txt
+  253  cd rebellion
+  254  .. rebellion
+  255  cd homework
+  256  ~ cd
+  257  cd ../../
+  258  rebellion
+  259  mv luke_skywalker.txt millenium falcon
+  260  mv luke_skywalker.txt millenium_falcon
+  261  mv princess_leia millenium_falcon
+  262  mv obi_wan millenium_falcon
+  263  mv obi_wan.txt millenium_falcon
+  264  mv princess_leia.txt millenium_falcon
+  265  ../
+  266  mv  millenium-falcon death_star
+  267  empire
+  268  mv millenium_falcon death_star
+  269  ../
+  270  mv millenium_falcon empire
+  271  mv millenium falcon star_wars
+  272  mv millenium_falcon empire
+  273  ga_seir
+  274  unit1
+  275  homework
+  276  git clone git@github.com:Tamollyo/u1_hw_star_wars.git
+  277  u1_hw_star_wars
+  278  code . 
+  279  mkdir star_wars
+  280  ga_seir
+  281  unit1
+  282  homework
+  283  git@github.com:Tamollyo/u1_hw_star_wars.git
+  284  git clone git@github.com:Tamollyo/u1_hw_star_wars.git
+  285  u1_hw_star_wars
+  286  code . 
+  287  mkdir star_wars
+  288  mkdir star_wars/empire star_wars/rebellion
+  289  empire
+  290  star_wars
+  291  empire
+  292  darth_vadar.txt
+  293  touch darth_vadar.txt
+  294  echo "...heavy breathing..." >> darth.vadar.txt
+  295  ga_seir
+  296  unit1
+  297  homework
+  298  git clone git@github.com:Tamollyo/u1_hw_star_wars.git
+  299  u1_hw_star_wars
+  300  code .
+  301  mkdir star_wars
+  302  star_wars
+  303  mkdir empire rebellion 
+  304  empire
+  305  touch darth_vadar.txt
+  306  ga_seir
+  307  unit1
+  308  homework
+  309  git clone git@github.com:Tamollyo/u1_hw_star_wars.git
+  310  u1_hw_star_wars
+  311  code . 
+  312  mkdir star_wars
+  313  star_wars
+  314  mkdir empire rebellion
+  315  empire
+  316  touch darth_vadar.txt
+  317  echo "...heavy breathing..." >> darth_vadar.txt
+  318  touch emperor_palpatine.txt
+  319  mkdir death_star
+  320  mv darth_vadar.txt death_star
+  321  git commit -m "ACT 1: Star Wars"
+  322  git commit -a
+  323  git add .
+  324  git commit m "Act 1: Star Wars"
+  325  git add . 
+  326  git commit -m "Act 1: Star Wars"
+  327  git push origin main
+  328  ../
+  329  rebellion
+  330  touch princess_leia.txt && echo "Help me, Obi-Wan" >> princess_leia.txt
+  331  touch obi_wan.txt
+  332  touch luke_skywalker.txt
+  333  mkdir millenium_falcon
+  334  touch han_solo.txt chewbacca.txt
+  335  luke_skywalker.txt obi_wan.txt princess_leia.txt millenium_falcon
+  336  mv luke_skywalker.txt obi_wan.txt princess_leia.txt millenium_falcon 
+  337  mv rebellion/millenium_falcon empire/death_star
+  338  ../
+  339  mv rebellion/millenium_falcon empire/death_star
+  340  git add . 
+  341  git commit -m "Act 2: Star Wars" 
+  342  git push origin main
+  343  mv millenium_falcon/* death_star
+  344  empire
+  345  mv millenium_falcon/* death_star
+  346  mv millenium_falcon* death_star
+  347  millenium_falcon * death_star
+  348  death_star
+  349  mv millenium_falcon/* death_star
+  350  mv death_star/millenium_falcon/* empire/death_star
+  351  ../
+  352  mv death_star/millenium_falcon/* empire/death_star
+  353  mv death_star/millenium_falcon/* death_star
+  354  death_star
+  355  rm obi-wan.txt
+  356  ../
+  357  rm obi.wan.txt
+  358  rm obi-wan.txt
+  359  death_star
+  360  rm obi_wan.txt
+  361  ../
+  362  mv luke_skywalker.txt princess_leia.txt millenium_falcon
+  363  mv luke_skywalker.txt princess_leia.txt death_star/millenium_falcon
+  364  death_star
+  365  mv luke_skywalker millenium falcon
+  366  mv luke_skywalker millenium_falcon
+  367  mv luke_skywalker.txt millenium_falcon
+  368  mv princess_leia.txt millenium_falcon
+  369  mv empire/death_star/millenium_falcon rebellion
+  370  ../
+  371  mv empire/death_star/millenium_falcon rebellion
+  372  mv chewbacca.txt millenium_falcon
+  373  mv han_solo millenium_falcon
+  374  mv han_solo /millenium_falcon
+  375  mv empire/death_star/darth_vadar.txt empire
+  376  mv dealth_star/darth_vadar.txt empire
+  377  mv death_star/darth_vadar.txt empire
+  378  empire
+  379  darth_vadar.txt empire
+  380  death_star
+  381  darth_vadar.txt empire
+  382  ../
+  383  //
+  384  ../
+  385  ~ cd
+  386  ga_seir
+  387  cd ga_seir
+  388  empire
+  389  cd empire
+  390  u1_hw_star_wars
+  391  cd u1_hw_star_wars
+  392  ga_seir
+  393  unit1
+  394  homework
+  395  git clone
+  396  git clone git@github.com:Tamollyo/u1_hw_star_wars.git
+  397  u1_hw_star_wars.git
+  398  u1_hw_star_wars
+  399  code .
+  400  mkdir star_wars
+  401  star_wars
+  402  mkdir empire rebellion
+  403  empire
+  404  darth_vadar.txt
+  405  touch darth_vadar.txt
+  406  echo "...heavy breathing..." >> darth_vadar.txt
+  407  touch emperor_palpatine.txt
+  408  mkdir death_star
+  409  mv darth_vadar.txt death_star
+  410  git add . 
+  411  git commit -m "Act 1: Star Wars"
+  412  git push origin main
+  413  ../
+  414  rebellion
+  415  touch princess_leia.txt && echo "Help me, Obi-Wan" >> princess_leia.txt
+  416  touch obi_wan.txt
+  417  mkdir millenium_falcon
+  418  millenium_falcon
+  419  touch han_solo.txt chewbacca.txt
+  420  ../
+  421  mv luke_skywalker.txt obi_wan.txt princess_leia.txt millenium_falcon
+  422  millenium_falcon
+  423  mv luke_skywalker.txt obi_wan.txt princess_leia.txt millenium_falcon
+  424  ../
+  425  mv luke_skywalker.txt obi_wan.txt princess_leia.txt millenium_falcon
+  426  rebellion
+  427  ../
+  428  mv rebellion/millenium_falcon empire/death_star
+  429  git add . 
+  430  git commit -m "Act 2: Star Wars"
+  431  git push origin main
+  432  mv death_star/millenium_falcon/* death_star 
+  433  empire
+  434  mv death_star/millenium_falcon/* death_star 
+  435  death_star
+  436  millenium_falcon
+  437  ../
+  438  rm obi_wan.txt
+  439  mv princess_leia.txt luke_skywalker.txt han_solo.txt chewbacca.txt millenium_falcon
+  440  ../
+  441  mv empire/death_star/millenium_falcon rebellion
+  442  rebellion/millenium_falcon
+  443  touch luke_skywalker.txt
+  444  ../
+  445  death_star/darth_vadar.txt empire
+  446  mv darth_vadar.txt empire
+  447  mv empire/death_star/darth_vadar.txt empire
+  448  empire
+  449  rm -rf death_star
+  450  git add . 
+  451  git commit -m "Act 3: Star Wars"
+  452  git push origin main
+  453  ../
