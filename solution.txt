@@ -1,0 +1,172 @@
+1  chsh -s $(which zsh)
+    2  node -v
+    3  brew --version
+    4  brew install node
+    5  node -v
+    6  git -v
+    7  git --version
+    8  git config --global user.name "Frank Marra"
+    9  git config --global user.email "frankrmarra@gmail.com"
+   10  ssh-keygen -t rsa -b 4096 -C "frankrmarra@gmail.comm"
+   11  eval "$(ssh-agent -s)"
+   12  pbcopy < ~/.ssh/id_rsa.pub
+   13  ssh git@github.com
+   14  code .
+   15  npm --version
+   16  pwd
+   17  brew install trash
+   18  ls
+   19  df -h
+   20  cd
+   21  mkdir ga_seir
+   22  cd ga_seir
+   23  ls
+   24  pwd
+   25  mkdir unit1 unit2 unit3 unit4
+   26  ls
+   27  mkdir projects
+   28  ls
+   29  mkdir unit1/lessons unit1/labs unit1/homework
+   30  cd unit1
+   31  ls
+   32  cd ../unit2
+   33  ls
+   34  mkdir lessons labs homework
+   35  ls
+   36  cd..
+   37  cd ..
+   38  cd unit3
+   39  cd ..
+   40  mkdir lessons labs homework
+   41  mv lessons labs homework unit3
+   42  cd unit3
+   43  ls
+   44  cd ..
+   45  mkdir unit4/lessons unit4/labs unit4/homework
+   46  ls
+   47  cd projects
+   48  touch name.txt
+   49  echo "Hi, my name is Frank" >> name.txt
+   50  cat name.txt
+   51  trash name.txt
+   52  ls
+   53  ..
+   54  ls
+   55  cd unit1
+   56  ls
+   57  cd lessons
+   58  mkdir gitpractice
+   59  cd gitpractice
+   60  ls
+   61  git init
+   62  ls -a
+   63  ..
+   64  cd gitpractice
+   65  ls
+   66  touch index.html
+   67  code .
+   68  ls
+   69  git add index.html
+   70  git commit -m "create html file"
+   71  git remote -v
+   72  git remote add origin https://github.com/frankmarra/git-practice.git
+   73  git remote -v
+   74  git remote remove origin 
+   75  git remote -v
+   76  git remote add origin git@github.com:frankmarra/git-practice.git
+   77  git remote -v
+   78  git branch -m main
+   79  git remote -v
+   80  git config --global init.defaultBranch main
+   81  git push origin main
+   82  ..
+   83  trash gitpractice
+   84  ls
+   85  git clone git@github.com:frankmarra/u1_lesson_VSCode.git
+   86  ls
+   87  cd u1_lesson_VSCode
+   88  code .
+   89  cd
+   90  npm i -g prettier
+   91  ls
+   92  cd ga_seir
+   93  cd lessons
+   94  ls
+   95  cd unit1
+   96  npm i -g prettier
+   97  ls
+   98  cd lessons
+   99  ls
+  100  cd u1_lesson_VSCode
+  101  ls
+  102  cd ga_seir
+  103  ls
+  104  cd unit1
+  105  cd homework
+  106  git clone git@github.com:frankmarra/u1_hw_star_wars.git
+  107  ls
+  108  cd u1_hw_star_wars
+  109  code .
+  110  mkdir star_wars
+  111  ls
+  112  cd star_wars
+  113  mkdir empire rebellion
+  114  ls
+  115  cd empire
+  116  touch darth_vader.txt
+  117* sudo npm i -g prettier
+  118* touch ~/.prettierrc
+  119* echo "{"trailingComma": "none", "tabWidth": 2, "bracketSpacing": true, "useTabs": false, "semi": false, "singleQuote": true}" > ~/.prettierrc
+  120  echo "...heavy breathing..." >> darth_vader.txt
+  121  cat darth_vader.txt
+  122  touch emperor_palpatine.txt
+  123  mkdir death_star
+  124  mv darth_vader.txt death_star
+  125  cd death_star
+  126  ls
+  127  ..
+  128  git add .
+  129  git commit -m "completed first act"
+  130  cd star_wars
+  131  cd rebellion
+  132  touch princess_leia.txt && echo "Help me, Obi-Wan..." >> princess_leia.txt
+  133  cat princess_leia.txt
+  134  touch obi_wan.txt
+  135  touch luke_skywalker.txt
+  136  mkdir millenium_falcon
+  137  cd millenium_falcon
+  138  touch han_solo.txt chewbacca.txt
+  139  ls
+  140  ..
+  141  mv luke_skywalker.txt obi_wan.txt princess_leia.txt millenium_falcon
+  142  mv millenium_falcon ../../empire/death_star
+  143  mv millenium_falcon ../empire/death_star
+  144  ..
+  145  cd empire/death_star
+  146  ls
+  147  ...
+  148  ..
+  149  git add
+  150  git add .
+  151  git commit -m "completed second act"
+  152  cd star_wars/empire
+  153  cd death_star
+  154  mv millenium_falcon/* death_star
+  155  ls
+  156  mv millenium_falcon/* death_star
+  157  ..
+  158  mv death_star/millenium_falcon/* death_star
+  159  cd death_star
+  160  ls
+  161  trash obi_wan.txt
+  162  mv chewbacca.txt han_solo.txt luke_skywalker.txt princess_leia.txt millenium_falcon
+  163  mv millenium_falcon ../../rebellion
+  164  mv darth_vader.txt empire
+  165  trash empire.txt
+  166  mv empire darth_vader.txt
+  167  mv darth_vader.txt ../
+  168  ..
+  169  trash death_star
+  170  ../..
+  171  git add .
+  172  git commit -m "completed act three"
