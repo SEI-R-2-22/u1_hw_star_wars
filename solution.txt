@@ -1,0 +1,239 @@
+577  cd homework
+  578  git clone git@github.com:nicklope/u1_hw_star_wars.git
+  579  cd u1_hw_star_wars
+  580  code .
+  581  ls
+  582  cd act1.sh
+  583* ~
+  584* sudo chown -R $(whoami) ~/.npm
+  585* npm i -g prettier
+  586* sudo chown -R $(whoami) ~/.npm
+  587* npm i -g prettier
+  588* sudo npm i -g prettier
+  589* ls
+  590* cd ga_seir
+  591* ls
+  592* cd unit1
+  593* ls
+  594* cd homework
+  595* ls
+  596* cd u1_hw_star_wars
+  597* touch ~/.prettierrc
+  598* echo "{"trailingComma": "none", "tabWidth": 2, "bracketSpacing": true, "useTabs": false, "semi": false, "singleQuote": true}" > ~/.prettierrc
+  599  mkdir star_wars
+  600  ls
+  601  cd star_wars
+  602  ls
+  603  mkdir empire rebellion
+  604  ls
+  605  cd empire
+  606  touch darth_vader.txt
+  607  echo "...heavy breathing..." >> darth_vader.txt
+  608  cat darth_vader.txt
+  609  ls
+  610  touch emperor_palpatine.txt
+  611  ls
+  612  mkdir death_star
+  613  ls
+  614  mv darth_vader.txt /death_star
+  615  mv darth_vader.txt death_star
+  616  cd death_star
+  617  ls
+  618  cd ..
+  619  ls
+  620  git add .
+  621  git commit -m "Completed act1"
+  622  cd star_wars/rebellion
+  623  touch princess_leia.txt && echo "Help me, Obi-Wan..." >> princes_leia.txt
+  624  ls
+  625  rm princes_leia.txt
+  626  ls
+  627  echo "Help me, Obi-Wan..." >> princess_leia.txt
+  628  cat princess_leia.txt
+  629  touch obi_wan.txt
+  630  ls
+  631  touch luke_skywalker.txt
+  632  ls
+  633  mkdir millenium_falcon
+  634  cd millenium_falcon
+  635  touch han_solo.txt chewbacca.txt
+  636  cd ..
+  637  ls
+  638  mv luke_skywalker.txt princess_leia.txt millenium_falcon
+  639  ls
+  640  mv millenium_falcon death_star
+  641  ls
+  642  cd death_star
+  643  ls
+  644  cd ..
+  645  ls
+  646  cd empire
+  647  ls
+  648  cd death_star
+  649  ls
+  650  cd ..
+  651  ls
+  652  cd rebellion
+  653  ls
+  654  mv death_star millenium_falcon
+  655  ls
+  656  mv rebellion/millenium_falcon empire/death_star
+  657  ls
+  658  mv millenium_falcon empire/death_star/
+  659  ls
+  660  cd millenium_falcon
+  661  ls
+  662  cd ..
+  663  ls
+  664  mv obi_wan millenium_falcon
+  665  mv obi_wan.txt 
+  666  ls
+  667  mv obi_wan.txt  millenium_falcon
+  668  ls
+  669  cd ..
+  670  lsd
+  671  ls
+  672  mv rebellion/millenium_falcon empire/death_star
+  673  ls
+  674  cd rebellion
+  675  ls
+  676  cd ..
+  677  cd empire
+  678  ls
+  679  cd death_star
+  680  ls
+  681  mv millenium_falcon ../empire
+  682  ls
+  683  cd ..
+  684  ls
+  685  mv empire/millenium_falcon death_star
+  686  cd empire
+  687  ls
+  688  cd ..
+  689  ls
+  690  mv empire death_star/millenium_falcon
+  691  ls
+  692  cd death_star
+  693  ls
+  694  cd millenium_falcon
+  695  ls
+  696  cd ..
+  697  ls
+  698  cd u1_hw_star_wars
+  699  git add .
+  700  git commit -m "Completed act 2"
+  701* cd ..
+  702  ls
+  703  cd star_wars
+  704  ls
+  705  cd empire
+  706  ls
+  707  git status
+  708  cd ..
+  709  git status
+  710  cd star_wars
+  711  cd empire
+  712  mv empire/millenium_falcon empire/death_star
+  713  ls
+  714  cd death_star
+  715  ls
+  716  cd millenium_falcon
+  717  ls
+  718  cd ..
+  719  mv millenium_falcon ..
+  720  ls
+  721  cd ..
+  722  ls
+  723  mv millenium_falcon/* empire/death_star
+  724  ls
+  725  mv millenium_falcon/* death_star
+  726  ls
+  727  cd millenium_falcon
+  728  ls
+  729  cd ..
+  730  cd death_star
+  731  ls
+  732  rm obi_wan.txt
+  733  ls
+  734  cd ..
+  735  cd death_star
+  736  ls
+  737  mv chewbacca.txt han_solo.txt luke_skywalker.txt princess_leia.txt ../millenium_falcon
+  738  ls
+  739  cd ..
+  740  ls
+  741  cd millenium_falcon
+  742  ls
+  743  cd ..
+  744  mv empire/millenium_falcon rebellion
+  745  ls
+  746  cd rebellion
+  747  ls
+  748  cd ..
+  749  cd empire
+  750  mv death_star/darth_vader.txt ..
+  751  ls
+  752  cd death_star
+  753  ls
+  754  cd ..
+  755  ls
+  756  cd ..
+  757  ls
+  758  mv darth_vader.txt empire
+  759  ls
+  760  cd empire
+  761  ls
+  762  mv darth_vader.txt death_star
+  763  ls
+  764  cd death_star
+  765  ls
+  766  mv darth_vader.txt empire
+  767  ls
+  768  cd ..
+  769  ls
+  770  cd death_star
+  771  ls
+  772  mv empire darth_vader.txt
+  773  ls
+  774  cd ..
+  775  mv death_star/darth_vader.txt ..
+  776  ls
+  777  cd ..
+  778  ls
+  779  mv darth_vader.txt empire
+  780  ls
+  781  cd empire
+  782  ls
+  783  mv darth_vader.txt death_star
+  784  ls
+  785  cd death_star
+  786  ls
+  787  mv darth_vader.txt ../death_star
+  788  ls
+  789  mv darth_vader.txt -
+  790  ls
+  791  mv - darth_vader.txt
+  792  ls
+  793  cd ..
+  794  ls
+  795  mv death_star/darth_vader.txt ..
+  796  ls
+  797  cd ..
+  798  ls
+  799  mv darth_vader.txt empire/death_star
+  800  ls
+  801  cd empire
+  802  ls
+  803  cd death_star
+  804  ls
+  805  mv darth_vader.txt star_wars/empire
+  806  ls
+  807  mv darth_vader.txt ../
+  808  ls
+  809  cd ..
+  810  ls
+  811  rm -rf death_star 
+  812  ls
+  813  cd ..
+  814  git add .
+  815  git commit -m "Completed act 3"
