@@ -1,0 +1,250 @@
+  671  git clone git@github.com:alissaestelle/u1_hw_star_wars.git
+  672  u1_hw_star_wars
+  673  code .
+  674  mkdir star_wars
+  675  star_wars
+  676  mkdir empire rebellion
+  677  ls
+  678  empire
+  679  touch darth_vader.txt
+  680  ls
+  681  echo "...heavy breathing..." >> darth_vader.txt
+  682  ls
+  683  cat darth_vader.txt
+  684  touch emperor_palpatine.txt
+  685  ls
+  686  mkdir death_star
+  687  ls
+  688  mv darth_vader.txt death_star
+  689  ls
+  690  git add .
+  691  git commit -m "Star Wars Act I"
+  692  git push origin main
+  693  ..
+  694  ls
+  695  git add .
+  696  git commit -m "Star Wars Act I"
+  697  git remote add origin git@github.com:alissaestelle/starwars.git
+  698  git push origin main
+  699  git remote -v
+  700  git reset --hard xxxx
+  701  git revert origin main
+  702  git remote remove origin
+  703  ls
+  704  star_wars
+  705  git remote remove origin
+  706  empire
+  707  git remote remove origin
+  708  git remove -v
+  709  cd
+  710  ls
+  711  ga_seir
+  712  ls
+  713  unit1
+  714  ls
+  715  homework
+  716  ls
+  717  git clone git@github.com:alissaestelle/u1_hw_star_wars.git
+  718  ls
+  719  u1_hw_star_wars
+  720  ls
+  721  star_wars
+  722  ls
+  723  empire
+  724  ..
+  725  code .
+  726  ls
+  727  u1_hw_star_wars
+  728  ls
+  729  trash star_wars
+  730  ls
+  731  ..
+  732  code .
+  733  ls
+  734  u1_hw_star_wars
+  735  ls
+  736  mkdir star_wars
+  737  ls
+  738  star_wars
+  739  mkdir empire rebellion
+  740  ls
+  741  empire
+  742  touch darth_vader.txt
+  743  ls
+  744  echo "...heavy breathing..." >> darth_vader.txt
+  745  ls
+  746  cat darth_vader.txt
+  747  touch emperor_palpatine.txt
+  748  ls
+  749  mkdir death_star
+  750  ls
+  751  mv darth_vader.txt death_star
+  752  ls
+  753  death_star
+  754  ls
+  755  git add .
+  756  git commit -m "Star Wars Act I"
+  757  ..
+  758  git add
+  759  git add .
+  760  git commit -m "Star Wars Act I"
+  761  ..
+  762  git add star_wars
+  763  git commit -m "Star Wars Act I"
+  764  ls
+  765  star_wars
+  766  ls
+  767  rebellion
+  768  touch princess_leia.txt && echo "Help me, Obi-Wan..." >> princess_leia.txt
+  769  ls
+  770  cat princess_leia.txt
+  771  touch obi_wan.txt
+  772  ls
+  773  touch luke_skywalker.txt
+  774  ls
+  775  mkdir millenium_falcon
+  776  ls
+  777  millenium_falcon
+  778  touch han_solo.txt chewbacca.txt
+  779  ls
+  780  ..
+  781  mv luke_skywalker.txt obi_wan.txt princess_leia.txt millenium_falcon
+  782  ls
+  783  millenium_falcon
+  784  ls
+  785  ..
+  786  ls
+  787  empire
+  788  ls
+  789  ..
+  790  mv rebellion/millenium_falcon empire/death_star
+  791  ls
+  792  empire
+  793  ls
+  794  death_star
+  795  ls
+  796  git add .
+  797  git commit -m "Star Wars Act II"
+  798  git add .
+  799  git commit -m "Star Wars Act II"
+  800  git push origin main
+  801  ...
+  802  mv rebellion/millenium_falcon/* empire/death_star
+  803  empire
+  804  ls
+  805  death_star
+  806  ls
+  807  mv millenium_falcon/* death_star
+  808  ..
+  809  ls
+  810  death_star
+  811  ls
+  812  millenium_falcom/*
+  813  millenium_falcon
+  814  ls
+  815  ..
+  816  mv millenium_falcon/* .
+  817  ls
+  818  rm obi_wan.txt
+  819  ls
+  820  mv chewbacca.txt han_solo.txt luke_skywalker.txt princess_leia.txt millenium_falcon
+  821  ls
+  822  millenium_falcon
+  823  ls
+  824  ...
+  825  ..
+  826  mv empire/death_star/millenium_falcon rebellion
+  827  ls
+  828  empire
+  829  ls
+  830  death_star
+  831  ls
+  832  mv darth_vader.txt millenium_falcon
+  833  ..
+  834  rebellion
+  835  ls
+  836  millenium_falcon ls
+  837  millenium_falcon
+  838  ls
+  839  ..
+  840  ls
+  841  ..
+  842  ls
+  843  ..
+  844  ls
+  845  git status
+  846  git restore star_wars/empire/death_star/darth_vader.txt
+  847  ls
+  848  star_wars
+  849  ls
+  850  empire
+  851  ls
+  852  death_star
+  853  ls
+  854  ..
+  855  rebellion
+  856  ls
+  857  mv darth_vader.txt .
+  858  ...
+  859  empire
+  860  ..
+  861  u1
+  862  u1_hw_star_wars
+  863  ls
+  864  star_wars
+  865  ls
+  866  empire
+  867  ls
+  868  death_star
+  869  ls
+  870  ../darth_vader.txt
+  871  ls
+  872  mv darth_vader.txt empire
+  873  ls
+  874  empire
+  875  ..
+  876  ls
+  877  git checkout
+  878  git status
+  879  git restore death_star/darth_vader.txt
+  880  ls
+  881  mv darth_vader.txt star_wars/empire
+  882  git status
+  883  ls
+  884  death_star
+  885  ls
+  886  mv darth_vader empire
+  887  git status
+  888  ..
+  889  mv death_star/darth_vader.txt empire
+  890  ls
+  891  death_star
+  892  ls
+  893  git status
+  894  git restore death_star/darth_vader.txt
+  895  git restore darth_vader.txt
+  896  ls
+  897  mv darth_vader.txt ../darth_vader,txt
+  898  ls
+  899  ..
+  900  ls
+  901  rm darth_vader,txt
+  902  touch darth_vader.txt >> echo "...heavy breathing..." >> darth_vader.txt
+  903  rm echo
+  904  rm ...heavy breathing...
+  905  rm "...heavy breathing..."
+  906  ls
+  907  rm death_star
+  908  empire
+  909  ls
+  910  death_star
+  911  rm death_star
+  912  ..
+  913  rm death_star
+  914  rm -f death_star
+  915  rm -r death_star
+  916  ls
+  917  git add .
+  918  git commit -m "Star Wars Act III"
+  919  git push origin main
+  920  ..
