@@ -1,0 +1,83 @@
+   46  cd unit1
+   47  ls
+   48  cd homework
+   49  ls
+   50  git clone git@github.com:vinhnghiemcr/u1_hw_star_wars.git
+   51  ls
+   52  cd u1_hw_star_wars
+   53  ls
+   54  code .
+   55  ls
+   56  mkdir empire rebellion
+   57  cd empire
+   58  touch darth_vader.txt
+   59  echo "...heavy breathing..." >> darth_vader.txt
+   60  cat darth_vader.txt
+   61  touch emperor_palpatine.txt
+   62  mkdir death_star
+   63  mv darth_vader.txt death_star
+   64  ls
+   65  cd death_star
+   66  ls
+   67  cd ..
+   68  git add .
+   69  git commit -m "update act1.sh"
+   70  git push origin main
+   71  git remote add origin https://github.com/vinhnghiemcr/u1_hw_star_wars.git
+   72  git push origin main
+   73  git push -u origin main
+   74  cd ../rebellion
+   75  echo "Help me, Obi-Wan…" > princess_leia.txt
+   76  ls
+   77  cat princess_leia.txt
+   78  touch obi_wan.txt
+   79  touch luke_skywalker.txt
+   80  mkdir millenium_falcon
+   81  touch millenium_falcon/han_solo.txt millenium_falcon/chewbacca.txt
+   82  cd millenium_falcon
+   83  ls
+   84  cd ..
+   85  ls
+   86  mv luke_skywalker.txt obi_wan.txt princess_leia.txt millenium_falcon
+   87  ls
+   88  cd ..
+   89  ls
+   90  mv rebellion/millenium_falcon empire/death_star
+   91  ls
+   92  cd empire
+   93  ls
+   94  cd death_star
+   95  ls
+   96  git add .
+   97  git commit -m "update act2.sh"
+   98  git push origin main
+   99  mv millenium_falcon/* death_star
+  100  cd ..
+  101  mv death_star/millenium_falcon/* death_star
+  102  ls
+  103  cd death_star
+  104  ls
+  105  rm obi_wan.txt
+  106  ls
+  107  mv chewbacca.txt han_solo.txt luke_skywalker.txt princess_leia.txt millenium_falcon
+  108  ls
+  109  cd ..
+  110  mv death_star/millenium_falcon ../rebellion
+  111  mv death_star/darth_vader.txt ../
+  112  ls
+  113  cd death_star
+  114  ls
+  115  cd ..
+  116  ls
+  117  cd ..
+  118  ls
+  119  mv darth_vader.txt empire
+  120  cd empire
+  121  ls
+  122  rmdir death_star
+  123  ls
+  124  cd ..
+  125  history | tail -n 250
+  126  git add .
+  127  git commit -m "update act3.sh"
+  128  git push orgin main
