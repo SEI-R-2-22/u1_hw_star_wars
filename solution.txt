@@ -1,0 +1,250 @@
+  75  cd desktop
+   76  cd GA-Blog
+   77  git clone https://github.com/canhvo16/node.git
+   78  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   79  node -v
+   80  chsh -s $(which zsh)
+   81  brew install node
+   82  node -v
+   83  brew install git
+   84  git config --global user.name "canhvo16"
+   85  git config --global user.email "canhvo16@gmail.com"
+   86  ssh-keygen -t rsa -b 4096 -C "canhvo16@gmail.com"
+   87  eval "$(ssh-agent -s)"
+   88  pbcopy < ~/.ssh/id_rsa.pub
+   89  ssh git@github.com
+   90  brew install --cask visual-studio-code
+   91  code .
+   92  pwd
+   93  brew install trash
+   94  ls -a
+   95  cd ..
+   96  cd ga
+   97  cd
+   98  cd ~
+   99  mkdir ga_seir
+  100  cd ga_seir
+  101  mkdir unit1 unit2 unit3 unit4
+  102  ls
+  103  mkdir projects
+  104  ls
+  105  mkdir unit1/lessons unit1/labs unit1/homework
+  106  cd unit1
+  107  ls
+  108  cd ..
+  109  cd ../unit2
+  110  cd unit2
+  111  mkdir lessons labs homework
+  112  cd ..
+  113  ls
+  114  cd unit3
+  115  mkdir lessons labs homework
+  116  cd unit4
+  117  cd ..
+  118  cd unit4
+  119  mkdir lessons labs homework
+  120  cd ..
+  121  ls
+  122  cd unit4
+  123  ls
+  124  cd ..
+  125  cd projects
+  126  touch name.txt
+  127  ls
+  128  echo "Hi, my name is Canh" >> name.txt
+  129  cat name.txt
+  130  rm name.txt
+  131  nano~/.inputrc
+  132  cd ..
+  133  cd
+  134  nano~/.inputrc
+  135  ls -a
+  136  code .zshrc
+  137  omz update
+  138  cd ga_seir
+  139  cd unit1
+  140  cd lessons
+  141  mkdir git-practice
+  142  ls
+  143  cd git-practice
+  144  git init
+  145  ls -a
+  146  ..
+  147  rm -rf .git
+  148  cd ga_seir
+  149  cd unit1
+  150  cd lessons
+  151  cd git-practice
+  152  touch index.html
+  153  code .
+  154  git add index.html
+  155  git commit -m "create html file'\n\ncd\n"create html file"
+  156  git commit -m "create html file"
+  157  git remote -v
+  158  git remote add origin git@github.com:canhvo16/git-practice.git
+  159  git remote -v
+  160  git branch -M main
+  161  git push -u origin main
+  162  git remote -v
+  163  brew -- version
+  164  ^[[200~/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"~
+  165  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  166  brew --version
+  167  brew install zsh
+  168  zsh --version
+  169  sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+  170  ls
+  171  cd ga_seir
+  172  ls
+  173  cd unit1
+  174  ls
+  175  cd lessons
+  176  ls
+  177  cd git-practice
+  178  git push origin main
+  179  ..
+  180  trash git-practice
+  181  ls
+  182  git clone git@github.com:canhvo16/u1_lesson_VSCode.git
+  183  ls
+  184  cd u1_lesson_VSCode
+  185  code .
+  186* ls
+  187  npm i -g prettier
+  188* sudo chown -R $(whoami) ~/.npm
+  189* npm i -g prettier
+  190* sudo npm i -g prettier
+  191* touch ~/.prettierrc
+  192* echo "{"trailingComma": "none", "tabWidth": 2, "bracketSpacing": true, "useTabs": false, "semi": false, "singleQuote": true}" > ~/.prettierrc
+  193  ..
+  194  cd homework
+  195  git clone git@github.com:canhvo16/u1_hw_star_wars.git
+  196  ls
+  197  cd u1_hw_star_wars
+  198  code .
+  199  mkdir star_wars
+  200  mkdir empire rebellion
+  201  ls
+  202  rm -r empire rebellion 
+  203  ls
+  204  cd act1.sh
+  205  cd star_wars
+  206  mkdir empire rebellion 
+  207  ls
+  208  touch darth_vader.txt > empire 
+  209  ls
+  210  cd empire
+  211  touch darth_vader.txt
+  212  echo "...heavy breathing..." > darth_vader.txt
+  213  cat darth_vader.txt
+  214  touch emperor_palpatine.txt
+  215  ls
+  216  mkdir death_star
+  217  ls
+  218  mv darth_vader.txt death_star
+  219  la
+  220  ls
+  221  cd death_star
+  222  ls
+  223  ..
+  224  cd u1_hw_star_wars
+  225  git add .
+  226  git commit -m "create star wars universe"
+  227  git log
+  228  ls
+  229  cd star_wars
+  230  cd rebellion 
+  231  touch princess_leia.txt && echo "Help me, Obi-Wan..." > princess_leia.txt
+  232  ls
+  233  touch obi_wan.txt
+  234  touch luke-skywalker.txt
+  235  mkdir millenium_falcon
+  236  cd millenium_falcon
+  237  touch han_solo.txt chewbacca.txt
+  238  ls
+  239  mv luke_skywalker.txt millenium_falcon
+  240  ..
+  241  mv luke_skywalker.txt millenium_falcon
+  242  mv luke-skywalker.txt obi_wan.txt princess_leia.txt millenium_falcon
+  243  ls
+  244  mv millenium_falcon death_star
+  245  ls
+  246  mv death_star millenium_falcon
+  247  ..
+  248  mv millenium_falcon death_star
+  249  cd death_star
+  250  ls
+  251  cd empire
+  252  ls
+  253  cd death_star
+  254  ls
+  255  ..
+  256  cd death_star
+  257  cd empire
+  258  mv millenium_falcon death_star
+  259  ls
+  260  ..
+  261  ls
+  262  cd rebellion 
+  263  ls
+  264  cd millenium_falcon
+  265  ..
+  266  mv /rebellion/millenium_falcon/ /empire/death_star/
+  267  cd rebellion 
+  268  cd millenium_falcon
+  269  mv millenium_falcon death_star
+  270  ls
+  271  ..
+  272  ls
+  273  mv millenium_falcon empire
+  274  ls
+  275  cd empire
+  276  ls
+  277  ..
+  278  mv empire millenium_falcon
+  279  ls
+  280  mv millenium_falcon ..
+  281  ..
+  282  mv millenium_falcon empire
+  283  ls
+  284  cd empire
+  285  ls
+  286  mv millenium_falcon death_star
+  287  ls
+  288  cd death_star
+  289  ls
+  290  ..
+  291  git add .
+  292  git commit -m "brought a team to leia"
+  293  cd star_wars
+  294  cd empire
+  295  mv millenium_falcon/* death_star
+  296  ..
+  297  mv millenium_falcon/* death_star
+  298  cd empire
+  299  cd death_star
+  300  mv millenium_falcon/* death_star
+  301  cd millenium_falcon
+  302  mv millenium_falcon/* death_star
+  303  ..
+  304  mv /empire/death_star/millenium_falcon/* /empire/death_star
+  305  cd death_star
+  306  cd millenium_falcon
+  307  ..
+  308  mv death_star/millenium_falcon/* death_star
+  309  ls
+  310  cd death_star
+  311  ls
+  312  rm obi_wan.txt
+  313  mv chewbacca.txt han_solo.txt luke-skywalker.txt princess_leia.txt millenium_falcon
+  314  ..
+  315  mv empire/death_star/millenium_falcon rebellion
+  316  mv empire/death_star/darth_vader.txt empire
+  317  rm death_star
+  318  cd empire
+  319  rm death_star
+  320  rm -r death_star
+  321  ..
+  322  history | tail -n 250
+  323  git add .
+  324  git commit -m "save heros, kill father"
