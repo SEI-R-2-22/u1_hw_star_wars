@@ -1,0 +1,251 @@
+star_wars git:(main) history | tail -n 250                              
+    6  zsh --version
+    7  cat yourock.txt
+    8  cd ~
+    9  node --version
+   10  git --version
+   11  node -v
+   12  git config
+   13  brew --version
+   14  brew
+   15  git --version
+   16  export PATH="/usr/local/bin:$PATH" >> ~/.zshrc
+   17  brew --version
+   18  git --version
+   19  ls
+   20  git config --global user.name "LawrenceOL"
+   21  git config --global user.email "loreganlloyd@gmail.com"
+   22  ssh-keygen -t rsa -b 4096 -C "loreganlloyd@gmail.com"
+   23  eval "$(ssh-agent -s)"
+   24  ssh-add ~/.ssh/id_rsa.pub
+   25  sudo apt-get install xclip
+   26  xclip -selection clipboard < ~/.ssh/id_rsa.pub
+   27  xclip
+   28  ssh-copy-id
+   29  ssh-keygen -t rsa -b 4096 -C "loreganlloyd@gmail.com"
+   30  ssh-copy-id
+   31  ssh-copy-id -o
+   32  xclip
+   33  ssh-keygen
+   34  ssh-keygen -t rsa -b 4096 -C "loreganlloyd@gmail.com"
+   35  code .
+   36  ls
+   37  rm -r ssh
+   38  xclip
+   39  ls
+   40  cd ..
+   41  cd ~
+   42  pwd
+   43  cd Desktop
+   44  cd
+   45  cd Documents
+   46  ls
+   47  mkdir test1
+   48  cd test1
+   49  ls
+   50  cwd
+   51  pwd
+   52  mkdir test2
+   53  cd test2
+   54  pwd
+   55  cd a/
+   56  cd ..
+   57  mkdir test3
+   58  cd test2
+   59  cd ../test3
+   60  cd ..
+   61  ls
+   62  cd test3
+   63  cd
+   64  ls
+   65  cd Documents
+   66  ls
+   67  rm -r test1
+   68  cd ..
+   69  brew install trash
+   70  brew
+   71  cd Documents
+   72  brew
+   73  cd ..
+   74  brew --version
+   75  alais
+   76  alias
+   77  ls -a
+   78  cd .zshrc
+   79  zconfig
+   80  vim .zshrc
+   81  vi .zshrc
+   82  code .zshrc
+   83  ls
+   84  git --version
+   85  cd ga_seir
+   86  ls
+   87  cd unit1
+   88  ls
+   89  cd lessons
+   90  mkdir git-practice
+   91  cd git-practice
+   92  git init
+   93  ls -a
+   94  git branch -m main
+   95  touch index.html
+   96  ls
+   97  nano index.html
+   98  .code index.html
+   99  cd ..
+  100  ls
+  101  cd git-practice
+  102  git add index.html
+  103  git commit -m "Create html file"
+  104  git remote -v
+  105  git remote add origin https://github.com/LawrenceOL/practice.git
+  106  git remote -v
+  107  git remote remove origin
+  108  git remote -v
+  109  git remote add origin git@github.com:LawrenceOL/practice.git
+  110  git push -u origin main
+  111  git status
+  112  cd ..
+  113  rm -rf git-practice
+  114  ls
+  115  git clone git@github.com:LawrenceOL/u1_lesson_VSCode.git
+  116  ls
+  117  cd u1_lesson_VSCode
+  118  ls
+  119  code .
+  120  ls -a
+  121  npm -v
+  122  npm i -g prettier
+  123  touch ~/.prettierrc
+  124  echo "{"trailingComma": "none", "tabWidth": 2, "bracketSpacing": true, "useTabs": false, "semi": false, "singleQuote": true}" > ~/.prettierrc
+  125  ls
+  126  cd .. 
+  127  code
+  128  clear
+  129  code
+  130  ls
+  131  cd ga_seir
+  132  ls
+  133  cd unit1
+  134  ls
+  135  cd lessons
+  136  ls
+  137  cd u1_lesson_VSCode
+  138  ls
+  139  cod .
+  140  code .
+  141  code
+  142  clear
+  143  sudo reboot
+  144  sudo vi /etc/ssh/sshd_config
+  145  cd ..
+  146  ls
+  147  cd ..
+  148  ls
+  149  cd etc
+  150  cd ssh
+  151  nano sshd_config
+  152  sudo nano sshd_config
+  153  cd ..
+  154  cd etc
+  155  cd ssh
+  156  sudo nano sshd_config
+  157  cd .. / ..
+  158  cd ..
+  159  ls
+  160  cd etc
+  161  cd sshd_config
+  162  cd ssh
+  163  sudo nano sshd_config
+  164  sudo reboot
+  165  ls
+  166  cd ga_seir
+  167  ks
+  168  ls
+  169  cd unit1
+  170  ls
+  171  cd lessons
+  172  ls
+  173  cd u1_lesson_VSCode
+  174  ls
+  175  .code
+  176  code .
+  177  ls
+  178  code -r README.md
+  179  code README.md
+  180  code .
+  181  sudo vi /etc/ssh/sshd_config
+  182  sudo nano /etc/ssh/sshd_config
+  183  code .
+  184  cd ..
+  185  ls
+  186  cd homework
+  187  clone git@github.com:LawrenceOL/u1_hw_star_wars.git
+  188  git clone git@github.com:LawrenceOL/u1_hw_star_wars.git
+  189  ls
+  190  cd u1_hw_star_wars
+  191  ls
+  192  cat README.md
+  193  clear
+  194  cat act1.sh
+  195  clear
+  196  mkdir star_wars
+  197  mkdir {empire, rebellion}
+  198  mkdir empire, rebellion
+  199  ls
+  200  rm -rf empire, rebellion
+  201  ls
+  202  cd star_wars
+  203  mkdir empire rebellion
+  204  ls
+  205  cd empire
+  206  touch darth_vader.txt
+  207  echo "...heavy breathing..." >> darth_vader.txt
+  208  touch emperor_palpatine.txt
+  209  mkdir death_star
+  210  mv darth_vader.txt death_star
+  211  printf "I realized in step 2 I didn't need to cd first! mkdir starwars/empire starwars/rebellion works.\n"
+  212  cd ..
+  213  git config --global init.defaultBranch main
+  214  git init
+  215  git add .
+  216  git commit -m "Updated directory and added answers to act1"
+  217  touch ./rebellion/leia.txt && echo "Help me, Obi-Wan..." >> ./rebellion/leia.txt
+  218  touch ./rebellion/obi_wan.txt
+  219  touch ./rebellion/luke_skywalker.txt
+  220  mkdir ./rebellion millenium_falcon
+  221  mkdir ./rebellion/millenium_falcon
+  222  touch ./rebellion/millenium_falcon/han_solo.txt && touch ./rebellion/millenium_falcon/chewbacca.txt
+  223  cd rebellion
+  224  \nmv -t ./rebellion/millenium_falcon luke_skywalker.txt princess_leia.txt obi_wan.txt
+  225  mv -t ./millenium_falcon luke_skywalker.txt princess_leia.txt obi_wan.txt
+  226  ls
+  227  mv leia.txt ./millenium_falcon/princess_leia.txt
+  228  ls ./millenium_falcon
+  229  mv -r ./millenium_falcon ../empire/death_star
+  230  mv ./millenium_falcon ../empire/death_star
+  231  ls ..empire/death_star
+  232  ls ../empire/death_star
+  233  git add .
+  234  git commit -m "Created luke_skywalker.txt princess_leia.txt obi_wan.txt in millenium_falcon directory and moved them into death star"
+  235  cd ..
+  236  add .
+  237  git add .
+  238  git commit -m "Created luke_skywalker.txt princess_leia.txt obi_wan.txt in millenium_falcon directory and moved them into death star"
+  239  rm ./millenium_falcon -rf
+  240  mv ./empire/death_star/millenium_falcon/* ./empire/death_star
+  241  rm ./empire/death_star obi_wan.txt
+  242  rm ./empire/death_star/obi_wan.txt
+  243  cd empire
+  244  cd death star
+  245  cd death_star
+  246  mv luke_skywalker.txt princess_leia.txt han_solo.txt chewbacca.txt -t ./millenium_falcon
+  247  mv millenium_falcon ../../rebellion
+  248  mv darth_vader.txt ../
+  249  mv darth_vader.txt ../empire
+  250  rm -rf death_star
+  251  rm -rf ../death_star
+  252  cd ../..
+  253  git add .
+  254  git commit -m "Removed obi-wan.txt and death_star directory. Moved Darth Vader to Empire directory."
+  255  git status
