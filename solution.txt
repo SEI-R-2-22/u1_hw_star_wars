@@ -1,0 +1,84 @@
+441  git clone git@github.com:nizhan27/u1_hw_star_wars.git 
+  442  ls
+  443  cd u1_hw_star_wars
+  444  code .
+  445  mkdir star_wars
+  446  mkdir empire rebellion
+  447  rm empire rebellion
+  448  rm -d empire rebellion
+  449  cd star_wars
+  450  mkdir empire rebellion
+  451  cd empire
+  452  touch darth_vader.txt 
+  453  echo "...heavy breathing..." >> darth_vader.txt 
+  454  cat darth_vader.txt
+  455  touch emperor_palpatine.txt 
+  456  mkdir death_star
+  457  mv darth_vader.txt death_star
+  458  cd ..
+  459  cd..
+  460  cd ..
+  461  ls
+  462  git add act1.sh
+  463  git commit -m "create act1 sh file"
+  464  git add act1.sh
+  465  git commit -m "create act1 sh file"
+  466  pwd
+  467  ls
+  468  git ad .
+  469  git add .
+  470  git commit -m "create act1 sh file"
+  471  git remote add origin git@github.com:nizhan27/hw_star_wars.git\n
+  472  remote rm origin
+  473  git remote add starwars git@github.com:nizhan27/hw_star_wars.git 
+  474  git push starwars main
+  475  ls
+  476  cd star_wars
+  477  cd rebellion
+  478  touch princess_leia.txt && echo "Help me, Obi-Wan…" >> princess_leia.txt 
+  479  cat princess_leia.txt
+  480  touch obi_wan.txt
+  481  touch luke_skywalker.txt
+  482  mkdir millenium_falcon 
+  483  cd millenium_falcon
+  484  touch han_solo.txt chewbacca.txt 
+  485  mv luke_skywalker.txt obi_wan.txt princess_leia.txt millenium_falcon 
+  486  cd..
+  487  cd ..
+  488  mv luke_skywalker.txt obi_wan.txt princess_leia.txt millenium_falcon 
+  489  cd ..
+  490  mv millenium_falcon death_star 
+  491  mv millenium_falcon empire
+  492  cd rebellion 
+  493  ls
+  494  pwd
+  495  cd ..
+  496  ls
+  497  cd rebellion
+  498  mv millenium_falcon death_star
+  499  ls
+  500  mv death_star millenium_falcon
+  501  ls
+  502  mv millenium_falcon ./empire/death_star
+  503  mv millenium_falcon /Users/nini/ga_seir/unit1/homework/u1_hw_star_wars/star_wars/empire/death_star
+  504  cd ..
+  505  git add .
+  506  git commit -m "create act2 sh file"
+  507  cd star_wars
+  508  cd empire
+  509  cd death_star
+  510  cd millenium_falcon
+  511  mv * /Users/nini/ga_seir/unit1/homework/u1_hw_star_wars/star_wars/empire/death_star 
+  512  cd ..
+  513  /Users/nini/ga_seir/unit1/homework/u1_hw_star_wars/star_wars/empire/death_star/millenium_falcon/* /Users/nini/ga_seir/unit1/homework/u1_hw_star_wars/star_wars/empire/death_star 
+  514  mv /Users/nini/ga_seir/unit1/homework/u1_hw_star_wars/star_wars/empire/death_star/millenium_falcon/* /Users/nini/ga_seir/unit1/homework/u1_hw_star_wars/star_wars/empire/death_star 
+  515  cd star_wars/empire/death_star
+  516  rm obi_wan.txt
+  517  mv chewbacca.txt han_solo.txt luke_skywalker.txt princess_leia.txt millenium_falcon
+  518  mv millenium_falcon /Users/nini/ga_seir/unit1/homework/u1_hw_star_wars/star_wars/rebellion
+  519  mv darth_vader.txt /Users/nini/ga_seir/unit1/homework/u1_hw_star_wars/star_wars/empire
+  520  cd ..
+  521  rm death_star
+  522  rm -r death_star
+  523  git add .
+  524  git commit -m "create act3 sh file"
