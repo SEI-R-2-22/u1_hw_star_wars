@@ -1,5 +1,3 @@
-ACT 1
-
 ➜  u1_hw_star_wars git:(main) pwd      
 /Users/jeangarcia/ga_seir/unit1/homework/u1_hw_star_wars
 ➜  u1_hw_star_wars git:(main) cd u1_hw_star_wars
@@ -26,8 +24,116 @@ darth_vader.txt       death_star            emperor_palpatine.txt
 ➜  empire git:(main) ✗ mv darth_vader.txt death_star
 ➜  empire git:(main) ✗ ls
 death_star            emperor_palpatine.txt
-➜  empire git:(main) ✗ 
+➜  empire git:(main) ✗ ls  
+death_star            emperor_palpatine.txt
+➜  empire git:(main) ✗ cd ..
+➜  star_wars git:(main) ✗ cd ..
+➜  u1_hw_star_wars git:(main) ✗ ls
+README.md    act1.sh      act2.sh      act3.sh      solution.txt star_wars
+➜  u1_hw_star_wars git:(main) ✗ open solution.txt
+➜  u1_hw_star_wars git:(main) ✗ git status
+On branch main
+Your branch is up to date with 'origin/main'.
 
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   solution.txt
 
-______________________________________
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	star_wars/
 
+no changes added to commit (use "git add" and/or "git commit -a")
+➜  u1_hw_star_wars git:(main) ✗ git add .
+➜  u1_hw_star_wars git:(main) ✗ git commit -m "Star Wars Act 1 Ready for Review"
+[main c27c356] Star Wars Act 1 Ready for Review
+ 3 files changed, 34 insertions(+)
+ create mode 100644 star_wars/empire/death_star/darth_vader.txt
+ create mode 100644 star_wars/empire/emperor_palpatine.txt
+➜  u1_hw_star_wars git:(main) git push
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (7/7), 865 bytes | 865.00 KiB/s, done.
+Total 7 (delta 1), reused 1 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/jeangar92/u1_hw_star_wars.git
+   7e03a0f..c27c356  main -> main
+➜  u1_hw_star_wars git:(main) git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+➜  u1_hw_star_wars git:(main) ls 
+README.md    act1.sh      act2.sh      act3.sh      solution.txt star_wars
+➜  u1_hw_star_wars git:(main) ✗ cd star_wars
+➜  star_wars git:(main) ✗ ls
+empire    rebellion
+➜  star_wars git:(main) ✗ cd rebellion
+➜  rebellion git:(main) ✗ ls
+➜  rebellion git:(main) ✗ touch princess_leia.txt && echo "Help me, Obi-Wan..." >>princess_leia.txt   
+
+➜  rebellion git:(main) ✗ touch rebellion/obi_wan.txt
+
+touch: rebellion/obi_wan.txt: No such file or directory
+➜  rebellion git:(main) ✗ cd ..
+➜  star_wars git:(main) ✗ touch rebellion/obi_wan.txt
+
+➜  star_wars git:(main) ✗ touch rebellion/luke_skywalker.txt
+
+➜  star_wars git:(main) ✗ mkdir rebellion/millenium_falcon
+
+➜  star_wars git:(main) ✗ touch rebellion/millenium_falcon/han_solo.txt
+touch rebellion/millenium_falcon/chewbacca.txt
+➜  star_wars git:(main) ✗ ls
+empire    rebellion
+➜  star_wars git:(main) ✗ rebellion
+➜  rebellion git:(main) ✗ ls
+luke_skywalker.txt millenium_falcon   obi_wan.txt        princess_leia.txt
+➜  rebellion git:(main) ✗ mv luke_skywalker.txt obi_wan.txt princess_leia.txt millenium_falcon
+
+➜  rebellion git:(main) ✗ ls
+millenium_falcon
+➜  rebellion git:(main) ✗ mv millenium_falcon ../empire/death_star
+➜  rebellion git:(main) ✗ ls
+➜  rebellion git:(main) ✗ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   ../../act2.sh
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	../empire/death_star/millenium_falcon/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+➜  rebellion git:(main) ✗ git add .
+➜  rebellion git:(main) ✗ git commit -m "Star Wars Act 2 Ready for Review"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   ../../act2.sh
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	../empire/death_star/millenium_falcon/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+➜  rebellion git:(main) ✗ git push
+Everything up-to-date
+➜  rebellion git:(main) ✗ cd ..
+➜  star_wars git:(main) ✗ ls
+empire    rebellion
+➜  star_wars git:(main) ✗ cd ..
+➜  u1_hw_star_wars git:(main) ✗ ls
+README.md    act1.sh      act2.sh      act3.sh      solution.txt star_wars
+➜  u1_hw_star_wars git:(main) ✗ open solution.txt
+➜  u1_hw_star_wars git:(main) ✗ 
