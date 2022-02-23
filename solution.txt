@@ -1,0 +1,60 @@
+  118  mkdir star_wars
+  119  cd star_wars
+  120  mkdir empire rebellion
+  121  cd empire
+  122  touch darth_vader.txt
+  123  echo "...heavy breathing..." >> darth_vader.txt
+  124  touch emperor_palpatine.txt
+  125  cd death_star
+  126  mkdir death_star
+  127  mv darth_vader death_star/
+  128  mv darth_vader.txt death_star
+  129  git add .
+  130  git commit -m "Act 1 Finished"
+  131  cd rebellion
+  132  cd ..
+  133  cd rebellion
+  134  touch princess_leia.txt && echo "Help me, Obi-Wan..." >> princess_leia.txt
+  135  touch obi_wan.txt
+  136  touch luke_skywalker.txt
+  137  mkdir millenium_falcon
+  138  cd millenium_falcon
+  139  touch han_solo.txt chewbacca.txt
+  140  mv luke_skywalker.txt obi_wan.txt princess_leia.txt millenium_falcon
+  141  cd ..
+  142  mv luke_skywalker.txt obi_wan.txt princess_leia.txt millenium_falcon
+  143  mv millenium_falcon death_star
+  144  mv death_star millenium_falcon
+  145  mv millenium_falcon/  death_star/
+  146  mv death_star millenium_falcon
+  147  mv millenium_falcon/ ../empire/death_star/
+  148  git add .
+  149  git commit -m "Act 2 Finished"
+  150  cd ..
+  151  git add .
+  152  git commit -m "Act 2 Finished"
+  153  cd millenium_falcon
+  154  cd empire
+  155  cd death_star
+  156  cd millenium_falcon
+  157  mv obi_wan.txt luke_skywalker.txt princess_leia.txt han_solo.txt chewbacca.txt ../
+  158  rm obi_wan.txt
+  159  cd ..
+  160  rm obi_wan.txt
+  161  mv luke_skywalker.txt princess_leia.txt han_solo.txt chewbacca.txt millenium_falcon
+  162  mv millenium_falcon/ ../rebellion/
+  163  u
+  164  cd ..
+  165  mv millenium_falcon/ deathstar/
+  166  mv rebellion millenium_falcon
+  167  mv millenium_falcon/ death_star/
+  168  mv millenium_falcon/ ../../rebellion/
+  169  cd death_star
+  170  mv millenium_falcon/ ../../rebellion/
+  171  mv darth_vader.txt ../
+  172  rmdir death_star
+  173  cd ..
+  174  rmdir death_star
+  175  cd ..
+  176  git add .
+  177  git commit -m "Act 3 Finished"
