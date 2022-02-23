@@ -1,0 +1,134 @@
+ 142  cd u1_hw_star_wars
+  143  .code
+  144  code .
+  145  mkdir star_wars
+  146  cd star_wars
+  147  mkdir empire rebellion
+  148  cd empire
+  149  touch darthvader.txt
+  150  cd darthvader.txt
+  151  echo
+  152  echo "...heavy breathing..." >> darthvader.txt
+  153  mkdir emperor_palpatine.txt
+  154  rm emperor_palpatine.txt
+  155  ls
+  156  rm emperor_palpatine.txt
+  157  rmdir emperor_palpatine.txt
+  158  ls
+  159  touch emperor_palpatine.txt
+  160  mkdir death_star
+  161  ls
+  162  pwd
+  163  mv /Users/koagarces/ga_seir/unit1/homework/u1_hw_star_wars/star_wars/empire /Users/koagarces/ga_seir/unit1/homework/u1_hw_star_wars/star_wars/empire/death_star
+  164  mv~ /Users/koagarces/ga_seir/unit1/homework/u1_hw_star_wars/star_wars/empire/darthvader.txt~ /Users/koagarces/ga_seir/unit1/homework/u1_hw_star_wars/star_wars/empire/death_star/darthvader.txt\n\n
+  165  mv /Users/koagarces/ga_seir/unit1/homework/u1_hw_star_wars/star_wars/empire/darthvader.txt~ /Users/koagarces/ga_seir/unit1/homework/u1_hw_star_wars/star_wars/empire/death_star/darthvader.txt 
+  166  mv darth_vader.txt
+  167  mv darth_vader.txt ... /star_wars/empire/death_star/darthvader.txt \nmv: rename /Users/koagarces/ga
+  168  mv darth_vader.txt /Users/koagarces/ga_seir/unit1/homework/u1_hw_star_wars/star_wars/empire/death_star/\n
+  169  mv darthvader.txt /Users/koagarces/ga_seir/unit1/homework/u1_hw_star_wars/star_wars/empire/death_star/mv darthvader.txt /Users/koagarces/ga_seir/unit1/homework/u1_hw_star_wars/star_wars/empire/death_star/
+  170  mv darthvader.txt /Users/koagarces/ga_seir/unit1/homework/u1_hw_star_wars/star_wars/empire/death_star/mv darthvader.txt Users/koagarces/ga_seir/unit1/homework/u1_hw_star_wars/star_wars/empire/death_star/
+  171  mv darthvader.txt Users/koagarces/ga_seir/unit1/homework/u1_hw_star_wars/star_wars/empire/death_star/
+  172  mv darthvader.txt death_star/
+  173  cd
+  174  cd star_wars
+  175  cd u1_hw_star_wars
+  176  cd U1_HW_STAR_WARS
+  177  git@github.com:koagarces/u1_hw_star_wars.git
+  178  CODE .
+  179  cd empire
+  180  cd star_wars
+  181  mkdir starwars
+  182  ls
+  183  cd ga_seir
+  184  ls
+  185  cd unit1
+  186  ls
+  187  cd homework
+  188  ls
+  189  cd u1_hw_star_wars
+  190  ls
+  191  cd star_wars
+  192  cd rebellion
+  193  .cd
+  194  cd.
+  195  ..
+  196  cd empire
+  197  cd death_star
+  198  git add .
+  199  git commit -m "creating the empire"
+  200  ..
+  201  cd rebellion
+  202  touch princess_leia.txt && echo "Help me, Obi-Wan…"
+  203  rm princess_leia.txt
+  204  touch princess_leia.txt && echo "Help me, Obi-Wan…" >> princess_leia.txt
+  205  touch obi_wan.txt
+  206  touch luke_skywalker.txt
+  207  mkdir millenium_falcon
+  208  cd millenium_falcon
+  209  touch han_solo.txt chewbacca.txt
+  210  ..
+  211  mv luke_skywalker.txt obi_wan.txt princess_leia.txt millenium_falcon/
+  212  cd millenim_falcon
+  213  ls
+  214  cd millenium_falcon
+  215  mv luke_skywalker.txt obi_wan.txt princess_leia.txt millenium_falcon/
+  216  ..
+  217  cd empire
+  218  mv millenium_falcon death_star/
+  219  mv millenium_falcon/ death_star/
+  220  ..
+  221  mv millenium_falcon death_star/
+  222  cd rebellion
+  223  mv millenium_falcon death_star/
+  224  mv death_star/ milennium_falcon/
+  225  mv millenium_falcon .. cd empire cd death_star/
+  226  milennium_falcon ..
+  227  milennium_falcon
+  228  help
+  229  mv --help
+  230  ..
+  231  mv rebellion/milennium_falcon/ empire/death_star
+  232  git add .
+  233  git commit -m"After Princess Leia calls on Obi-Wan for help, Han Solo, Chewbacca, Luke Skywalker, and Obi-Wan join forces and fly to the Death Star on the Millenium Falcon to rescue her from Darth Vader"
+  234  cd empire
+  235  mv death_star/milennium_falcon/ death_star
+  236  mv death_star/milennium_falcon/ death_star/
+  237  mv milennium_falcon/ death_star/
+  238  After Princess Leia calls on Obi-Wan for help, Han Solo, Chewbacca, Luke Skywalker, and Obi-Wan join forces and fly to the Death Star on the Millenium Falcon to re
+  239  mv death_star/milennium_falcon/ empire/death_star/ 
+  240  mv death_star/milennium_falcon death_star
+  241  mv death_star/milennium_falcon/ empire/death_star 
+  242  mv death_star/milennium_falcon/ death_star/ 
+  243  milennium_falcon/ empire/death_star 
+  244  mv death_star/milennium_falcon/ .. 
+  245  mv death_star/milennium_falcon/ empire/death_star/milennium_falcon 
+  246  mv death_star/milennium_falcon/ empire/death_star/ 
+  247  mv empire/milennium_falcon/ empire/death_star/milennium_falcon 
+  248  mv empire/milennium_falcon/ empire/death_star/
+  249  ..
+  250  mv empire milennium_falcon/ empire/death_star
+  251  mv empire/death_star/milennium_falcon/ empire/death_star
+  252  mv empire/death_star/milennium_falcon/*  empire/death_star/ 
+  253  cd empire
+  254  rm obi_want.txt
+  255  cd death_star
+  256  rm obi_wan.txt
+  257  m..
+  258  ..
+  259  mv death_star/chewbacca.txt & death_star/han_solo.txt & death_star/luke_skywalker.txt & death_star/princess_leia.txt death_star/milennium_falcon
+  260  mv death_star/chewbacca.txt death_star/milennium_falcon
+  261  mv death_star/han_solo.txt death_star/milennium_falcon \n\n
+  262  mv death_star/ death_star/milennium_falcon \n\n
+  263  mv death_star/luke_skywalker.txt death_star/milennium_falcon \n\n
+  264  mv death_star/princess_leia.txt death_star/milennium_falcon \n\n
+  265  \nmv  empire/death_star.milennium_falcon rebellion/
+  266  ..
+  267  mv  empire/death_star.milennium_falcon rebellion/
+  268  mv  empire/death_star/milennium_falcon rebellion/
+  269  cd empire
+  270  ..
+  271  mv empire/death_star/darthvader.txt empire
+  272  cd empire
+  273  rmdir death_star
+  274  git add .
+  275  git commit -m "After managing to successfully rescue Princess Leia, our heros learn that they cannot escape the Death Star's tractor beam\nObi-Wan is able to shut it off, but in the process he is caught in a duel with Darth Vader and chooses to merge his consciousness with The Force\nHow will our heroes prevail?"
