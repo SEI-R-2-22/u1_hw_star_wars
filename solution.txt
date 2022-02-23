@@ -1,0 +1,250 @@
+   87  ls
+   88  pwd
+   89  cd
+   90  pwd
+   91  xcode-select --install
+   92  clear
+   93  xcode-select --install
+   94  chsh -s /bin/bash
+   95  chsh -s $(which zsh)
+   96  brew install node
+   97  node -v
+   98  code .
+   99  cd
+  100  node --version
+  101  clear
+  102  pwd
+  103  ls
+  104  clear
+  105  vrew --version
+  106  brew --version
+  107  brew update
+  108  brew upgrade
+  109  brew update
+  110  clear
+  111  brew --version
+  112  clear
+  113  node -v
+  114  node --version
+  115  brew install git
+  116  git --version
+  117  ssh git@github.com
+  118  clear
+  119  cd ~
+  120  pwd
+  121  clear
+  122  mkdir ga_seir
+  123  cd ~/ga_seir
+  124  pwd
+  125  mkdir uniy1 unit2 unit3 unit4
+  126  ls
+  127  mv uniy1 unit1
+  128  rm uniy1
+  129  rm -r uniy1
+  130  ls
+  131  clear
+  132  mkdir projects
+  133  ls
+  134  mkdir unit1/lessons unit1/labs unit1/homework
+  135  mkdir unit2/lessons unit2/labs unit2/homework
+  136  mkdir unit3/lessons unit3/labs unit3/homework
+  137  mkdir unit4/lessons unit4/labs unit4/homework
+  138  ls
+  139  cd /unit1
+  140  cd unit1
+  141  ls
+  142  cd ..
+  143  clear
+  144  cd projects
+  145  touch name.txt
+  146  ls
+  147  clear
+  148  echo "Hi, my name is Chaz" >> name.txt
+  149  cat name.txt
+  150  rm name.txt
+  151  ls
+  152  clear
+  153  cd
+  154  ls
+  155  git --version
+  156  cd repos
+  157  git init
+  158  ls
+  159  touch index.js
+  160  git status
+  161  clear
+  162  git init
+  163  git stop
+  164  git --help
+  165  clear
+  166  cd
+  167  ls
+  168  cd repos
+  169  git add index.js
+  170  git status
+  171  git --help
+  172  git status
+  173  git push
+  174  git status
+  175  git commit
+  176  git status
+  177  git --help
+  178  ls
+  179  rm index.js
+  180  ls
+  181  git commit
+  182  git rm index.js
+  183  git commit
+  184  git log
+  185  clone git@github.com:chazcurlee/u1_hw_star_wars.git
+  186  git clone git@github.com:chazcurlee/u1_hw_star_wars.git
+  187  cd
+  188  ls
+  189  cd ga_seir
+  190  git init
+  191  git status
+  192  git clone git@github.com:chazcurlee/u1_hw_star_wars.git
+  193  ls
+  194  git rm u1_hw_star_wars
+  195  git rm ../u1_hw_star_wars
+  196  git rm /Users/chazcurlee/ga_seir/u1_hw_star_wars
+  197  git mv u1_hw_star_wars unit1
+  198  git help
+  199  git mv u1_hw_star_wars unit1/
+  200  mv u1_hw_star_wars unit1
+  201  ls
+  202  git add
+  203  git add .
+  204  cd unit1
+  205  ls
+  206  mv u1_hw_star_wars homework
+  207  cd homework
+  208  ls
+  209  git add
+  210  git add .
+  211  git rm --cached unit1/homework/u1_hw_star_wars
+  212  rm u1_hw_star_wars
+  213  rm -r u1_hw_star_wars
+  214  ls
+  215  git clone git@github.com:chazcurlee/u1_hw_star_wars.git
+  216  git add .
+  217  git status
+  218  git commit
+  219  code u1_hw_star_wars
+  220  pwd
+  221  cd u1_hw_star_wars
+  222  mkdir star_wars
+  223  cd star_wars
+  224  mkdir empire rebellion
+  225  cd empire
+  226  touch darth_vader.txt
+  227  echo "...heavy breathing..." darth_vader.txt
+  228  cat darth_vader.txt
+  229  ls
+  230  open darth_vader.txt
+  231  echo "...heavy breathing..." darth_vader.txt
+  232  help
+  233  --help
+  234  echo darth_vader.txt "...heavy breathing..."
+  235  open darth_vader.txt
+  236  cat darth_vader.txt
+  237  cd ..
+  238  cd empire
+  239  touch emperor_palpatine.txt
+  240  mkdir death_star
+  241  mv darth_vader.txt death_star
+  242  ls
+  243  git add .
+  244  git status
+  245  git commit
+  246  cd ..
+  247  cd rebellion
+  248  touch princess_leia.txt && echo "Help me, Obi-Wan..." princess_leia.txt
+  249  cat princess_leia.txt
+  250  write
+  251  echo "Help me, Obi-Wan..." >> princess_leia.txt
+  252  cat princess_leia.txt
+  253  touch obi_wan.txt
+  254  touch luke_skywalker.txt
+  255  mkdir millenium_falcon
+  256  cd millenium_falcon
+  257  touch han_solo.txt chewbacca.txt
+  258  ls
+  259  cd ..
+  260  mv luke_skywalker.txt obi_wan.txt princess_leia.txt millenium_falcon
+  261  mv millenium_falcon ../empire/death_star/
+  262  ls
+  263  cd ..
+  264  cd empire
+  265  cd dea
+  266  cd death_star
+  267  ls
+  268  cd ..
+  269  git add .
+  270  git status
+  271  git commit
+  272  pwd
+  273  cd ..
+  274  cd empire
+  275  cd death_star
+  276  cd millenium_falcon
+  277  cd ..
+  278  pwd
+  279  mv millenium_falcon/chewbacca.txt millenium_falcon/luke_skywalker.txt millenium_falcon/obi_wan.txt millenium_falcon/princess_leia.txt death_star
+  280  mv millenium_falcon/chewbacca.txt millenium_falcon/luke_skywalker.txt millenium_falcon/obi_wan.txt millenium_falcon/princess_leia.txt ../death_star
+  281  ls
+  282  rm obi_wan.txt
+  283  ls
+  284  mv chewbacca.txt luke_skywalker.txt princess_leia.txt millenium_falcon
+  285  ls
+  286  mv millenium_falcon ../rebellion/
+  287  ls
+  288  cd ..
+  289  cd rebellion
+  290  ls
+  291  cd ..
+  292  ls
+  293  mv rebellion ../
+  294  ls
+  295  cd
+  296  ls
+  297  cd repos
+  298  ls
+  299  cd u1_hw_star_wars
+  300  ls
+  301  cd act1.sh
+  302  cd
+  303  cd repos
+  304  cd u1_hw_star_wars
+  305  ls
+  306  cd
+  307  cd /Users/chazcurlee/ga_seir/unit1/homework/u1_hw_star_wars/star_wars
+  308  ls
+  309  cd rebellion
+  310  ls
+  311  cd ..
+  312  cd empire
+  313  ls
+  314  cd death_star
+  315  ls
+  316  cd ..
+  317  cd rebellion
+  318  mkdir millenium_falcon
+  319  mv luke_skywalker.txt chewbacca.txt han_solo.txt princess_leia.txt millenium_falcon
+  320  ls
+  321  cd ..
+  322  cd empire
+  323  cd death_star
+  324  mv darth_vader.txt ..
+  325  ls
+  326  cd ..
+  327  ls
+  328  rm death_star
+  329  rm -r death_star
+  330  ls
+  331  git add .
+  332  git status
+  333  cd ..
+  334  git add .
+  335  git status
+  336  git commit
