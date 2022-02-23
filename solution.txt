@@ -1,0 +1,101 @@
+   27  git clone git@github.com:katimperial/u1_hw_star_wars.git
+   28  ls
+   29  cd u1_hw_star_wars
+   30  code .
+   31  mkdir star_wars
+   32  cd star_wars
+   33  mkdir empire rebellion
+   34  cd empire
+   35  touch darth_vader.txt
+   36  ls
+   37  echo "...heavy breathing..." >> darth.vader.txt
+   38  echo "...heavy breathing..." >> darth_vader.txt
+   39  cat darth_vader.txt
+   40  touch emperor_palpatine.txt
+   41  ls
+   42  rm darth.vader.txt
+   43  ls
+   44  mkdir death_star
+   45  ls
+   46  mv empire/darth_vader.txt death_star/darth_vader.txt
+   47  ls
+   48  mv empire/darth_vader.txt empire/death_star/darth_vader.txt
+   49  mv /empire/darth_vader.txt /death_star/darth_vader.txt
+   50  mv darth_vader.txt death_star/
+   51  ls
+   52  cd death_star
+   53  ls
+   54  git status
+   55  cd ..
+   56  git status
+   57  git add .
+   58  git status
+   59  cd ..
+   60  git add .
+   61  git status
+   62  git commit -m "created star_wars dir + empire etc"
+   63  history
+   64  ls
+   65  cd star_wars
+   66  ls
+   67  cd rebellion
+   68  touch princess_leia.txt && echo "Help me, Obi-Wan..." >> princess_leia.txt
+   69  cat princess_leia.txt
+   70  touch obi_wan.txt
+   71  ls
+   72  touch luke_skywalker.txt
+   73  ls
+   74  mkdir millenium_falcon
+   75  cd millenium_falcon
+   76  touch han_solo.txt chewbacca.txt
+   77  ls
+   78  cd ..
+   79  mv luke_skywalker.txt obi_wan.txt princess_leia.txt millenium_falcon/
+   80  cd millenium_falcon
+   81  ls
+   82  cd star_wars
+   83  cd ..
+   84  mv millenium_falcon empire/death_star/
+   85  mv millenium_falcon death_star/
+   86  mv rebellion/millenium_falcon empire/death_star/millenium_falcon
+   87  cd empire
+   88  cd death_star
+   89  ls
+   90  cd ..
+   91  git add .
+   92  git status
+   93  git commit -m "created millenium_falcon and contents and moved to death_star"
+   94  cd star_wars
+   95  cd empire
+   96  cd death_star
+   97  mv millenium_falcon/* death_star/
+   98  ls
+   99  cd millenium_falcon
+  100  ls
+  101  mv millenium_falcon/* death_star/
+  102  cd ..
+  103  mv millenium_falcon/* empire/death_star/millenium_falcon/*
+  104  cd ..
+  105  mv death_star/millenium_falcon/* death_star/
+  106  cd death_star
+  107  ls
+  108  rm obi_wan.txt
+  109  ls
+  110  mv chewbacca.txt han_solo.txt luke_skywalker.txt princess_leia.txt millenium_falcon/
+  111  ls
+  112  cd millenium_falcon
+  113  ls
+  114  cd ..
+  115  mv empire/death_star/millenium_falcon rebellion/millenium_falcon
+  116  cd rebellion
+  117  ls
+  118  cd ..
+  119  mv empire/death_star/darth_vader.txt empire/
+  120  cd empire
+  121  ls
+  122  rmdir death_star
+  123  ls
+  124  git add .
+  125  cd ..
+  126  git add .
+  127  git commit -m "heros back to millenium_falcon, obi_wan.txt dies (not in that order), darth_vader.txt to empire, death_star explode"
