@@ -1,0 +1,606 @@
+➜  u1_hw_star_wars git:(main) mkdir star_wars
+➜  u1_hw_star_wars git:(main) git add .
+➜  u1_hw_star_wars git:(main) git commit -m "created star wars directory"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+➜  u1_hw_star_wars git:(main) ls
+README.md    act1.sh      act2.sh      act3.sh      solution.txt star_wars
+➜  u1_hw_star_wars git:(main) cd ~   
+➜  ~ ls
+Applications
+Creative Cloud Files
+Creative Cloud Files DumlaoJ@sfusd.edu 633b4f0fe30dbba882d454a518c64c8ffd03686a8adbd3c04ead323b81b46abb
+Creative Cloud Files navarror@sfusd.edu b1642d32e8168cc0b4d804fe1d96ba03a090d28c20b31032d50e18cd416cbf2f
+Desktop
+Documents
+Downloads
+GA-Blog
+Library
+Movies
+Music
+Pictures
+Public
+ga_seir
+➜  ~ ga_seir unit1/homework
+zsh: command not found: ga_seir
+➜  ~ cd ga_seir
+➜  ga_seir unit1/homework
+➜  homework ls
+u1_hw_star_wars
+➜  homework cd act1.sh
+cd: no such file or directory: act1.sh
+➜  homework mkdir star_wars
+➜  homework git add .
+fatal: not a git repository (or any of the parent directories): .git
+➜  homework ls    
+star_wars       u1_hw_star_wars
+➜  homework cd star_wars
+➜  star_wars git add .
+fatal: not a git repository (or any of the parent directories): .git
+➜  star_wars mkdir empire rebellion
+➜  star_wars ls
+empire    rebellion
+➜  star_wars cd empire 
+➜  empire add darth_vader.txt
+zsh: command not found: add
+➜  empire git add darth_vader.txt
+fatal: not a git repository (or any of the parent directories): .git
+➜  empire touch darth_vader.txt
+➜  empire ls
+darth_vader.txt
+➜  empire echo "...heavy breathing..." >> darth_vader.txt            
+➜  empire ls
+darth_vader.txt
+➜  empire cat darth_vader.txt
+...heavy breathing...
+➜  empire touch emperor_palpatine.txt
+➜  empire mkdir death_star
+➜  empire ls
+darth_vader.txt       death_star            emperor_palpatine.txt
+➜  empire mv darth_vader.txt death_star
+➜  empire ls
+death_star            emperor_palpatine.txt
+➜  empire git add .
+fatal: not a git repository (or any of the parent directories): .git
+➜  empire cd ..
+➜  star_wars git add .
+fatal: not a git repository (or any of the parent directories): .git
+➜  star_wars cd .
+➜  star_wars cd .. 
+➜  homework ls
+star_wars       u1_hw_star_wars
+➜  homework code .
+➜  homework ls
+star_wars       u1_hw_star_wars
+➜  homework cd u1_hw_star_wars 
+➜  u1_hw_star_wars git:(main) ✗ git add .
+➜  u1_hw_star_wars git:(main) ✗ git commit - m
+error: pathspec '-' did not match any file(s) known to git
+error: pathspec 'm' did not match any file(s) known to git
+➜  u1_hw_star_wars git:(main) ✗ git commit -m
+error: switch `m' requires a value
+➜  u1_hw_star_wars git:(main) ✗ git commit -m "act 1 finished"
+[main 873873b] act 1 finished
+ 3 files changed, 9 insertions(+), 5 deletions(-)
+ create mode 100644 star_wars/empire/death_star/darth_vader.txt
+ create mode 100644 star_wars/empire/emperor_palpatine.txt
+➜  u1_hw_star_wars git:(main) cd star_wars
+➜  star_wars git:(main) cd star_wars/rebellion
+cd: no such file or directory: star_wars/rebellion
+➜  star_wars git:(main) cd ..
+➜  u1_hw_star_wars git:(main) cd star_wars/rebellion
+➜  rebellion git:(main) touch princess_leia.txt && echo "Help me, Obi-Wan..." >> princess_leia.txt
+➜  rebellion git:(main) ✗ ls
+princess_leia.txt
+➜  rebellion git:(main) ✗ cat princess_leia.txt
+Help me, Obi-Wan...
+➜  rebellion git:(main) ✗ touch obi_wan.txt
+➜  rebellion git:(main) ✗ touch luke_skywalker.txt
+➜  rebellion git:(main) ✗ ls
+luke_skywalker.txt obi_wan.txt        princess_leia.txt
+➜  rebellion git:(main) ✗ mkdir millenium_falcon
+➜  rebellion git:(main) ✗ ls
+luke_skywalker.txt millenium_falcon   obi_wan.txt        princess_leia.txt
+➜  rebellion git:(main) ✗ cd millenium_falcon
+➜  millenium_falcon git:(main) ✗ cd rebellion
+cd: no such file or directory: rebellion
+➜  millenium_falcon git:(main) ✗ ls
+➜  millenium_falcon git:(main) ✗ cd ..
+➜  rebellion git:(main) ✗ mv luke_skywalker.txt obi.wan.txt princess_leia.txt millenium_falcon
+mv: rename obi.wan.txt to millenium_falcon/obi.wan.txt: No such file or directory
+➜  rebellion git:(main) ✗ cd millenium_falcon
+➜  millenium_falcon git:(main) ✗ ls
+luke_skywalker.txt princess_leia.txt
+➜  millenium_falcon git:(main) ✗ mkdir hansolo.txt chewbacca.txt
+➜  millenium_falcon git:(main) ✗ ls
+chewbacca.txt      hansolo.txt        luke_skywalker.txt princess_leia.txt
+➜  millenium_falcon git:(main) ✗ rm hansolo.txt chewbacca.txt
+rm: hansolo.txt: is a directory
+rm: chewbacca.txt: is a directory
+➜  millenium_falcon git:(main) ✗ ls
+chewbacca.txt      hansolo.txt        luke_skywalker.txt princess_leia.txt
+➜  millenium_falcon git:(main) ✗ touch hansolo.txt chewbacca.txt
+➜  millenium_falcon git:(main) ✗ ls
+chewbacca.txt      hansolo.txt        luke_skywalker.txt princess_leia.txt
+➜  millenium_falcon git:(main) ✗ rm -rf chewbacca.txt
+➜  millenium_falcon git:(main) ✗ ls
+hansolo.txt        luke_skywalker.txt princess_leia.txt
+➜  millenium_falcon git:(main) ✗ rm -rf hansolo.txt 
+➜  millenium_falcon git:(main) ✗ ls
+luke_skywalker.txt princess_leia.txt
+➜  millenium_falcon git:(main) ✗ touch hansolo.txt 
+➜  millenium_falcon git:(main) ✗ ls
+hansolo.txt        luke_skywalker.txt princess_leia.txt
+➜  millenium_falcon git:(main) ✗ touch chewbacca.txt
+➜  millenium_falcon git:(main) ✗ ls
+chewbacca.txt      hansolo.txt        luke_skywalker.txt princess_leia.txt
+➜  millenium_falcon git:(main) ✗ mv luke_skywalker.txt obi_wan.txt princess_leia.txt millenium_falcon
+mv: millenium_falcon is not a directory
+➜  millenium_falcon git:(main) ✗ cd star_wars/rebellion
+cd: no such file or directory: star_wars/rebellion
+➜  millenium_falcon git:(main) ✗ cd ..
+➜  rebellion git:(main) ✗ mv luke_skywalker.txt obi_wan.txt princess_leia.txt millenium_falcon
+mv: luke_skywalker.txt: No such file or directory
+mv: princess_leia.txt: No such file or directory
+➜  rebellion git:(main) ✗ mv luke_skywalker.txt rebellion/millenium_falcon
+mv: rename luke_skywalker.txt to rebellion/millenium_falcon: No such file or directory
+➜  rebellion git:(main) ✗ ls
+millenium_falcon
+➜  rebellion git:(main) ✗ cd millenium_falcon 
+➜  millenium_falcon git:(main) ✗ ls
+chewbacca.txt      hansolo.txt        luke_skywalker.txt obi_wan.txt        princess_leia.txt
+➜  millenium_falcon git:(main) ✗ cd ..
+➜  rebellion git:(main) ✗ cd ..
+➜  star_wars git:(main) ✗ ls
+empire    rebellion
+➜  star_wars git:(main) ✗ mv rebellion/millenium_falcon empire/death_star 
+➜  star_wars git:(main) ✗ ls
+empire    rebellion
+➜  star_wars git:(main) ✗ cd empire
+➜  empire git:(main) ✗ ls
+death_star            emperor_palpatine.txt
+➜  empire git:(main) ✗ cd death_star 
+➜  death_star git:(main) ✗ ls
+darth_vader.txt  millenium_falcon
+➜  death_star git:(main) ✗ cd u1_hw_star_wars
+cd: no such file or directory: u1_hw_star_wars
+➜  death_star git:(main) ✗ cd .
+➜  death_star git:(main) ✗ cd ..
+➜  empire git:(main) ✗ ls
+death_star            emperor_palpatine.txt
+➜  empire git:(main) ✗ cd ga_seir
+cd: no such file or directory: ga_seir
+➜  empire git:(main) ✗ cd ~
+➜  ~ ga_seir
+➜  ga_seir cd u1_hw_star_wars 
+cd: no such file or directory: u1_hw_star_wars
+➜  ga_seir ls
+projects unit1    unit2    unit3    unit4
+➜  ga_seir cd ~
+➜  ~ u1_hw_star_wars
+zsh: command not found: u1_hw_star_wars
+➜  ~ ga_seir  
+➜  ga_seir unit1/homework
+➜  homework ls
+star_wars       u1_hw_star_wars
+➜  homework cd u1_hw_star_wars
+➜  u1_hw_star_wars git:(main) ✗ add .
+zsh: command not found: add
+➜  u1_hw_star_wars git:(main) ✗ cd u1_hw_star_wars
+cd: no such file or directory: u1_hw_star_wars
+➜  u1_hw_star_wars git:(main) ✗ ls
+README.md    act1.sh      act2.sh      act3.sh      solution.txt star_wars
+➜  u1_hw_star_wars git:(main) ✗ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   act2.sh
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        star_wars/empire/death_star/millenium_falcon/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+➜  u1_hw_star_wars git:(main) ✗ git add -A
+➜  u1_hw_star_wars git:(main) ✗ git commit -m "act 2 finished"
+[main cc0ca21] act 2 finished
+ 6 files changed, 9 insertions(+), 6 deletions(-)
+ create mode 100644 star_wars/empire/death_star/millenium_falcon/chewbacca.txt
+ create mode 100644 star_wars/empire/death_star/millenium_falcon/hansolo.txt
+ create mode 100644 star_wars/empire/death_star/millenium_falcon/luke_skywalker.txt
+ create mode 100644 star_wars/empire/death_star/millenium_falcon/obi_wan.txt
+ create mode 100644 star_wars/empire/death_star/millenium_falcon/princess_leia.txt
+➜  u1_hw_star_wars git:(main) git push origin main
+Enumerating objects: 18, done.
+Counting objects: 100% (18/18), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (10/10), done.
+Writing objects: 100% (15/15), 1.62 KiB | 1.62 MiB/s, done.
+Total 15 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), completed with 2 local objects.
+To github.com:robin-415/u1_hw_star_wars.git
+   160b374..cc0ca21  main -> main
+➜  u1_hw_star_wars git:(main) cd star_wars
+➜  star_wars git:(main) ✗ mv millenium_falcon death_star
+mv: rename millenium_falcon to death_star: No such file or directory
+➜  star_wars git:(main) ✗ ls
+empire    rebellion
+➜  star_wars git:(main) ✗ mv rebellion/millenium_falcon empire/death_star
+mv: rebellion/millenium_falcon: No such file or directory
+➜  star_wars git:(main) ✗ ls
+empire    rebellion
+➜  star_wars git:(main) ✗ cd empire
+➜  empire git:(main) ✗ ls
+death_star            emperor_palpatine.txt
+➜  empire git:(main) ✗ cd millenium_falcon
+cd: no such file or directory: millenium_falcon
+➜  empire git:(main) ✗ cd rebellion
+cd: no such file or directory: rebellion
+➜  empire git:(main) ✗ cd star_wars
+cd: no such file or directory: star_wars
+➜  empire git:(main) ✗ cd ..
+➜  star_wars git:(main) ✗ cd rebellion
+➜  rebellion git:(main) ✗ ls
+➜  rebellion git:(main) ✗ cd death_star
+cd: no such file or directory: death_star
+➜  rebellion git:(main) ✗ cd star_wars
+cd: no such file or directory: star_wars
+➜  rebellion git:(main) ✗ cd ..
+➜  star_wars git:(main) ✗ rm obi_wan.txt
+rm: obi_wan.txt: No such file or directory
+➜  star_wars git:(main) ✗ cd death_star
+cd: no such file or directory: death_star
+➜  star_wars git:(main) ✗ ls
+empire    rebellion
+➜  star_wars git:(main) ✗ cd empire
+➜  empire git:(main) ✗ ls
+death_star            emperor_palpatine.txt
+➜  empire git:(main) ✗ cd death_star
+➜  death_star git:(main) ✗ ls
+darth_vader.txt  millenium_falcon
+➜  death_star git:(main) ✗ cd millenium_falcon
+➜  millenium_falcon git:(main) ✗ rm obi_wan.txt
+➜  millenium_falcon git:(main) ✗ ls
+chewbacca.txt      hansolo.txt        luke_skywalker.txt princess_leia.txt
+➜  millenium_falcon git:(main) ✗ ls
+chewbacca.txt      hansolo.txt        luke_skywalker.txt princess_leia.txt
+➜  millenium_falcon git:(main) ✗ mv millenium_falcon rebellion
+mv: rename millenium_falcon to rebellion: No such file or directory
+➜  millenium_falcon git:(main) ✗ cd star wars 
+cd: no such file or directory: /Users/robin/ga_seir/unit1/homework/u1_hw_wars_wars/star_wars/empire/death_star/millenium_falcon
+➜  millenium_falcon git:(main) ✗ cd ..
+➜  death_star git:(main) ✗ cd ..
+➜  empire git:(main) ✗ cd death_star
+➜  death_star git:(main) ✗ mv millenium_falcon rebellion
+➜  death_star git:(main) ✗ ls
+darth_vader.txt rebellion
+➜  death_star git:(main) ✗ ls
+darth_vader.txt rebellion
+➜  death_star git:(main) ✗ mv death_star/darth_vader empire
+mv: rename death_star/darth_vader to empire: No such file or directory
+➜  death_star git:(main) ✗ ls
+darth_vader.txt rebellion
+➜  death_star git:(main) ✗ cd star_wars
+cd: no such file or directory: star_wars
+➜  death_star git:(main) ✗ cd ..
+➜  empire git:(main) ✗ cd ..
+➜  star_wars git:(main) ✗ mv millenium_falcon/* rebellion
+zsh: no matches found: millenium_falcon/*
+➜  star_wars git:(main) ✗ ls
+empire    rebellion
+➜  star_wars git:(main) ✗ cd rebellion               
+➜  rebellion git:(main) ✗ ls
+➜  rebellion git:(main) ✗ cd ..
+➜  star_wars git:(main) ✗ cd empire
+➜  empire git:(main) ✗ mv death_star/darth_vader empire
+mv: rename death_star/darth_vader to empire: No such file or directory
+➜  empire git:(main) ✗ ls
+death_star            emperor_palpatine.txt
+➜  empire git:(main) ✗ cd death_star
+➜  death_star git:(main) ✗ cd ..
+➜  empire git:(main) ✗ mv death_star/darth_vader.txt empire
+➜  empire git:(main) ✗ ls
+death_star            emperor_palpatine.txt empire
+➜  empire git:(main) ✗ cd death_star
+➜  death_star git:(main) ✗ ls
+➜  death_star git:(main) ✗ cd death_star
+cd: no such file or directory: death_star
+➜  death_star git:(main) ✗ ls
+➜  death_star git:(main) ✗ mv darth_vader.txt empire
+mv: rename darth_vader.txt to empire: No such file or directory
+➜  death_star git:(main) ✗ ls
+➜  death_star git:(main) ✗ cd ..
+➜  empire git:(main) ✗ ls
+death_star            emperor_palpatine.txt empire
+➜  empire git:(main) ✗ cd death_star
+➜  death_star git:(main) ✗ ls
+➜  death_star git:(main) ✗ cd ..
+➜  empire git:(main) ✗ cd ..
+➜  star_wars git:(main) ✗ mv death_star darth_vader.txt
+mv: rename death_star to darth_vader.txt: No such file or directory
+➜  star_wars git:(main) ✗ cd empire
+➜  empire git:(main) ✗ ls
+darth_vader.txt       death_star            emperor_palpatine.txt
+➜  empire git:(main) ✗ rm -rf death_star
+➜  empire git:(main) ✗ ls
+darth_vader.txt       emperor_palpatine.txt
+➜  empire git:(main) ✗ cd ..
+➜  star_wars git:(main) ✗ cd ..
+➜  u1_hw_star_wars git:(main) ✗ git add -A
+➜  u1_hw_star_wars git:(main) ✗ git commit -m "act 3 finished"
+[main fb880b9] act 3 finished
+ 8 files changed, 13 insertions(+), 5 deletions(-)
+ rename star_wars/empire/{death_star => }/darth_vader.txt (100%)
+ delete mode 100644 star_wars/empire/death_star/millenium_falcon/obi_wan.txt
+ rename star_wars/{empire/death_star => rebellion}/millenium_falcon/chewbacca.txt (100%)
+ rename star_wars/{empire/death_star => rebellion}/millenium_falcon/hansolo.txt (100%)
+ rename star_wars/{empire/death_star => rebellion}/millenium_falcon/luke_skywalker.txt (100%)
+ rename star_wars/{empire/death_star => rebellion}/millenium_falcon/princess_leia.txt (100%)
+➜  u1_hw_star_wars git:(main) git push origin main
+Enumerating objects: 15, done.
+Counting objects: 100% (15/15), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (10/10), 1.01 KiB | 343.00 KiB/s, done.
+Total 10 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To github.com:robin-415/u1_hw_star_wars.git
+   cc0ca21..fb880b9  main -> main
+➜  u1_hw_star_wars git:(main) history | tail -n 250
+  114  ls
+  115  echo "Hi, my name is Robin" >> name.txt
+  116  cat name.txt
+  117  rm name.txt
+  118  name.txt
+  119  cd . .
+  120  ..
+  121  cd
+  122  code .zshrc
+  123  cd
+  124  cd ..
+  125  ga_seir
+  126  cs ~
+  127  cd ~
+  128  ls
+  129  ga_seir
+  130  cd unit1
+  131  cd lessons
+  132  mkdir git-practice
+  133  ls
+  134  cd git-practice
+  135  git init
+  136  ls -a
+  137  touch index.html
+  138  code .
+  139  git add index.html
+  140  git commit -m
+  141  git commit -m "create html file)\ngit commit -m "create html file"
+  142  git commit -m "create html file"
+  143  git remote -v
+  144  git remote add origin https://github.com/robin-415/git-practice.git
+  145  git remote -v
+  146  git remote remove origin
+  147  git remote -v
+  148  git remote add origin git@github.com:robin-415/git-practice.git
+  149  git remote -v
+  150  git branch -M main
+  151  git push origin main
+  152  git config --global init.defaultBranch main
+  153  ..
+  154  trash git-practice
+  155  ls
+  156  git clone git@github.com:robin-415/u1_lesson_VSCode.git
+  157  ls
+  158  cd ul_lesson_VSCode
+  159  u1_lessons_VSCode
+  160  u1_lesson_VSCode
+  161  code .
+  162  npm i -g prettier
+  163  touch ~/.prettierrc
+  164  echo "{"trailingComma": "none", "tabWidth": 2, "bracketSpacing": true, "useTabs": false, "semi": false, "singleQuote": true}" > ~/.prettierrc
+  165  cd ..
+  166  ..
+  167  unit1/homework
+  168  ..
+  169  cd unit1/homework
+  170  git clone git@github.com:robin-415/u1_hw_star_wars.git
+  171  cd
+  172  code .
+  173  cd
+  174  ..
+  175  cd ~
+  176  cd ga_seir
+  177  unit1/homework
+  178  ls
+  179  cd u1_hw_star_wars
+  180  code .
+  181  mkdir star_wars
+  182  git add .
+  183  git commit -m "created star wars directory"
+  184  ls
+  185  cd ~
+  186  ls
+  187  ga_seir unit1/homework
+  188  cd ga_seir
+  189  unit1/homework
+  190  ls
+  191  cd act1.sh
+  192  mkdir star_wars
+  193  git add .
+  194  ls
+  195  cd star_wars
+  196  git add .
+  197  mkdir empire rebellion
+  198  ls
+  199  cd empire 
+  200  add darth_vader.txt
+  201  git add darth_vader.txt
+  202  touch darth_vader.txt
+  203  ls
+  204  echo "...heavy breathing..." >> darth_vader.txt
+  205  ls
+  206  cat darth_vader.txt
+  207  touch emperor_palpatine.txt
+  208  mkdir death_star
+  209  ls
+  210  mv darth_vader.txt death_star
+  211  ls
+  212  git add .
+  213  cd ..
+  214  git add .
+  215  cd .
+  216  cd ..
+  217  ls
+  218  code .
+  219  ls
+  220  cd u1_hw_star_wars
+  221  git add .
+  222  git commit - m
+  223  git commit -m
+  224  git commit -m "act 1 finished"
+  225  cd star_wars
+  226  cd star_wars/rebellion
+  227  cd ..
+  228  cd star_wars/rebellion
+  229  touch princess_leia.txt && echo "Help me, Obi-Wan..." >> princess_leia.txt
+  230  ls
+  231  cat princess_leia.txt
+  232  touch obi_wan.txt
+  233  touch luke_skywalker.txt
+  234  ls
+  235  mkdir millenium_falcon
+  236  ls
+  237  cd millenium_falcon
+  238  cd rebellion
+  239  ls
+  240  cd ..
+  241  mv luke_skywalker.txt obi.wan.txt princess_leia.txt millenium_falcon
+  242  cd millenium_falcon
+  243  ls
+  244  mkdir hansolo.txt chewbacca.txt
+  245  ls
+  246  rm hansolo.txt chewbacca.txt
+  247  ls
+  248  touch hansolo.txt chewbacca.txt
+  249  ls
+  250  rm -rf chewbacca.txt
+  251  ls
+  252  rm -rf hansolo.txt
+  253  ls
+  254  touch hansolo.txt 
+  255  ls
+  256  touch chewbacca.txt
+  257  ls
+  258  mv luke_skywalker.txt obi_wan.txt princess_leia.txt millenium_falcon
+  259  cd star_wars/rebellion
+  260  cd ..
+  261  mv luke_skywalker.txt obi_wan.txt princess_leia.txt millenium_falcon
+  262  mv luke_skywalker.txt rebellion/millenium_falcon
+  263  ls
+  264  cd millenium_falcon
+  265  ls
+  266  cd ..
+  267  ls
+  268  mv rebellion/millenium_falcon empire/death_star
+  269  ls
+  270  cd empire
+  271  ls
+  272  cd death_star
+  273  ls
+  274  cd u1_hw_star_wars
+  275  cd .
+  276  cd ..
+  277  ls
+  278  cd ga_seir
+  279  cd ~
+  280  ga_seir
+  281  cd u1_hw_star_wars
+  282  ls
+  283  cd ~
+  284  u1_hw_star_wars
+  285  ga_seir
+  286  unit1/homework
+  287  ls
+  288  cd u1_hw_star_wars
+  289  add .
+  290  cd u1_hw_star_wars
+  291  ls
+  292  git status
+  293  git add -A
+  294  git commit -m "act 2 finished"
+  295  git push origin main
+  296  cd star_wars
+  297  mv millenium_falcon death_star
+  298  ls
+  299  mv rebellion/millenium_falcon empire/death_star
+  300  ls
+  301  cd empire
+  302  ls
+  303  cd millenium_falcon
+  304  cd rebellion
+  305  cd star_wars
+  306  cd ..
+  307  cd rebellion
+  308  ls
+  309  cd death_star
+  310  cd star_wars
+  311  cd ..
+  312  rm obi_wan.txt
+  313  cd death_star
+  314  ls
+  315  cd empire
+  316  ls
+  317  cd death_star
+  318  ls
+  319  cd millenium_falcon
+  320  rm obi_wan.txt
+  321  ls
+  322  mv millenium_falcon rebellion
+  323  cd star wars
+  324  cd ..
+  325  cd death_star
+  326  mv millenium_falcon rebellion
+  327  ls
+  328  mv death_star/darth_vader empire
+  329  ls
+  330  cd star_wars
+  331  cd ..
+  332  mv millenium_falcon/* rebellion
+  333  ls
+  334  cd rebellion
+  335  ls
+  336  cd ..
+  337  cd empire
+  338  mv death_star/darth_vader empire
+  339  ls
+  340  cd death_star
+  341  cd ..
+  342  mv death_star/darth_vader.txt empire
+  343  ls
+  344  cd death_star
+  345  ls
+  346  cd death_star
+  347  ls
+  348  mv darth_vader.txt empire
+  349  ls
+  350  cd ..
+  351  ls
+  352  cd death_star
+  353  ls
+  354  cd ..
+  355  mv death_star darth_vader.txt
+  356  cd empire
+  357  ls
+  358  rm -rf death_star
+  359  ls
+  360  cd ..
+  361  git add -A
+  362  git commit -m "act 3 finished"
+  363  git push origin main
+➜  u1_hw_star_wars git:(main) 
