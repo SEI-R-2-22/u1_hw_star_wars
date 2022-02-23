@@ -1,0 +1,178 @@
+  217  cd unit1
+  218  ..
+  219  cd homework
+  220  git clone git@github.com:MC-JSON/u1_hw_star_wars.git
+  221  ls
+  222  cd u1_hw_star_wars
+  223  code .
+  224  mkdir star_wars
+  225  pwd
+  226  ls
+  227  cd star_wars
+  228  mkdir empire
+  229  mkdir rebellion
+  230  ls
+  231  cd empire
+  232  touch darth_vader.txt
+  233  ls
+  234  echo "...heavy breating..." darth_vader.txt
+  235  ls
+  236  touch emperor_palpatine.txt
+  237  ls
+  238  mkdir death_star
+  239  ls
+  240  mv darth_vader.txt >> death_star
+  241  ls
+  242  echo "...heavy breating..." >> darth_vader.txt
+  243  ls
+  244  trash darth_vader.txt
+  245  ls
+  246  touch darth_vader.txt
+  247  ls
+  248  echo "...heavy_breathing" >> darth_vader.txt
+  249  mv darth_vader.txt death_star
+  250  ls
+  251  cd death_star
+  252  ls
+  253  ..
+  254  git add .
+  255  git commit -m "Act 1 completed"
+  256  trash darth_vader.txt
+  257  ls
+  258  cd death_star
+  259  trash darth_vader.txt
+  260  ls
+  261  mkdir darth_vader.txt
+  262  echo "...heavy_breathing..." >> darth_vader.txt
+  263  trash darth_vader.txt
+  264  touch darth_vader.txt
+  265  echo "...heavy_breathing..." >> darth_vader.txt
+  266  ls
+  267  git add .
+  268  git commit -m "Act 1 error update"
+  269  ..
+  270  cd rebellion
+  271  touch princess_leia.txt && echo "Help me, Obi-Wan..."
+  272  ls
+  273  cd princess_leia.txt
+  274  git add .
+  275  git commit -m "Act 2 test run"
+  276  trash princess_leia.txt
+  277  ls
+  278  touch princess.leia.txt && echo "Help me, Obi-Wan..." >> princess.leia.txt
+  279  ls
+  280  touch obi_wan.txt
+  281  touch luke_skywalker.txt
+  282  mkdir millenium_falcon
+  283  ls
+  284  cd millenium_falcon
+  285  touch hans_solo.txt && touch chewbacca.txt
+  286  ls
+  287  mv luke_skywalker.txt && obi_wan.txt && princess_leia.txt >> millenium_falcon
+  288  ls
+  289  mv luke_skywalker.txt >> millenium falcon
+  290  mv luke_skywalker.txt >> millenium_falcon
+  291  ls
+  292  ..
+  293  ls
+  294  mv luke_skywalker.txt >> millenium_falcon
+  295  ls
+  296  cd millenium_falcon
+  297  ls
+  298  trash millenium
+  299  ls
+  300  mv luke_skywalker.txt >> millenium_falcon
+  301  ls
+  302  mv rebellion/millenium_falcon/luke_skywalker.txt
+  303  ls
+  304  mv luke_skywalker.txt millenium_falcon
+  305  ls
+  306  ..
+  307  ls
+  308  mv luke_skywalker.txt millenium_falcon
+  309  ls
+  310  mv obi_wan.txt millenium_falcon
+  311  mv princess.leia.txt millenium_falcon
+  312  cd millenium_falcon
+  313  ls
+  314  ..
+  315  ls
+  316  ..
+  317  ls
+  318  mv millenium_falcon death_star
+  319  ls
+  320  cd rebellion
+  321  ls
+  322  ..
+  323  cd empire
+  324  ls
+  325  mv millenium_falcon >> death_star
+  326  cd death_star
+  327  ls
+  328  cp millenium_falcon
+  329  ls
+  330  mv star_wars/rebellion/millenium_falcon star_wars/empire/death_star
+  331  ..
+  332  cd star_wars
+  333  mv star_wars/rebellion/millenium_falcon star_wars/empire/death_star
+  334  ls
+  335  cd rebellion
+  336  ls
+  337  cd millenium_falcon
+  338  ls
+  339  cd millenium_falcon
+  340  ls
+  341  mv star_wars/rebellion/millenium_falcon star_wars/empire/death_star\n
+  342  git add.
+  343  git add .
+  344  git commit -m "Error updates"
+  345  ..
+  346  cd star_wars
+  347  ls
+  348  mv star_wars/rebellion/millenium_falcon star_wars/empire/death_star
+  349  cd rebellion
+  350  ls
+  351  touch test.txt
+  352  ls
+  353  trash test.txt
+  354  ls
+  355  ..
+  356  mv star_wars/rebellion/millenium_falcon star_wars/empire/death_star
+  357  git add .
+  358  git commit -m "Act 2 Solutions"
+  359  cd star_wars
+  360  ls
+  361  cd empire
+  362  mv millenium_falcon/* death_star
+  363  cd death_star
+  364  mv millenium_falcon/* death_star
+  365  ..
+  366  mv star_wars/empire/death_star/millenium_falcon/* star_wars/empire/death_star
+  367  ..
+  368  mv star_wars/empire/death_star/millenium_falcon/* star_wars/empire/death_star
+  369  cd death_star
+  370  cd star_wars
+  371  cd empire
+  372  cd death_star
+  373  ls
+  374  trash obi_wan.txt
+  375  ls
+  376  mv chewbacca.txt >> millenium_falcon
+  377  ..
+  378  mv star_wars/empire/death_star/chewbacca.txt star_wars/empire/death_star/millenium_falcon
+  379  mv star_wars/empire/death_star/hans_solo.txt star_wars/empire/death_star/millenium_falcon
+  380  mv star_wars/empire/death_star/luke_skywalker.txt star_wars/empire/death_star/millenium_falcon
+  381  mv star_wars/empire/death_star/princess.leia.txt star_wars/empire/death_star/millenium_falcon
+  382  mv star_wars/empire/death_star/millenium_falcon star_wars/rebellion
+  383  mv star_wars/empire/death_star/darth_vader.txt star_wars/empire/darth_vader.txt
+  384  trash death_star
+  385  trash star_wars/empire/death_star
+  386  mv star_wars/rebellion/millenium_falcon/princess.leia.txt star_wars/empire/
+  387  mv star_wars/empire/princess_leia.txt star_wars/rebellion/millenium_falcon
+  388  mv star_wars/empire/princess.leia.txt star_wars/rebellion/millenium_falcon
+  389  cd star_wars
+  390  cd rebellion
+  391  cd millenium_falcon
+  392  mv princess.leia.txt princess_leia.txt
+  393  git add .
+  394  git commit -m "Act 3 completed"
