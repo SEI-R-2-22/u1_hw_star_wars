@@ -1,0 +1,55 @@
+281  cd ga_seir
+  282  ls
+  283  cd unit1
+  284  ls
+  285  cd homework
+  286  ls
+  287  git clone https://github.com/pierocaceres/u1_hw_star_wars.git
+  288  ls
+  289  cd u1_hw_star_wars
+  290  code .
+  291  code.
+  292  code \.
+  293  code .
+  294  ls
+  295  cat solution.txt
+  296  ls
+  297  mkdir star_wars
+  298  mkdir star_wars/empire star_wars/rebellion
+  299  cd empire
+  300  ls
+  301  cd star_wars
+  302  cd empire
+  303  touch darth_vader.txt
+  304  echo "...heavy breathing..." >> darth_vader.txt
+  305  touch emperor_palpatine.txt
+  306  mkdir death_star
+  307  mv darth_vader.txt death_start
+  308  rm -rf death_start
+  309  touch darth_vader.txt
+  310  echo "...heavy breathing..." >> darth_vader.txt
+  311  mv darth_vader.txt death_star
+  312  cd ..
+  313  cd rebellion
+  314  touch princess_leia.txt && echo "Help me, Obi-Wan..." >> princess_leia.txt
+  315  touch obi_wan.txt
+  316  touch luke_skywalker.txt
+  317  mkdir millenium_falcon
+  318  touch han_solo.txt chewbacca.txt
+  319  rm han_solo.txt
+  320  rm chewbacca.txt
+  321  cd millenium_falcon
+  322  touch han_solo.txt chewbacca.txt
+  323  cd ..
+  324  mv luke_skywalker.txt millenium_falcon
+  325  mv obi_wan.txt princess_leia.txt millenium_falcon
+  326  cd ..
+  327  mv rebellion/millenium_falcon empire/death_star
+  328  mv empire/death_star/millenium_falcon/* empire/death_star
+  329  rm empire/death_star/obi_wan.txt
+  330  mv empire/death_star/chewbacca.txt empire/death_star/han_solo.txt empire/death_star/luke_skywalker.txt empire/death_star/princess_leia.txt empire/death_star/millenium_falcon
+  331  mv empire/death_star/millenium_falcon rebellion
+  332  ls
+  333  ls rebellion
+  334  mv empire/death_star/darth_vader.txt empire/
+  335  rm -rf empire/death_star
