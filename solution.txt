@@ -1,0 +1,94 @@
+212  cd u1_hw_star_wars
+  213  code .
+  214  mkdir star_wars
+  215  pwd
+  216  mkdir star_wars/empire star_wars/rebellion
+  217  ls
+  218  cd star_wars
+  219  ls
+  220  touch empire/darth_vader.txt
+  221  cd empire
+  222  ls
+  223  echo "...heavy breathing..." >> darth_vader.txt
+  224  pwd
+  225  touch emperor_palpatine.txt
+  226  ls
+  227  mkdir death_star
+  228  mv darth_vader.txt death_star
+  229  git add star_wars
+  230  cd ..
+  231  git add star_wars
+  232  cd ..
+  233  git add star_wars
+  234  git commit -m "finished act 1"
+  235  cd star_wars
+  236  pwd
+  237  cd rebellion
+  238  touch princess_leia.txt && echo "Help me, Obi-Wan..."
+  239  touch princess_leia.txt && echo "Help me, Obi-Wan..." >> princess_leia.txt
+  240  touch obi_wan.txt
+  241  touch luke_skywalker.txt
+  242  mkdir millenium_falcon
+  243  cd millenium_falcon
+  244  touch han_solo.txt chewbacca.txt
+  245  ls
+  246  mv luke_skywalker.txt obi_wan.txt princess_leia.txt millenium_falcon
+  247  cd ..
+  248  mv luke_skywalker.txt obi_wan.txt princess_leia.txt millenium_falcon
+  249  ls
+  250  mv millenium_falcon death_star
+  251  ls
+  252  mv death_star empire
+  253  ls
+  254  rm empire
+  255  rm -rf  rebellion/empire
+  256  ls
+  257  cd empire
+  258  ls
+  259  mv chewbacca.txt  han_solo.txt  luke_skywalker.txt  obi_wan.txt  princess_leia.txt rebellion
+  260  cd ..
+  261  mkdir millenium_falcon
+  262  cd millenium_falcon
+  263  touch han_solo.txt chewbacca.txt
+  264  ls
+  265  mv luke_skywalker.txt obi_wan.txt princess_leia.txt millenium_falcon
+  266  cd ..
+  267  mv luke_skywalker.txt obi_wan.txt princess_leia.txt millenium_falcon
+  268  cd ..
+  269  mv millenium_falcon death_star
+  270  ls
+  271  cd rebellion
+  272  pwd
+  273  mv millenium_falcon /home/pregan17/GA/ga_seir/unit1/homework/u1_hw_star_wars/star_wars/empire/death_star
+  274  cd ..
+  275  cd empire
+  276  mv millenium_falcon/* /home/pregan17/GA/ga_seir/unit1/homework/u1_hw_star_wars/star_wars/empire/death_star
+  277  ls
+  278  cd death_star
+  279  mv millenium_falcon/* /home/pregan17/GA/ga_seir/unit1/homework/u1_hw_star_wars/star_wars/empire/death_star
+  280  rm obi-wan.txt
+  281  rm obi_wan.txt
+  282  mv chewbacca.txt han_solo.txt luke_skywalker.txt princess_leia.txt millenium_falcon
+  283  ls
+  284  mv millenium_falcon /home/pregan17/GA/ga_seir/unit1/homework/u1_hw_star_wars/star_wars/rebellion
+  285  cd ..
+  286  ls
+  287  cd rebellion
+  288  ls
+  289  cd ..
+  290  empire
+  291  death_star
+  292  mv darth_vader.txt /home/pregan17/GA/ga_seir/unit1/homework/u1_hw_star_wars/star_wars/empire
+  293  cd ..
+  294  ls
+  295  rm -rf death_star
+  296  ls
+  297  cd ..
+  298  git add
+  299  git add u1_hw_star_wars
+  300  cd ..
+  301  git add u1_hw_star_wars
+  302  git add.
+  303  git add .
+  304  git commmit -m "I just realized this is act 2 and 3, dammit"
+  305  git commit -m "I just realized this is act 2 and 3, dammit"
