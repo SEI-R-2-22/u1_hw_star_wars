@@ -1,0 +1,71 @@
+213  mkdir star_wars
+  214  cd star_wars
+  215  mkdir empire rebellion
+  216  cd empire
+  217  touch darth_vader.txt
+  218  echo "...heavy breathing..." > darth_vader.txt
+  219  touch emperor_palaptine.txt
+  220  mkdir death_star
+  221  mv darth_vader.txt death_star
+  222  git add .
+  223  git commit -m "complete act1"
+  224  cd ..
+  225  ls
+  226  cd rebellion
+  227  echo "Help me, Obi-Wan..." > princess_leia.txt
+  228  touch obi_wan.txt
+  229  touch luke-skywalker.txt
+  230  mv luke-skywalker.txt luke_skywalker.txt
+  231  mkdir millenium_falcon
+  232  cd millenium_falcon
+  233  touch han_solo.txt chewbacca.txt
+  234  cd ..
+  235  mv luke_skywalker.txt obi_wan.txt princess_leia.txt millenium_falcon
+  236  ls
+  237  mv millenium_falcon ../empire/death_star
+  238  git add .
+  239  git commit -m "complete act 2"
+  240  cd ..
+  241  git add .
+  242  git commit -m "complete act 2"
+  243  ls
+  244  cd star_wars
+  245  ls
+  246  cd empire
+  247  ls
+  248  cd death_star
+  249  ls
+  250  cd millenium_falcon
+  251  mv millenium_falcon/* ../death_star
+  252  mv * ../death_star
+  253  mv ./millenium_falcon/* ../
+  254  cd ..
+  255  mv ./millenium_falcon/* ./
+  256  rm obi_wan.txt
+  257  mv *[darth_vader.txt]* ./millenium_falcon
+  258  mv *[*darth_vader.txt]* ./millenium_falcon
+  259  mv *[^darth_vader.txt]* ./millenium_falcon
+  260  mv *[*darth_vader.txt]* ./millenium_falcon
+  261  mv *[./millenium_falcon
+  262  mv !(darth_vader.txt) ./millenium_falcon
+  263  mv * !(darth_vader.txt) ./millenium_falcon
+  264  mv *[^darth_vader.txt]* ./millenium_falcon
+  265  ls
+  266  cd millenium_falcon
+  267  ls
+  268  mv darth_vader.txt ../
+  269  ls
+  270  cd ..
+  271  ls
+  272  mv millenium_falcon ../../rebellion
+  273  mv darth_vader.txt ../
+  274  rm death_star
+  275  cd ..
+  276  rm death_star
+  277  ls
+  278  rm death_star
+  279  rm -rf death_star
+  280  cd ..
+  281  git add .
+  282  git committ -m "complete act3"
+  283  git commit -m "complete act 3"
