@@ -1,0 +1,39 @@
+  103  cd ..
+  104  homework
+  105  ls
+  106  git clone https://github.com/timmellis/u1_hw_star_wars.git
+  107  ls
+  108  cd u1_hw_star_wars
+  109  code .
+  110  mkdir star_wars
+  111  mkdir star_wars/empire star_wars/rebellion
+  112  touch star_wars/empire/darth_vader.txt
+  113  echo "...heavy breathing..." >> star_wars/empire/darth_vader.txt
+  114  touch star_wars/empire/emperor_palpatine.txt
+  115  mkdir star_wars/empire/death_star
+  116  mv star_wars/empire/darth_vader.txt star_wars/empire/death_star
+  117  ls -R
+  118  git add .
+  119  git status
+  120  git commit -m "Act 1: Created the Empire"
+  121  touch star_wars/rebellion/princess_leia.txt && echo "Help me, Obi-Wan..." >> star_wars/rebellion/princess_leia.txt
+  122  touch star_wars/rebellion/obi_wan.txt
+  123  touch star_wars/rebellion/luke_skywalker.txt
+  124  mkdir star_wars/rebellion/millenium_falcon
+  125  touch star_wars/rebellion/millenium_falcon/han_solo.txt star_wars/rebellion/millenium_falcon/chewbacca.txt
+  126  mv star_wars/rebellion/luke_skywalker.txt star_wars/rebellion/millenium_falcon
+  127  mv star_wars/rebellion/obi_wan.txt star_wars/rebellion/millenium_falcon
+  128  mv star_wars/rebellion/princess_leia.txt star_wars/rebellion/millenium_falcon
+  129  mv star_wars/rebellion/millenium_falcon star_wars/empire/death_star
+  130  git add .
+  131  git status
+  132  git commit -m "Act 2: Create the Rebellion, move M.F. to Death Star"
+  133  mv star_wars/empire/death_star/millenium_falcon/* star_wars/empire/death_star
+  134  rm star_wars/empire/death_star/obi_wan.txt
+  135  mv star_wars/empire/death_star/{luke_skywalker,han_solo,chewbacca,princess_leia}.txt star_wars/empire/death_star/millenium_falcon
+  136  mv star_wars/empire/death_star/millenium_falcon star_wars/rebellion
+  137  mv star_wars/empire/death_star/darth_vader.txt star_wars/empire
+  138  rm -r star_wars/empire/death_star
+  139  git add .
+  140  git status
+  141  git commit -m "Act 3: Obi Wan dies, M.F. escapes, D.V. escapes, Death Star gone\n\nq\ngit status\n''\n"
