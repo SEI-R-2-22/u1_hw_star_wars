@@ -1,0 +1,253 @@
+Last login: Tue Feb 22 17:14:46 on ttys002
+Jacksons-MacBook-Pro-2:~ jaxomega$ history | tail -n 250
+  251  $ pbcopy < ~/.ssh/id_ed25519.pub
+  252  pbcopy < ~/.ssh/id_rsa.pub
+  253  ssh git@github.com
+  254  brew install --cask visual-studio-code
+  255  code .
+  256  code .
+  257  ~ git --version
+  258  ~git -v
+  259  ~ git -v
+  260  -bash
+  261  -bash: /users
+  262  /Users
+  263  cd
+  264  pwd
+  265  open c/file.txt
+  266  open ./c/file.txt
+  267  pwd
+  268  mkdir
+  269  ls
+  270  cd...
+  271  cd..
+  272  cd ..
+  273  touch
+  274  cd
+  275  df -h
+  276  man
+  277  cd
+  278  cp hello.txt.bye.txt
+  279  cd
+  280  man ls
+  281  mv bye.txt ga/
+  282  cd
+  283  cd ~
+  284  mkdir ga_seir
+  285  mkdir unit1 unit2 unit3 unit4
+  286  mkdir projects
+  287  mkdir unit1/lessons unit1/labs unit1/homework
+  288  cd ga_seir
+  289  mkdir ga_seir
+  290  mkdir unit1 unit2 unit3 unit4
+  291  mkdir projects
+  292  mkdir unit1/lessons unit1/labs unit1/homework
+  293  cd unit1
+  294  ls
+  295  cd../unit2
+  296  cd uit2
+  297  cd ../unit2
+  298  mkdir lessons labs homework
+  299  cd ../ga_seir
+  300  mkdir lessons labs homework
+  301  ls
+  302  mv lessons labs homework unit3
+  303  cd unit3
+  304  cd ../unit3
+  305  ls
+  306  mv lessons labs homework unit3
+  307  [-v]
+  308  -v
+  309  cd /unit3
+  310  cd ../unit3
+  311  ls
+  312  cd
+  313  cd ga_seir
+  314  mkdir unit4/lessons unit4/labs unit4/homework
+  315  cd ../unit4
+  316  ls
+  317  cd ../ga_seir
+  318  cd projects
+  319  touch name.txt
+  320  ech "Hi, my name is Jax" >> name.txt
+  321  echo "Hi, my name is Jax" >> name.txt
+  322  cat name.txt
+  323  ls name.txt
+  324  rm name.txt
+  325  ls
+  326  rm -rf directory_name
+  327  cd ../ga_seir
+  328  ls
+  329  cd ../unit1
+  330  ls
+  331  cd ../unit2
+  332  ls
+  333  cd ../unit3
+  334  ls
+  335  mkdir unit3/lessons unit3/labs unit3/homework
+  336  mkdir lessons labs homework
+  337  ls
+  338  cd ../unit4
+  339  ls
+  340  git init
+  341  git add .
+  342  git add .
+  343  git add index.html
+  344  git commit -m "created login form fronted"
+  345  git remote add origin gttps://git.generalassemb.ly/SteveVW/repo-name
+  346  git push origin main
+  347  git remote -v
+  348  git remote set-url origin <URL>
+  349  git pull origin main
+  350  git clone https://github.com/user-name/repository-name.git
+  351  git status
+  352  git log
+  353  git log
+  354  git help -a -g
+  355  git help
+  356  git show
+  357  ~/git_example git init
+  358  ~/git_example
+  359  git init
+  360  git main
+  361  git --help
+  362  cd ../ga_seirn
+  363  cd ../ga_seir
+  364  ~/ga_seir/unit1/homework
+  365  ls
+  366  cd ga_seir
+  367  ls
+  368  cd unit1
+  369  ls
+  370  cd homework
+  371  git clone git@github.com:SEI-R-2-22/u1_hw_star_wars.git
+  372  ls
+  373  cd u1_hw_star_wars
+  374  ls
+  375  code .
+  376  cd act1.sh
+  377  mkdir star_wars
+  378  ls
+  379  cd star_wars
+  380  mkdir empire rebellion
+  381  ls
+  382  cd empire
+  383  darth_vader.txt
+  384  mkdir dath_vader.txt
+  385  ls
+  386  echo "...heavy breathing..."
+  387  ls
+  388  mkdir emperor_palpatine.txt
+  389  mkdir death_star
+  390  ls
+  391  help
+  392  mv darth_vader.txt
+  393  death_star
+  394  mv death_star
+  395  ls
+  396  cat "...heavy bresthing..."
+  397  mv darth_vader.text death_star
+  398  mv darth_vader.text
+  399  mv
+  400  ls
+  401  mv darth_vader.txt /death_star
+  402  cd u1_hw_star_wars
+  403  cd ../u1_hw_star_wars
+  404  cd star_wars
+  405  cd
+  406  ls
+  407  cd unit1
+  408  ls
+  409  cd homework
+  410  ls
+  411  cd ../ga_seir
+  412  cd
+  413  cd ../ga_seir
+  414  cd ga_seir
+  415  ls
+  416  cd unit1
+  417  ls
+  418  cd homework
+  419  ls
+  420  cd u1_hw_star_wars
+  421  ls
+  422  cd star_wars
+  423  ls
+  424  cd rebellion
+  425  ls
+  426  nvdr obi_wan.txt
+  427  mvdr obi_wan.txt
+  428  mkdir obi_wan.txt
+  429  ls
+  430  mkdir luke_skywalker..txt
+  431  mkdir luke_skywalker.txt
+  432  ls
+  433  rm luke_skywalker..txt
+  434  ls
+  435  ls
+  436  mkdir millenium_falcon
+  437  ls
+  438  cdr millenium_falcon
+  439  cd millenium_falcon
+  440  mkdir han_solo.txt chewbacca.txt
+  441  ls
+  442  cd ../rebellion
+  443  cd
+  444  cd ../rebellion
+  445  cd star_wars
+  446  cd ga_seir
+  447  cd unit1
+  448  ls
+  449  cd homework
+  450  ls
+  451  cd u1_hw_star_wars
+  452  ls
+  453  cd star_wars
+  454  ls
+  455  cd rebellion
+  456  mkdir princess_leia.txt
+  457  cd princess_leia.txt
+  458  mkdir "Help me, Obi-Wan..."
+  459  ls
+  460  cd-1
+  461  cd ../rebellion
+  462  cd /rebellion
+  463  cd ..
+  464  ls
+  465  mv luke_skywalker.txt /millenium_falcon
+  466  cd /ga_seir
+  467  ls
+  468  cd ga_seir/unit1
+  469  ls
+  470  cd homework/star_wars
+  471  ls
+  472  cd homework
+  473  ls
+  474  cd u1_hw_star_wars
+  475  ls
+  476  cd star_wars
+  477  ls
+  478  cd empire
+  479  ls
+  480  cd death_star
+  481  ls
+  482  cd millenium_falcon
+  483  ls
+  484  mv chewbacca.txt/millenium_falcon /death_star
+  485  mv chewbacca.txt luke_skywalker.txt princess_leia.txt han_solo.txt obi_wan.txt
+  486  ls
+  487  cd -1
+  488  cd ..
+  489  ls
+  490  ls
+  491  cd millenium_falcon
+  492  ls
+  493  rm obi-wan.txt
+  494  ls
+  495  cd ..
+  496  mkdir princess_leia.txt
+  497  ls
+  498  cd ..
+  499  cd
+  500  history | tail -n 250
+Jacksons-MacBook-Pro-2:~ jaxomega$ 
