@@ -1,0 +1,74 @@
+cd u1_hw_star_wars
+  200  code .
+  201  mk dir star_wars
+  202  mdkir star_wars
+  203  mkdir_star_wars
+  204  mkdir star_wars
+  205  mkdir empire rebellion
+  206  mv empire rebellion star_wars
+  207  cd empire
+  208  cd star_wars
+  209  cd empire
+  210  touch darth_vader.txt
+  211  echo "...heavy breathing..." >> darth_varder.txt
+  212  cd .
+  213  cd ..
+  214  echo "...heavy breathing..." >> darth_vader.txt
+  215  cat darth_vader.txt
+  216  rm darth_varder.txt
+  217  cd empire
+  218  rm darth_varder.txt
+  219  cd ..
+  220  cd empire
+  221  touch emperor_palpatine.txt
+  222  mkdir death_star
+  223  mv darth_vader.txt death_start
+  224  cd rebellion
+  225  cd ../rebellion
+  226  mv darth_vader.txt ~/u1_hw_star_wars/star_wars/empire
+  227  ls
+  228  cd ..
+  229  ls
+  230  mv darth_vader.txt empire/death_star
+  231  mv darth_vader.txt empire
+  232  cd empire
+  233  rm death_start
+  234  cd ../rebellion
+  235  touch princess_leia.txt && echo "Help me, Obi-Wan..." >> princess_leia.txt
+  236  touch obi_wan.txt
+  237  mkdir millenium_falcon
+  238  cd millenium_falcon
+  239  touch han_solo.txt chewbacca.txt
+  240  cd .
+  241  cd ..
+  242  mv princess_leia.txt obi_wan.txt luke_skywalker.txt millenium_falcon
+  243  touch luke_skywalker.txt
+  244  mv princess_leia.txt obi_wan.txt luke_skywalker.txt millenium_falcon
+  245  mv ls
+  246  ls
+  247  cd millenium_falcon
+  248  ls
+  249  cd ..
+  250  ls
+  251  mv millenium_falcon ../empire/death_star
+  252  cd ../empire/death_star/millenium_falcon
+  253  mv chewbacca.txt han_solo.txt luke_skywalker.txt obi_wan.txt princess_leia.txt ..
+  254  cd ..
+  255  rm obi_wan.txt
+  256  mv chewbacca.txt han_solo.txt luke_skywalker.txt princess_leia.txt millenium_falcon
+  257  mv millenium_falcon ../rebellion
+  258  cd ..
+  259  ls
+  260  mv rebellion ..
+  261  cd ../rebellion
+  262  ls
+  263  mkdir millenium_falcon
+  264  mv chewbacca.txt han_solo.txt luke_skywalker.txt princess_leia.txt millenium_falcon
+  265  cd ../empire
+  266  cd death_star
+  267  mv darth_vader.txt ../
+  268  cd../
+  269  cd ..
+  270  ls
+  271  rm -rf death_star
+
