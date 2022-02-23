@@ -1,0 +1,50 @@
+119  ls
+  120  rm -rf star_wars
+  121  git clone git@github.com:kuntzd99/u1_hw_star_wars.git
+  122  code .
+  123  ls
+  124  cd u1_hw_star_wars
+  125  mkdir star_wars
+  126  ls
+  127  mkdir star_wars/empire star_wars/rebellion
+  128  touch star_wars/empire/darth_vader.txt
+  129  echo "...heavy breathing..." >> star_wars/empire/darth_vader.txt
+  130  cat star_wars/empire/darth_vader.txt
+  131  touch star_wars/empire/emperor_palpatine.txt
+  132  mkdir star_wars/empire/death_star
+  133  mv star_wars/empire/darth_vader.txt star_wars/empire/death_star
+  134  git add .
+  135  git status
+  136  git commit -m "First act finished"
+  137  cd star_wars/rebellion
+  138  ls
+  139  touch princess_leia.txt && echo "Help me, Obi-Wan..." >> princess_leia.txt
+  140  touch obi_wan.txt
+  141  touch luke_skywalker.txt
+  142  mkdir millenium_falcon
+  143  touch millenium_falcon/han_solo.txt millenium_falcon/chewbacca.txt
+  144  mv luke_skywalker.txt obi_wan.txt princess_leia.txt millenium_falcon
+  145  mv millenium_falcon ../empire/death_star
+  146  git status
+  147  git add .
+  148  git status
+  149  git add .
+  150  git status
+  151  git commit -m "Act two finished"
+  152  git add star_wars
+  153  cd ..
+  154  git add .
+  155  git status
+  156  git commit -m "Second act finished"
+  157  mv star_wars/empire/death_star/millenium_falcon/* star_wars/empire/death_star
+  158  rm star_wars/empire/death_star/obi_wan.txt
+  159  mv star_wars/empire/death_star/han_solo.txt star_wars/empire/death_star/chewbacca.txt star_wars/empire/death_star/luke_skywalker.txt star_wars/empire/death_star/princess_leia.txt star_wars/empire/death_star/millenium_falcon
+  160  mv star_wars/empire/death_star/millenium_falcon star_wars/rebellion
+  161  mv star_wars/empire/death_star/darth_vader.txt star_wars/empire
+  162  rm star_wars/empire/death_star
+  163  rm -rf star_wars/empire/death_star
+  164  git status
+  165  git add .
+  166  git status
+  167  git commit -m "Act three finished"
+  168  history | tail -n 250
