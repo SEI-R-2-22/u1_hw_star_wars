@@ -1,0 +1,144 @@
+➜  homework ls
+u1_hw_star_wars
+➜  homework cd u1_hw_star_wars 
+➜  u1_hw_star_wars git:(main) code .
+➜  u1_hw_star_wars git:(main) mkdir star_wars
+➜  u1_hw_star_wars git:(main) cd star_wars 
+➜  star_wars git:(main) mkdir empire rebellion 
+➜  star_wars git:(main) cd empire 
+➜  empire git:(main) touch darth_vader.txt
+➜  empire git:(main) ✗ echo "...heavy breathing..." > darth_vader.txt 
+➜  empire git:(main) ✗ cat darth_vader.txt 
+...heavy breathing...
+➜  empire git:(main) ✗ ls 
+darth_vader.txt
+➜  empire git:(main) ✗ touch emperor_palpatine.txt
+➜  empire git:(main) ✗ mkdir death_star
+➜  empire git:(main) ✗ mv darth_vader.txt death_star 
+➜  empire git:(main) ✗ ls
+death_star            emperor_palpatine.txt
+➜  empire git:(main) ✗ cd death_star 
+➜  death_star git:(main) ✗ ls
+darth_vader.txt
+➜  death_star git:(main) ✗ cd ..
+➜  empire git:(main) ✗ ls
+death_star            emperor_palpatine.txt
+➜  empire git:(main) ✗ cd ..
+➜  star_wars git:(main) ✗ ls
+empire    rebellion
+➜  star_wars git:(main) ✗ cd rebellion 
+➜  rebellion git:(main) ✗ touch "princess_leia.txt" && echo "Help me, Obi-Wan..."
+Help me, Obi-Wan...
+➜  rebellion git:(main) ✗ touch "princess_leia.txt" && echo "Help me, Obi-Wan..." > princess_leia.txt 
+➜  rebellion git:(main) ✗ cat princess_leia.txt 
+Help me, Obi-Wan...
+➜  rebellion git:(main) ✗ git add . 
+➜  rebellion git:(main) ✗ git commit -m "first commit changed access token"
+[main dee88b9] first commit changed access token
+ 1 file changed, 1 insertion(+)
+ create mode 100644 star_wars/rebellion/princess_leia.txt
+➜  rebellion git:(main) ✗ git push origin main
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 10 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (5/5), 411 bytes | 411.00 KiB/s, done.
+Total 5 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/barboa91/u1_hw_star_wars.git
+   160b374..dee88b9  main -> main
+➜  rebellion git:(main) ✗ ls
+princess_leia.txt
+➜  rebellion git:(main) ✗ touch obi_wan.txt
+➜  rebellion git:(main) ✗ touch luke_skywalker.txt
+➜  rebellion git:(main) ✗ mkdir millenium_falcon
+➜  rebellion git:(main) ✗ ls
+luke_skywalker.txt millenium_falcon   obi_wan.txt        princess_leia.txt
+➜  rebellion git:(main) ✗ cd millenium_falcon 
+➜  millenium_falcon git:(main) ✗ touch han_solo.txt chewbacca.txt
+➜  millenium_falcon git:(main) ✗ cd ..
+➜  rebellion git:(main) ✗ ls
+luke_skywalker.txt millenium_falcon   obi_wan.txt        princess_leia.txt
+➜  rebellion git:(main) ✗ mv luke_skywalker.txt obi_wan.txt princess_leia.txt millenium_falcon 
+➜  rebellion git:(main) ✗ ls
+millenium_falcon
+➜  rebellion git:(main) ✗ cd ..
+➜  star_wars git:(main) ✗ ls
+empire    rebellion
+➜  star_wars git:(main) ✗ mv rebellion/millenium_falcon empire/death_star 
+➜  star_wars git:(main) ✗ ls
+empire    rebellion
+➜  star_wars git:(main) ✗ cd empire 
+➜  empire git:(main) ✗ ls
+death_star            emperor_palpatine.txt
+➜  empire git:(main) ✗ cd death_star 
+➜  death_star git:(main) ✗ ls
+darth_vader.txt  millenium_falcon
+➜  death_star git:(main) ✗ cd millenium_falcon 
+➜  millenium_falcon git:(main) ✗ ls
+chewbacca.txt      luke_skywalker.txt princess_leia.txt
+han_solo.txt       obi_wan.txt
+➜  millenium_falcon git:(main) ✗ cd ..
+➜  death_star git:(main) ✗ ..
+➜  empire git:(main) ✗ ..
+➜  star_wars git:(main) ✗ ls   
+empire    rebellion
+➜  star_wars git:(main) ✗ mv empire/death_star/millenium_falcon/* empire/death_star
+➜  star_wars git:(main) ✗ cd empire/death_star 
+➜  death_star git:(main) ✗ ls
+chewbacca.txt      han_solo.txt       millenium_falcon   princess_leia.txt
+darth_vader.txt    luke_skywalker.txt obi_wan.txt
+➜  death_star git:(main) ✗ rm obi_wan.txt 
+➜  death_star git:(main) ✗ mv chewbacca.txt han_solo.txt princess_leia.txt luke_skywalker.txt millenium_falcon 
+➜  death_star git:(main) ✗ cd                  
+➜  ~ ls
+Applications Documents    Library      Music        Projects     first
+Desktop      Downloads    Movies       Pictures     Public       website
+➜  ~ ls Desktop 
+SEI222  alpha   ga_seir
+➜  ~ cd SEI222
+cd: no such file or directory: SEI222
+➜  ~ cd Desktop/SEI222/unit1
+➜  unit1 ls
+week1
+➜  unit1 cd week1 
+➜  week1 ls  
+index.html
+➜  week1 cd ..
+➜  unit1 cd ..
+➜  SEI222 cd ..
+➜  Desktop cd ga_seir 
+➜  ga_seir ls
+projects unit1    unit2    unit3    unit4
+➜  ga_seir cd unit1
+➜  unit1 ls
+first_repo homework   labs       lessons
+➜  unit1 cd homework 
+➜  homework ls
+u1_hw_star_wars
+➜  homework cd u1_hw_star_wars 
+➜  u1_hw_star_wars git:(main) ✗ ls
+README.md    act1.sh      act2.sh      act3.sh      solution.txt star_wars
+➜  u1_hw_star_wars git:(main) ✗ star_wars 
+➜  star_wars git:(main) ✗ ls
+empire    rebellion
+➜  star_wars git:(main) ✗ cd empire 
+➜  empire git:(main) ✗ ls
+death_star            emperor_palpatine.txt
+➜  empire git:(main) ✗ cd death_star 
+➜  death_star git:(main) ✗ ls
+darth_vader.txt  millenium_falcon
+➜  death_star git:(main) ✗ cd ..
+➜  empire git:(main) ✗ cd ..
+➜  star_wars git:(main) ✗ mv empire/death_star/millenium_falcon rebellion
+➜  star_wars git:(main) ✗ mv empire/death_star/darth_vader.txt empire
+➜  star_wars git:(main) ✗ cd empire 
+➜  empire git:(main) ✗ ls
+darth_vader.txt       death_star            emperor_palpatine.txt
+➜  empire git:(main) ✗ cd death_star 
+➜  death_star git:(main) ✗ ls
+➜  death_star git:(main) ✗ cd ..
+➜  empire git:(main) ✗ ls
+darth_vader.txt       death_star            emperor_palpatine.txt
+➜  empire git:(main) ✗ rm -rf death_star 
+➜  empire git:(main) ✗ 
