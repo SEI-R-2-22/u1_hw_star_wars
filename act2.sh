@@ -1,6 +1,7 @@
 # 1. Inside the `star_wars/rebellion` directory, (IN ONE COMMAND using &&) create a file called princess_leia.txt with the text "Help me, Obi-Wan…"
-cd star_wars/rebellion && touch princess_leia.txt  
+cd ../rebellion && touch princess_leia.txt  
 # 2. Create a file called obi_wan.txt in star_wars/rebellion
+cd ../rebellion
 touch obi_wan.txt 
 # 3. Create a file in star_wars/rebellion called luke_skywalker.txt
 touch luke_skywalker.txt
@@ -13,4 +14,4 @@ touch han_solo.txt chewbacca.txt
 cd ..
 mv {luke_skywalker.txt, obi_wan.txt, princess_leia.txt} millenium_falcon
 # 7. Move the millenium_falcon into the death_star.
-mv millenium_falcon /star_wars/empire/death_star
+mv millenium_falcon death_star
