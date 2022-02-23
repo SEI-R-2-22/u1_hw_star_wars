@@ -1,0 +1,95 @@
+761  ga_seir/unit1/homework
+762  git clone https://github.com/dwu621/u1_hw_star_wars.git
+763  cd u1_hw_star_wars
+764  atom .
+765  mkdir star_wars
+766  cd star_wars
+767  mkdir empire rebellion
+768  cd empire
+769  touch darth_vader.txt
+770  echo "...heavy breathing..." >> darth_vader.txt
+771  touch emperor_palpatine.txt
+772  mkdir death_star
+773  ls
+774  mv darth_vader.txt death_star
+775  ls
+776  git add .
+777  git commit -m "act1 finished"
+778  ..
+779  rebellion
+780  touch princess_leia.txt && echo "Help me, Obi-Wan" >> princess_leia.txt
+781  touch obi-wan.txt
+782  touch luke_skywalker.txt
+783  mkdir millenium_falcon
+784  ls
+785  millenium_falcon
+786  touch han_solo.txt chewbacca.txt
+787  pwd
+788  mv luke_skywalker.txt obi_wan.txt princess_leia.txt /Users/davidwu/ga_seir/unit1/homework/u1_hw_star_wars/star_wars/rebellion/millenium_falcon
+789  ..
+790  mv luke_skywalker.txt obi_wan.txt princess_leia.txt /Users/davidwu/ga_seir/unit1/homework/u1_hw_star_wars/star_wars/rebellion/millenium_falcon
+791  ls
+792  rm obi-wan.txt
+793  ls
+794  touch obi_wan.txt
+795  millenium_falcon
+796  ls
+797  ..
+798  pwd
+799  millenium_falcon
+800  mv luke_skywalker.txt princess_leia.txt /Users/davidwu/ga_seir/unit1/homework/u1_hw_star_wars/star_wars/rebellion
+801  ..
+802  ls
+803  mv luke_skywalker.txt obi_wan.txt princess_leia.txt /Users/davidwu/ga_seir/unit1/homework/u1_hw_star_wars/star_wars/rebellion/millenium_falcon
+804  millenium_falcon
+805  ls
+806  ...
+807  ls
+808  empire
+809  ls
+810  death_star
+811  pwd
+812  /Users/davidwu/ga_seir/unit1/homework/u1_hw_star_wars/star_wars/rebellion
+813  mv millenium_falcon /Users/davidwu/ga_seir/unit1/homework/u1_hw_star_wars/star_wars/empire/death_star
+814  ls
+815  /Users/davidwu/ga_seir/unit1/homework/u1_hw_star_wars/star_wars/empire/death_star
+816  ls
+817  git add .
+818  git status
+819  git add .
+820  git status
+821  git commit -m "act2 finished"
+822  ls
+823  pwd
+824  mv (millenium_falcon/)* /Users/davidwu/ga_seir/unit1/homework/u1_hw_star_wars/star_wars/empire/death_star
+825  mv millenium_falcon/* /Users/davidwu/ga_seir/unit1/homework/u1_hw_star_wars/star_wars/empire/death_star
+826  ls
+827  rm obi_wan.txt
+828  ls
+829  mv chewbacca.txt han_solo.txt luke_skywalker.txt princess_leia.txt millenium_falcon
+830  ...
+831  rebellion
+832  pwd
+833  /Users/davidwu/ga_seir/unit1/homework/u1_hw_star_wars/star_wars/empire/death_star
+834  mv millenium_falcon /Users/davidwu/ga_seir/unit1/homework/u1_hw_star_wars/star_wars/rebellion
+835  ..
+836  rebellion
+837  lks
+838  ls
+839  ..
+840  empire
+841  pwd
+842  ls
+843  death_star
+844  ls
+845  mv darth_vader.txt /Users/davidwu/ga_seir/unit1/homework/u1_hw_star_wars/star_wars/empire
+846  ..
+847  rm -rf death_star
+848  ls
+849  git add .
+850  git status
+851  ..
+852  ls
+853  git add rebellion/
+854  git status
+855  git commit -m "act3 finished"
