@@ -1,0 +1,131 @@
+jennaleopold@Jennas-MacBook-Pro u1_hw_star_wars % mkdir star_wars
+jennaleopold@Jennas-MacBook-Pro u1_hw_star_wars % ls
+README.md	act2.sh		solution.txt
+act1.sh		act3.sh		star_wars
+jennaleopold@Jennas-MacBook-Pro u1_hw_star_wars % cd star_wars
+jennaleopold@Jennas-MacBook-Pro star_wars % mkdir empire rebellion
+jennaleopold@Jennas-MacBook-Pro star_wars % cd empire
+jennaleopold@Jennas-MacBook-Pro empire % touch darth_vader.txt
+jennaleopold@Jennas-MacBook-Pro empire % echo "...heavy breathing..." >> darth_vader.txt
+jennaleopold@Jennas-MacBook-Pro empire % touch emperor_palpatine.txt
+jennaleopold@Jennas-MacBook-Pro empire % mkdir death_star
+jennaleopold@Jennas-MacBook-Pro empire % mv darth_vader.txt death_start
+jennaleopold@Jennas-MacBook-Pro empire % rm death_start                                 
+jennaleopold@Jennas-MacBook-Pro empire % mv darth_vader.txt death_star
+mv: rename darth_vader.txt to death_star/darth_vader.txt: No such file or directory
+jennaleopold@Jennas-MacBook-Pro empire % touch darth_vader.txt
+jennaleopold@Jennas-MacBook-Pro empire % echo "...heavy breathing..." >> darth_vader.txt
+jennaleopold@Jennas-MacBook-Pro empire % ls
+darth_vader.txt		death_star		emperor_palpatine.txt
+jennaleopold@Jennas-MacBook-Pro empire % mv darth_vader.txt death_star/    
+jennaleopold@Jennas-MacBook-Pro empire % pwd
+/Users/jennaleopold/ga_seir/unit1/homework/u1_hw_star_wars/star_wars/empire
+jennaleopold@Jennas-MacBook-Pro empire % cd ../rebellion                           
+jennaleopold@Jennas-MacBook-Pro rebellion % pwd
+/Users/jennaleopold/ga_seir/unit1/homework/u1_hw_star_wars/star_wars/rebellion
+jennaleopold@Jennas-MacBook-Pro rebellion % touch princess_leia.txt && echo "Help me, Obi-Wan…" >> princess_leia.txt
+jennaleopold@Jennas-MacBook-Pro rebellion % touch obi_wan.txt
+jennaleopold@Jennas-MacBook-Pro rebellion % touch luke_skywalker.txt
+jennaleopold@Jennas-MacBook-Pro rebellion % mkdir millenium_falcon
+jennaleopold@Jennas-MacBook-Pro rebellion % cd millenium_falcon 
+jennaleopold@Jennas-MacBook-Pro millenium_falcon % touch han_solo.txt chewbacca.txt
+jennaleopold@Jennas-MacBook-Pro millenium_falcon % mv ../luke_skywalker.txt millenium_falcon/
+mv: rename ../luke_skywalker.txt to millenium_falcon/: No such file or directory
+jennaleopold@Jennas-MacBook-Pro millenium_falcon % cd ..
+jennaleopold@Jennas-MacBook-Pro rebellion % mv luke_skywalker.txt millenium_falcon
+jennaleopold@Jennas-MacBook-Pro rebellion % mv obi_wan.txt millenium_falcon
+jennaleopold@Jennas-MacBook-Pro rebellion % mv princess_leia.txt millenium_falcon/
+jennaleopold@Jennas-MacBook-Pro rebellion % mv millenium_falcon ../empire/death_star/
+jennaleopold@Jennas-MacBook-Pro rebellion % git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   ../../act2.sh
+	modified:   ../../solution.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	../empire/death_star/millenium_falcon/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+jennaleopold@Jennas-MacBook-Pro rebellion % git add ../../act2.sh ../empire/death_star/millenium_falcon/
+jennaleopold@Jennas-MacBook-Pro rebellion % git commit -m "completed Act 2"
+[main 911225d] completed Act 2
+ 6 files changed, 13 insertions(+), 6 deletions(-)
+ create mode 100644 star_wars/empire/death_star/millenium_falcon/chewbacca.txt
+ create mode 100644 star_wars/empire/death_star/millenium_falcon/han_solo.txt
+ create mode 100644 star_wars/empire/death_star/millenium_falcon/luke_skywalker.txt
+ create mode 100644 star_wars/empire/death_star/millenium_falcon/obi_wan.txt
+ create mode 100644 star_wars/empire/death_star/millenium_falcon/princess_leia.txt
+jennaleopold@Jennas-MacBook-Pro rebellion % git status
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   ../../solution.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+jennaleopold@Jennas-MacBook-Pro rebellion % git status
+jennaleopold@Jennas-MacBook-Pro rebellion % git status
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   ../../solution.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+jennaleopold@Jennas-MacBook-Pro rebellion % cd ..
+jennaleopold@Jennas-MacBook-Pro star_wars % cd death_star/millenium_falcon
+cd: no such file or directory: death_star/millenium_falcon
+jennaleopold@Jennas-MacBook-Pro star_wars % cd death_star/millenium_falcon
+cd: no such file or directory: death_star/millenium_falcon
+jennaleopold@Jennas-MacBook-Pro star_wars % cd empire/death_star/millenium_falcon
+jennaleopold@Jennas-MacBook-Pro millenium_falcon % mv millenium_falcon/* ..
+zsh: no matches found: millenium_falcon/*
+jennaleopold@Jennas-MacBook-Pro millenium_falcon % mv (millenium_falcon/*) ..
+zsh: number expected
+jennaleopold@Jennas-MacBook-Pro millenium_falcon % mv millenium_falcon/*  ../    
+zsh: no matches found: millenium_falcon/*
+jennaleopold@Jennas-MacBook-Pro millenium_falcon % cd ..
+jennaleopold@Jennas-MacBook-Pro death_star % mv millenium_falcon/* .
+jennaleopold@Jennas-MacBook-Pro death_star % rm obi_wan.txt
+jennaleopold@Jennas-MacBook-Pro death_star % mv chewbacca.txt millenium_falcon/
+jennaleopold@Jennas-MacBook-Pro death_star % mv han_solo.txt millenium_falcon/
+jennaleopold@Jennas-MacBook-Pro death_star % mv luke_skywalker.txt millenium_falcon/
+jennaleopold@Jennas-MacBook-Pro death_star % mv princess_leia.txt millenium_falcon/
+jennaleopold@Jennas-MacBook-Pro death_star % mv millenium_falcon ../../../rebellion/
+jennaleopold@Jennas-MacBook-Pro death_star % ls 
+darth_vader.txt
+jennaleopold@Jennas-MacBook-Pro death_star % cd ..
+jennaleopold@Jennas-MacBook-Pro empire % cd ..
+jennaleopold@Jennas-MacBook-Pro star_wars % cd ..
+jennaleopold@Jennas-MacBook-Pro u1_hw_star_wars % ls
+README.md		act1.sh			act2.sh			act3.sh			millenium_falcon	solution.txt		star_wars
+jennaleopold@Jennas-MacBook-Pro u1_hw_star_wars % mv millenium_falcon star_wars/rebellion
+jennaleopold@Jennas-MacBook-Pro u1_hw_star_wars % ls
+README.md	act1.sh		act2.sh		act3.sh		solution.txt	star_wars
+jennaleopold@Jennas-MacBook-Pro u1_hw_star_wars % cd star_wars 
+jennaleopold@Jennas-MacBook-Pro star_wars % ls
+empire		rebellion
+jennaleopold@Jennas-MacBook-Pro star_wars % cd empire
+jennaleopold@Jennas-MacBook-Pro empire % ls
+death_star		emperor_palpatine.txt
+jennaleopold@Jennas-MacBook-Pro empire % cd death_star
+jennaleopold@Jennas-MacBook-Pro death_star % cd ..
+jennaleopold@Jennas-MacBook-Pro empire % cd ..
+jennaleopold@Jennas-MacBook-Pro star_wars % cd ..
+jennaleopold@Jennas-MacBook-Pro u1_hw_star_wars % cd star_wars/empire/death_star  
+jennaleopold@Jennas-MacBook-Pro death_star % mv darth_vader.txt ../
+jennaleopold@Jennas-MacBook-Pro death_star % rm -rf death_star
+jennaleopold@Jennas-MacBook-Pro death_star % cd ..
+jennaleopold@Jennas-MacBook-Pro empire % rm -rf death_star/
