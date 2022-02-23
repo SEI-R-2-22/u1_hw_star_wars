@@ -1,0 +1,503 @@
+ 450  cd ~
+  451  la-a
+  452  ls-a
+  453  ls -a
+  454  cat ~/.ssh/id_rsa.pub
+  455  pbcopy < ~/.ssh/id_rsa.pub
+  456  code .
+  457  brew --version
+  458  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  459  brew --version
+  460  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  461  echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/markkennedy/.zprofile\n    eval "$(/opt/homebrew/bin/brew shellenv)"
+  462  echo 'eval "$(/opt/homebrew/bin/brew shellenv)"'
+  463  echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/markkennedy/.zprofile
+  464  eval "$(/opt/homebrew/bin/brew shellenv)"
+  465  brew install zsh
+  466  sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+  467  cd
+  468  ls
+  469  cd
+  470  brew install trash
+  471  ls
+  472  cd ravenous
+  473  ls
+  474  cd..
+  475  ls
+  476  cd ..
+  477  ls
+  478  mk ga_seir
+  479  md ga_seir
+  480  cd ga_seir
+  481  mkdir unit1 unit 2 unit3 unit4
+  482  ls
+  483  mkdir unit2
+  484  ls
+  485  mkdir projects
+  486  ls
+  487  mkdir unit1/lessons
+  488  mkdir unit1/labs unit1/homework
+  489  ls
+  490  cd projects
+  491  ls
+  492  cd ..
+  493  ls
+  494  mkdir unit1/labs unit1/homework
+  495  cd ..
+  496  ls
+  497  cd ga_seir
+  498  ls
+  499  cd unit2
+  500  mkdir Lessons Labs homework
+  501  ls
+  502  cd .
+  503  cd ..
+  504  cd unit3
+  505  mkdir Lessons Labs Homework
+  506  ls
+  507  cd ..
+  508  cd unit3
+  509  cd ..
+  510  cd unit4
+  511  mkdir lesson labs homework
+  512  ls
+  513  cd ..
+  514  ls
+  515  cd projects
+  516  touch name.txt
+  517  ls
+  518  echo "Hi, my name is Mark." >> name.txt
+  519  cat name.txt
+  520  ls
+  521  trash name.txt
+  522  cd
+  523  ls -a
+  524  cd ga_seir
+  525  cd unit1
+  526  ls
+  527  cd lessons
+  528  mkdir git-practice
+  529  cd git-practice
+  530  git init
+  531  ls -a
+  532  touch index.html
+  533  code .
+  534  git add index.html
+  535  git commit -m "create html file"
+  536  git remote -v
+  537  git remote add origin https://github.com/kennedymark680/gitpractice.git
+  538  git remote -v
+  539  git remote remove origin
+  540  git remote -v
+  541  git remote add origin git@github.com:kennedymark680/gitpractice.git
+  542  git remote -v
+  543  git branch -M main
+  544  git push origin main
+  545  ..
+  546  trash git-practice
+  547  git clone git@github.com:kennedymark680/u1_lesson_VSCode.git
+  548  ls
+  549  cd u1_lesson_VSCode
+  550  code .
+  551  npm i -g prettier
+  552  cd
+  553  ls
+  554  ga_seir
+  555  cd unit1
+  556  ls
+  557  cd homework
+  558  cd
+  559  ls
+  560  sudo chown -R $(whoami) ~/.npm
+  561  npm i -g prettier
+  562  sudo chown -R $(whoami) ~/.npm\ncd
+  563  ls
+  564  sudo chown -R $(whoami) ~/.npm\n
+  565  npm i -g prettier
+  566  sudo npm i -g prettier
+  567  cd
+  568  ls
+  569  ga_seir
+  570  ls
+  571  cd unit1
+  572  ls
+  573  cd homework
+  574  git cone git@github.com:kennedymark680/u1_hw_star_wars.git
+  575  git clone git@github.com:kennedymark680/u1_hw_star_wars.git
+  576  code .
+  577  ls
+  578  cd u1_hw_star_wars
+  579  code .
+  580* npm i -g prettier\n
+  581* touch ~/.prettierrc
+  582* echo "{"trailingComma": "none", "tabWidth": 2, "bracketSpacing": true, "useTabs": false, "semi": false, "singleQuote": true}" > ~/.prettierrc
+  583* sudo npm i -g prettier
+  584* touch ~/.prettierrc
+  585* echo "{"trailingComma": "none", "tabWidth": 2, "bracketSpacing": true, "useTabs": false, "semi": false, "singleQuote": true}" > ~/.prettierrc
+  586  clear
+  587  ls
+  588  cd act1
+  589  cd act1.sh
+  590  cd
+  591  ls
+  592  cd ga_seir
+  593  ls
+  594  cd unit1
+  595  ls
+  596  cd homework
+  597  ls
+  598  cd u1_hw_star_wars
+  599  mkdir star_wars
+  600  ls
+  601  cd star_wars
+  602  mkdir empire rebellion
+  603  ls
+  604  git add .
+  605  git commit -m "created empire and rebellion directories"
+  606  ls
+  607  cd empire
+  608  touch darth_vader.txt
+  609  echo ...heavy breathing...>>darth_vader.txt
+  610  touch emperor_palpatine.txt
+  611  ls
+  612  mkdir death_star
+  613  ls
+  614  mv darth_vader.txt death_star
+  615  ls
+  616  cd death_star
+  617  ls
+  618  git add .
+  619  git commit -m "Created star_wars directory and empire/rebellion:\n..\ncd\ncd ..
+  620  git add . 
+  621  git commit -m "Created star_wars directory and empire/rebellion"
+  622  pwd
+  623  ls
+  624  cd ..
+  625  ls
+  626  cd ..
+  627  ls
+  628  cd rebellion
+  629  mkdir princess_leia.txt && echo Help me, Obi-Wan>>princess_leia.txt
+  630  ls
+  631  rm princess_leia.txt
+  632  ls
+  633  rm -rf princess_leia.txt
+  634  ls
+  635  touch princess_leia.txt && echo Help me, Obi-Wan
+  636  pwd
+  637  touch obi_wan.txt
+  638  touch luke_skywalker.txt
+  639  mkdir millenium_falcon
+  640  cd millenium_falcon
+  641  touch han_solo.txt chewbacca.txt
+  642  mv luke_skywalker.txt obi_wan.txt princess_leia.txt millenium_falcon
+  643  ls
+  644  cd ..
+  645  ls
+  646  mv luke_skywalker.txt obi_wan.txt princess_leia.txt millenium_falcon
+  647  cd ..
+  648  mv millenium_falcon death_star
+  649  ls
+  650  cd rebellion
+  651  ls
+  652  mv millenium_falcon death_star
+  653  ls
+  654  pwd
+  655  mkdir millenium_falcon
+  656  cd millenium_falcon
+  657  cd ..
+  658  cd death_star
+  659  mv princess_leia.txt obi_wan.txt luke_skywalker.txt chewbacca.txt han_solo.txt millenium_falcon
+  660  pwd
+  661  cd ..
+  662  mv death_star millenium_falcon
+  663  pwd
+  664  ls
+  665  cd millenium_falcon
+  666  cd death_star
+  667  pwd
+  668  cd ..
+  669  mv rebellion/death_star empire
+  670  mv rebellion/* empire
+  671  pwd
+  672  cd rebellion
+  673  cd ..
+  674  pwd
+  675  mv rebellion/millenium_falcon empire
+  676  cd empire
+  677  mv millenium_falcon death_star
+  678  git add .
+  679  git commit -m "Moved millenium falcon into the death star"
+  680  ls
+  681  cd death_star
+  682  ls
+  683  cd millenium_falcon
+  684  ls
+  685  ls -a
+  686  rm obi_wan.txt
+  687  cd ..
+  688  mv millenium_falcon/* darth_star
+  689  mv -v ~/millenium_falcon/* ~/death_star 
+  690  mv millenium_falcon/* darth_vader.txt
+  691  cd ..
+  692  mv death_star/millenium_falcon/* death_star
+  693  cd death_star
+  694  mv princess_leia.txt luke_skywalker.txt han_solo.txt chewbacca.txt millenium_falcon
+  695  cd ..
+  696  mv empire/death_star/millenium_falcon rebellion
+  697  mv empire/death_star/darth_vader.txt empire
+  698  cd empire
+  699  rm -rf death_star
+  700  git add .
+  701  git commit -m "Millenium falcon returns and death star no more"
+➜  empire git:(main) ✗ history | tail -n 250
+  453  ls -a
+  454  cat ~/.ssh/id_rsa.pub
+  455  pbcopy < ~/.ssh/id_rsa.pub
+  456  code .
+  457  brew --version
+  458  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  459  brew --version
+  460  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  461  echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/markkennedy/.zprofile\n    eval "$(/opt/homebrew/bin/brew shellenv)"
+  462  echo 'eval "$(/opt/homebrew/bin/brew shellenv)"'
+  463  echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/markkennedy/.zprofile
+  464  eval "$(/opt/homebrew/bin/brew shellenv)"
+  465  brew install zsh
+  466  sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+  467  cd
+  468  ls
+  469  cd
+  470  brew install trash
+  471  ls
+  472  cd ravenous
+  473  ls
+  474  cd..
+  475  ls
+  476  cd ..
+  477  ls
+  478  mk ga_seir
+  479  md ga_seir
+  480  cd ga_seir
+  481  mkdir unit1 unit 2 unit3 unit4
+  482  ls
+  483  mkdir unit2
+  484  ls
+  485  mkdir projects
+  486  ls
+  487  mkdir unit1/lessons
+  488  mkdir unit1/labs unit1/homework
+  489  ls
+  490  cd projects
+  491  ls
+  492  cd ..
+  493  ls
+  494  mkdir unit1/labs unit1/homework
+  495  cd ..
+  496  ls
+  497  cd ga_seir
+  498  ls
+  499  cd unit2
+  500  mkdir Lessons Labs homework
+  501  ls
+  502  cd .
+  503  cd ..
+  504  cd unit3
+  505  mkdir Lessons Labs Homework
+  506  ls
+  507  cd ..
+  508  cd unit3
+  509  cd ..
+  510  cd unit4
+  511  mkdir lesson labs homework
+  512  ls
+  513  cd ..
+  514  ls
+  515  cd projects
+  516  touch name.txt
+  517  ls
+  518  echo "Hi, my name is Mark." >> name.txt
+  519  cat name.txt
+  520  ls
+  521  trash name.txt
+  522  cd
+  523  ls -a
+  524  cd ga_seir
+  525  cd unit1
+  526  ls
+  527  cd lessons
+  528  mkdir git-practice
+  529  cd git-practice
+  530  git init
+  531  ls -a
+  532  touch index.html
+  533  code .
+  534  git add index.html
+  535  git commit -m "create html file"
+  536  git remote -v
+  537  git remote add origin https://github.com/kennedymark680/gitpractice.git
+  538  git remote -v
+  539  git remote remove origin
+  540  git remote -v
+  541  git remote add origin git@github.com:kennedymark680/gitpractice.git
+  542  git remote -v
+  543  git branch -M main
+  544  git push origin main
+  545  ..
+  546  trash git-practice
+  547  git clone git@github.com:kennedymark680/u1_lesson_VSCode.git
+  548  ls
+  549  cd u1_lesson_VSCode
+  550  code .
+  551  npm i -g prettier
+  552  cd
+  553  ls
+  554  ga_seir
+  555  cd unit1
+  556  ls
+  557  cd homework
+  558  cd
+  559  ls
+  560  sudo chown -R $(whoami) ~/.npm
+  561  npm i -g prettier
+  562  sudo chown -R $(whoami) ~/.npm\ncd
+  563  ls
+  564  sudo chown -R $(whoami) ~/.npm\n
+  565  npm i -g prettier
+  566  sudo npm i -g prettier
+  567  cd
+  568  ls
+  569  ga_seir
+  570  ls
+  571  cd unit1
+  572  ls
+  573  cd homework
+  574  git cone git@github.com:kennedymark680/u1_hw_star_wars.git
+  575  git clone git@github.com:kennedymark680/u1_hw_star_wars.git
+  576  code .
+  577  ls
+  578  cd u1_hw_star_wars
+  579  code .
+  580* npm i -g prettier\n
+  581* touch ~/.prettierrc
+  582* echo "{"trailingComma": "none", "tabWidth": 2, "bracketSpacing": true, "useTabs": false, "semi": false, "singleQuote": true}" > ~/.prettierrc
+  583* sudo npm i -g prettier
+  584* touch ~/.prettierrc
+  585* echo "{"trailingComma": "none", "tabWidth": 2, "bracketSpacing": true, "useTabs": false, "semi": false, "singleQuote": true}" > ~/.prettierrc
+  586  clear
+  587  ls
+  588  cd act1
+  589  cd act1.sh
+  590  cd
+  591  ls
+  592  cd ga_seir
+  593  ls
+  594  cd unit1
+  595  ls
+  596  cd homework
+  597  ls
+  598  cd u1_hw_star_wars
+  599  mkdir star_wars
+  600  ls
+  601  cd star_wars
+  602  mkdir empire rebellion
+  603  ls
+  604  git add .
+  605  git commit -m "created empire and rebellion directories"
+  606  ls
+  607  cd empire
+  608  touch darth_vader.txt
+  609  echo ...heavy breathing...>>darth_vader.txt
+  610  touch emperor_palpatine.txt
+  611  ls
+  612  mkdir death_star
+  613  ls
+  614  mv darth_vader.txt death_star
+  615  ls
+  616  cd death_star
+  617  ls
+  618  git add .
+  619  git commit -m "Created star_wars directory and empire/rebellion:\n..\ncd\ncd ..
+  620  git add . 
+  621  git commit -m "Created star_wars directory and empire/rebellion"
+  622  pwd
+  623  ls
+  624  cd ..
+  625  ls
+  626  cd ..
+  627  ls
+  628  cd rebellion
+  629  mkdir princess_leia.txt && echo Help me, Obi-Wan>>princess_leia.txt
+  630  ls
+  631  rm princess_leia.txt
+  632  ls
+  633  rm -rf princess_leia.txt
+  634  ls
+  635  touch princess_leia.txt && echo Help me, Obi-Wan
+  636  pwd
+  637  touch obi_wan.txt
+  638  touch luke_skywalker.txt
+  639  mkdir millenium_falcon
+  640  cd millenium_falcon
+  641  touch han_solo.txt chewbacca.txt
+  642  mv luke_skywalker.txt obi_wan.txt princess_leia.txt millenium_falcon
+  643  ls
+  644  cd ..
+  645  ls
+  646  mv luke_skywalker.txt obi_wan.txt princess_leia.txt millenium_falcon
+  647  cd ..
+  648  mv millenium_falcon death_star
+  649  ls
+  650  cd rebellion
+  651  ls
+  652  mv millenium_falcon death_star
+  653  ls
+  654  pwd
+  655  mkdir millenium_falcon
+  656  cd millenium_falcon
+  657  cd ..
+  658  cd death_star
+  659  mv princess_leia.txt obi_wan.txt luke_skywalker.txt chewbacca.txt han_solo.txt millenium_falcon
+  660  pwd
+  661  cd ..
+  662  mv death_star millenium_falcon
+  663  pwd
+  664  ls
+  665  cd millenium_falcon
+  666  cd death_star
+  667  pwd
+  668  cd ..
+  669  mv rebellion/death_star empire
+  670  mv rebellion/* empire
+  671  pwd
+  672  cd rebellion
+  673  cd ..
+  674  pwd
+  675  mv rebellion/millenium_falcon empire
+  676  cd empire
+  677  mv millenium_falcon death_star
+  678  git add .
+  679  git commit -m "Moved millenium falcon into the death star"
+  680  ls
+  681  cd death_star
+  682  ls
+  683  cd millenium_falcon
+  684  ls
+  685  ls -a
+  686  rm obi_wan.txt
+  687  cd ..
+  688  mv millenium_falcon/* darth_star
+  689  mv -v ~/millenium_falcon/* ~/death_star 
+  690  mv millenium_falcon/* darth_vader.txt
+  691  cd ..
+  692  mv death_star/millenium_falcon/* death_star
+  693  cd death_star
+  694  mv princess_leia.txt luke_skywalker.txt han_solo.txt chewbacca.txt millenium_falcon
+  695  cd ..
+  696  mv empire/death_star/millenium_falcon rebellion
+  697  mv empire/death_star/darth_vader.txt empire
+  698  cd empire
+  699  rm -rf death_star
+  700  git add .
+  701  git commit -m "Millenium falcon returns and death star no more"
+  702  history
