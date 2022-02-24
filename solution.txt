@@ -1,0 +1,220 @@
+1  pwd
+    2  ls
+    3  cd doucments
+    4  cd Documents
+    5  ls
+    6  ls -a
+    7  cd ..
+    8  pwd
+    9  mkdir Myfolder
+   10  ls
+   11  cd Myfolder
+   12  touch index.html style.css
+   13  ls
+   14  rm style.css
+   15  ls
+   16  cd ..
+   17  rm -r Myfolder
+   18  cd ..
+   19  cd downloads
+   20  ls
+   21  cd world
+   22  cd ..
+   23  ls
+   24  cd ~
+   25  ls
+   26  cd downloads
+   27  ls
+   28  cd World
+   29  ls
+   30  ls -a
+   31  ls
+   32  cd Africa
+   33  ls
+   34  ls -a
+   35  cd World
+   36  cd ..
+   37   cd ~
+   38  git --version
+   39  cd ~
+   40  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"\n
+   41  echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/abdullahalbayati/.zprofile
+   42  eval "$(/opt/homebrew/bin/brew shellenv)"
+   43  brew help
+   44  cd ~
+   45  git --version
+   46  ls
+   47  cd Desktop
+   48  mkdir GA-Blog
+   49  git inint
+   50  git init
+   51  cd ~
+   52  cd desktop
+   53  cd GA-Blog
+   54  git init
+   55  ls -a
+   56  git status
+   57  touch post.txt
+   58  git status
+   59  git add post.txt
+   60  git status
+   61  git commit -m "created a new post.txt file"
+   62  git add Hi.txt
+   63  git add post.txt
+   64  git commit -m "added post.txt"
+   65  git log
+   66  cd ~
+   67  cd desktop
+   68  mkdir GA
+   69  cd GA
+   70  mkdir git-practice
+   71  cd git-practice
+   72  git status
+   73  git init
+   74  ls -a
+   75  mkdir README.txt
+   76  git status
+   77  git add README.txt
+   78  git status
+   79  ls
+   80  git add README.txt
+   81  git status
+   82  git commit -m "created README.txt file"
+   83  git status
+   84  git log
+   85  cd ~
+   86  node -v
+   87  npm -v
+   88  chsh -s $(which zsh)
+   89  node -v
+   90  brew install git
+   91  git config --global user.name "lmao98"
+   92  ssh-keygen -t rsa -b 4096 -C "dark.king1154@gmail.com"
+   93  eval "$(ssh-agent -s)"
+   94  pbcopy < ~/.ssh/id_rsa.pub
+   95  ssh git@github.com
+   96  cd
+   97  node -v
+   98  git -v
+   99  git --version
+  100  git config --global user.name "Abdullah Albayati"
+  101  git config --global user.email "dark.king1154@gmail.com"
+  102  ssh-keygen -t rsa -b 4096 -C "dark.king1154@gmail.com"
+  103  eval "$(ssh-agent -s)"
+  104  pbcopy < ~/.ssh/id_rsa.pub
+  105  ssh git@github.com
+  106  brew install --cask visual-studio-code
+  107  code .
+  108  pwd
+  109  ls
+  110  cd ~
+  111  mkdir ga_seir
+  112  ls
+  113  cd ga_seir
+  114  mkdir unit1 unit2 unit3 unit4
+  115  ls
+  116  mkdir projects
+  117  ls
+  118  cd unit1
+  119  mkdir leasons labs homework
+  120  cd .
+  121  cd ..
+  122  mkdir unit2/leasons unit2/labs unit2/homework
+  123  mkdir unit3/leasons unit3/labs unit3/homework
+  124  mkdir unit4/leasons unit4/labs unit4/homework
+  125  cd unit3
+  126  ls
+  127  cd ..
+  128  cd unit1
+  129  cd projects
+  130  ls
+  131  cd ../projects
+  132  touch name.txt
+  133  ls
+  134  echo "Hi, my name is Abdullah" >> name.txt
+  135  cat name.txt
+  136  rm name.txt
+  137  cd
+  138  git --version
+  139  mkdir git_example
+  140  cd git_example
+  141  git init
+  142  ls
+  143  touch inedx.js
+  144  git status
+  145  git add .
+  146  git status
+  147  git commit -m "Creating index file"
+  148  git status
+  149  git remote add origin https://github.com/lmao98/git_example.git\ngit branch -M main\ngit push -u origin main
+  150  git remote add origin https://github.com/lmao98/git_example.git\ngit branch -M main\ngit push -u or
+  151  git status
+  152  git remote -v
+  153  git push main
+  154  git log
+  155  cd
+  156  cd ga_seir
+  157  cd unit1
+  158  cd homework
+  159  git clone git@github.com:lmao98/u1_hw_star_wars.git
+  160  ls
+  161  cd u1_hw_star_wars
+  162  code .
+  163  git status
+  164  mkdir star_wars
+  165  mkdir star_wars/empire star_wars/rebellion
+  166  cd empire
+  167  cd star_wars
+  168  cd empire
+  169  touch darth_vader.txt
+  170  echo "...heavy breathing..." darth.vader.txt
+  171  add darth_vader.txt
+  172  add .
+  173  touch emperor_palpatine.txt
+  174  mkdir death_stars
+  175  mv darth_vader.txt empire darth_vader.txt death_star
+  176  git status
+  177  git add .
+  178  git commit -m "Created star wars"
+  179  mv empire/darth_vader.txt death_stars
+  180  mv darth_vader.txt death_stars
+  181  cd ..
+  182  cd rebellion
+  183  touch princess_leia.txt
+  184  echo "Help me, Obi-Wan..." princess_leia.txt
+  185  touch obi_wan.txt
+  186  touch luke_skywalker.txt
+  187  mkdir millenium_falcon
+  188  cd millenium_falcon
+  189  touc han_solo.txt touch chewbacca.txt
+  190  touch han_solo.txt touch chewbacca.txt
+  191  ls
+  192  rm touch
+  193  ls
+  194  cd ..
+  195  mv rebellion luke_skywalker.txt millenium_falcon
+  196  cd ..
+  197  mv rebellion luke_skywalker.txt millenium_falcon
+  198  cd millenium_falcom
+  199  cd millenium_falcon
+  200  cd rebllion
+  201  ls
+  202  cd rebellion
+  203  cd
+  204  mv luke.skywallker.txt millenium_falcon
+  205  ls
+  206  gs_seir
+  207  cd gs_seir
+  208  ls
+  209  cd ga_seir
+  210  ls
+  211  cd unit1
+  212  ls
+  213  cd homework
+  214  ls
+  215  cd u1_hw_star_wars
+  216  luke.skywallker.txt millenium_falcon
+  217  mv luke_skywalker.txt millenium_falcon
+  218  git add -A
+  219  git commit -m "Act one star wars"
+  220  git push origin main
