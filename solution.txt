@@ -1,0 +1,175 @@
+ 390  mkdir star_wars
+  391  cd star_wars
+  392  mkdir empire rebellion
+  393  ls
+  394  cd empire
+  395  touch darth_vader.txt
+  396  echo ...heavy breathing...
+  397  touch emperor_palpatine.txt
+  398  mkdir death_star
+  399  mv darth_vader.txt ~/death_star
+  400  cd ..
+  401  cd rebellion
+  402  touch princess_leia.txt && echo Help me, Obi-Wan...
+  403  touch obi_wan.txt
+  404  touch luke_skywalker.txt
+  405  mkdir millenium_falcon
+  406  cd millenium_falcon
+  407  touch han_solo.txt && chewbacca.txt
+  408  touch han_solo.txt && touch chewbacca.txt
+  409  ls
+  410  cd ..
+  411  mv princess_leia.txt ~/millenium_falcon
+  412  mv obi_wan.txt ~/millenium_falcon
+  413  mv luke_skywalker.txt ~/millenium_falcon
+  414  mv millenium_falcon ~/death_star
+  415  mv mv princess_leia.txt ~/millenium_falcon
+  416  MacBooks-MBP:rebellion macbooktoast$ mv obi_wan.txt ~/millenium_falcon
+  417  ls
+  418  mv millenium_falcon ~/rebellion
+  419  ls
+  420  cd..
+  421  cd ..
+  422  ls
+  423  cd rebellion
+  424  ls
+  425  cd ..
+  426  cd empire
+  427  ls
+  428  cd death_star
+  429  ls
+  430  cd ..
+  431  ls
+  432  mv ~/emperor_palpatine.txt ~/death_star
+  433  mv ~/empire/emperor_palpatine.txt ~/empire/death_star
+  434  ls
+  435  cd death_star
+  436  ls
+  437  cd ~
+  438  ls
+  439  cd death_star
+  440  ls
+  441  cd rebellion
+  442  ls
+  443  cd ..
+  444  mv millenium_falcon rebellion
+  445  cd rebellion
+  446  las
+  447  ls
+  448  mv chewbacca.txt && han_solo.txt millenium_falcon
+  449  ls
+  450  mv chewbacca.txt millenium_falcon
+  451  mv han_solo.txt millenium_falcon
+  452  cd millenium_falcon
+  453  ls
+  454  cd millenium_falcon
+  455  clear
+  456  cd ~
+  457  ls
+  458  cd desktop
+  459  cd seir222
+  460  cd unit1
+  461  cd week1
+  462  cd tuesday
+  463  cd u1_hw_star_wars
+  464  cd star_wars
+  465  cd rebellion
+  466  mkdir millenium_falcon
+  467  touch han_solo && touch chewbacca.txt
+  468  mv han_solo.txt millenium_falcon
+  469  ls
+  470  cd millenium_falcon
+  471  cd ..
+  472  ls
+  473  mv chewbacca.txt millenium_falcon
+  474  cd millenium_falcon
+  475  ls
+  476  cd ..
+  477  ls
+  478  rm han_solo
+  479  touch han_solo.txt
+  480  mv han_solo.txt millenium_falcon
+  481  touch princess_leia.txt && echo Help me, Obi-Wan...
+  482  touch obi_wan.txt
+  483  touch luke_skywalker.txt
+  484  ls
+  485  mv princess_leia.txt millenium_falcon
+  486  mv obi_wan.txt millenium_falcon
+  487  mv luke_skywalker.txt millenium_falcon
+  488  cd millenium_falcon
+  489  ls
+  490  cd ..
+  491  mv millenium_falcon death_star
+  492  ls
+  493  cd death_star
+  494  ls
+  495  cd ..
+  496  mv death_star millenium_falcon
+  497  ls
+  498  pwd
+  499  mv millenium_falcon /Users/macbooktoast/desktop/seir222/unit1/week1/tuesday/u1_hw_star_wars/star_wars/empire/death_star
+  500  ls
+  501  cd ..
+  502  ls
+  503  cd empire
+  504  ls
+  505  cd death_star
+  506  ls
+  507  cd
+  508  ls
+  509  cd desktop
+  510  cd seir222
+  511  cd unit1
+  512  cd week1
+  513  cd tuesday
+  514  ls
+  515  cd u1_hw_star_wars
+  516  ls
+  517  cd star_wars
+  518  cd empire
+  519  ls
+  520  touch darth_vader.txt
+  521  ls
+  522  mv darth_vader.txt death_star
+  523  cd death_star
+  524  ls
+  525  ls
+  526  cd millenium_falcon
+  527  ls
+  528  mv millenium_falcon/* /Users/macbooktoast/desktop/seir222/unit1/week1/tuesday/u1_hw_star_wars/star_wars/empire/death_star
+  529  ls
+  530  cd ..
+  531  mv millenium_falcon/* /Users/macbooktoast/desktop/seir222/unit1/week1/tuesday/u1_hw_star_wars/star_wars/empire/death_star
+  532  ls
+  533  rm obi_wan.txt
+  534  mv chewbacca.txt death_star
+  535  mv han_solo.txt death_star
+  536  ls
+  537  cd death_star
+  538  rm death_star
+  539  touch chewbacca.txt
+  540  touch han_solo.txt
+  541  ls
+  542  mv han_solo.txt millenium_falcon
+  543  mv chewbacca.txt millenium_falcon
+  544  mv princess_leia.txt millenium_falcon
+  545  mv luke_skywalker.txt millenium_falcon
+  546  mv millenium_falcon /Users/macbooktoast/desktop/seir222/unit1/week1/tuesday/u1_hw_star_wars/star_wars/rebellion
+  547  ls
+  548  cd ..
+  549  mv death_star/* /Users/macbooktoast/desktop/seir222/unit1/week1/tuesday/u1_hw_star_wars/star_wars/empire
+  550  ls
+  551  rm death_star
+  552  ls
+  553  cd death_star
+  554  rm -rf
+  555  cd ..
+  556  ls
+  557  rm -rf death_star
+  558  s
+  559  ls
+  560  cd ..
+  561  cd ..
+  562  ls
+  563  history | tail -n 250
+MacBooks-MBP:u1_hw_star_wars macbooktoast$ 
