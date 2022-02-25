@@ -1,0 +1,81 @@
+1  git clone https://github.com/dealhouse/u1_hw_star_wars.git
+    2  code .
+    3  mkdir star_wars 
+    4  cd star_wars
+    5  mkdir star_wars/empire star_wars/rebellion
+    6  mkdir empire rebellion
+    7  cd empire 
+    8  touch darth_vader.txt
+    9  echo "...heavy breathing..." >> darth_vader.txt
+   10  touch emperor_palpatine.txt
+   11  mkdir death_star
+   12  mv darth_vader.txt death_star
+   13  git add . 
+   14  cd ....
+   15  cd homework
+   16  mv star_wars u1_hw_star_wars
+   17  cd u1_hw_star_wars
+   18  git add .
+   19  git commit -m "first act commands"
+   20  cd star_wars
+   21  cd rebellion
+   22  touch princess_leia.txt && echo "Help me, Obi-Wan..." >> princess_leia.txt
+   23  touch obi_wan.txt
+   24  touch luke_skywalker.txt
+   25  mkdir millenium_falcon
+   26  cd millenium_falcon
+   27  touch han_solo.txt chewbacca.txt
+   28  cd ..
+   29  mv luke_skywalker.txt obi_wan.txt princess_leia.txt millenium_falcon
+   30  cd millenium_falcon
+   31  ls
+   32  cd ..
+   33  mv millenium_falcon ../empire 
+   34  cd ..
+   35  cd empire
+   36  ls
+   37  mv millenium_falcon death_star
+   38  ls
+   39  git add .
+   40  git commit -m "second act commands"
+   41  cd death_star
+   42  ls
+   43  mv millenium_falcon/* death_star
+   44  mv millenium_falcon/* ../
+   45  ls
+   46  mv millenium_falcon/* ../death_star
+   47  ls
+   48  cd millenium_falcon
+   49  ls
+   50  cd ..
+   51  ls
+   52  mv chewbacca.txt luke_skywalker.txt princess_leia.txt han_solo.txt obi_wan.txt death_star
+   53  mv chewbacca.txt luke_skywalker.txt princess_leia.txt han_solo.txt obi_wan.txt millenium_falcon
+   54  cd death_star
+   55  mv chewbacca.txt luke_skywalker.txt princess_leia.txt han_solo.txt obi_wan.txt millenium_falcon
+   56  mv millenium_falcon/* ../death_star
+   57  ls
+   58  rm obi_wan.txt
+   59  ls
+   60  mv chewbacca.txt han_solo.txt luke_skywalker.txt princess_leia.txt millenium_falcon
+   61  mv millenium_falcon .../rebellion 
+   62  mv millenium_falcon ../
+   63  ls
+   64  cd ..
+   65  ls
+   66  mv millenium_falcon ../rebellion 
+   67  cd ..
+   68  cd rebellion 
+   69  ls
+   70  cd ..
+   71  cd empire
+   72  cd death_star
+   73  mv darth_vader.txt ../
+   74  cd ..
+   75  ls
+   76  rm death_star
+   77  rm -r death_star
+   78  ls
+   79  history | tail -n 250
+   80  git add .
+   81  git commit -m "third act commands"
