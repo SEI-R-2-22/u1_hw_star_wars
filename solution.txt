@@ -1,0 +1,320 @@
+  122  git clone https://github.com/GG-Haaland/u1_hw_star_wars.git
+  123  ul_hw_star_wars
+  124  ls
+  125  u1_hw_star_wars
+  126  ls
+  127  mkdir Star_wars
+  128  ls
+  129  star_wars
+  130  touch darth_vader.txt
+  131  darth_vader.txt=...heavy breathing...
+  132  echo darth_vader.txt
+  133  darth_vadertxt= "...heavy breathing..."
+  134  darth_vader.txt="... heavy breathing..."
+  135  echo darth_vader.txt "...heavy breathing..."
+  136  rm darth_vader.txt
+  137  mkdir empire
+  138  mkdir rebellion
+  139  empire
+  140  touch darth_vader.txt
+  141  echo darth_vader.txt "...heavy breathing..."
+  142  touch emperor_palpatine.txt
+  143  mkdir Death_star
+  144  % mv ~/empire/darth_vader.txt ~/empire/death_star/darth_vader.txt
+  145  ls
+  146  mv darth_vader.txt/Death_star
+  147  death_star
+  148  ls
+  149  cd.
+  150  cd .
+  151  cd ..
+  152  mv darth_vader.txt ~/death_star
+  153  ls
+  154  star_wars
+  155  cd ..
+  156  ls
+  157  rebellion
+  158  touch princess_leia.txt && "Help me, Obi-Wan"
+  159  touch princess_leia.txt 
+  160  ls
+  161  touch obi_wan.txt
+  162  mkdir millenium_falcon
+  163  millenium_falcon
+  164  touch han_solo.txt chewbacca.txt
+  165  ls
+  166  cd ..
+  167  touch luke_skywalker.txt
+  168  touch obi_wan.txt
+  169  ls
+  170  mv luke_skywalker.txt obi_wan.txt  princess_leia.txt ~/millenium_falcon
+  171  millenium_falcon
+  172  ls
+  173  rebellion
+  174  cd ..
+  175  mv obi_wan.txt ~/millenium_falcon
+  176  ls
+  177  mv princess_leia.tx ~/millenium_falcon
+  178  mv princess_leia.txt ~/millenium_falcon
+  179  mv luke_skywalker.txt ~/millenium_falcon
+  180  millenium_falcon
+  181  ls
+  182  cd ..
+  183  ls
+  184  mv millenium_falcon ~/death_star
+  185  ls
+  186  mv millenium_falcon ~/death_star
+  187  millenium_falcon
+  188  mv millenium_falcon ~/death_star
+  189  ls
+  190  cd ...
+  191  death_star
+  192  empire
+  193  death_star
+  194  ls
+  195  cd ...
+  196  cd ..
+  197  clear
+  198  kill
+  199  clear
+  200  desktop
+  201  ls
+  202  sei222
+  203  ls
+  204  unit1
+  205  ;s
+  206  ls
+  207  week1
+  208  ls
+  209  kndir Thursday
+  210  thursday
+  211  touch script.js
+  212  code .
+  213  which node
+  214  clear
+  215  thursday
+  216  ls
+  217  desktop
+  218  ls
+  219  sei222
+  220  ls
+  221  unit1
+  222  week1
+  223  thursday
+  224  ls
+  225  mkdir
+  226  mkdir Thursday
+  227  ls
+  228  Thursday
+  229  touch script.js
+  230  clear
+  231  node script.js
+  232  thursday
+  233  node script.js
+  234  clear
+  235  node script.js
+  236  clear
+  237  node script.js
+  238  clear
+  239  node script.js
+  240  clear
+  241  node script.js
+  242  clear
+  243  node script.js
+  244  clear
+  245  node script.js
+  246  v
+  247  node script.js
+  248  clear
+  249  node script.js
+  250  clear
+  251  node script.js
+  252  clear
+  253  node script.js
+  254  clear
+  255  node script.js
+  256  clear
+  257  node script.js
+  258  clear
+  259  node script.js
+  260  clear
+  261  git clone https://github.com/GG-Haaland/u1_hw_control_flow_adventure.git
+  262  cd
+  263  ls
+  264  desktop
+  265  ls
+  266  clear
+  267  cd
+  268  git clone https://github.com/GG-Haaland/u1_hw_control_flow_adventure.git
+  269  ls
+  270  desktop
+  271  mkdir GA_Homework
+  272  GA_homework
+  273  git clone https://github.com/GG-Haaland/u1_hw_control_flow_adventure.git
+  274  ls
+  275  documents
+  276  touch test.js
+  277  ls
+  278  documents
+  279  ls
+  280  touch friday.js
+  281  cd
+  282  desktop
+  283  mhdir
+  284  mkdir week1
+  285  week1
+  286  touch app.js
+  287  touch index.html
+  288  clear
+  289  ls
+  290  git clone https://github.com/GG-Haaland/u1_lab_DOM_quotes.git
+  291  git clone https://github.com/GG-Haaland/u1_lesson_js_events.git
+  292  mkdir stranger
+  293  git clone https://github.com/GG-Haaland/u1_lab_dots.git
+  294  git clone https://github.com/GG-Haaland/dots-solution.git
+  295  ls
+  296  cd
+  297  ls
+  298  desktop
+  299  kndir Homework
+  300  mkdir Homework
+  301  homework
+  302  mkdir Tic Tac Toe
+  303  ls
+  304  rm tac tic toe
+  305  ls
+  306  rm tac_tic_toe
+  307  ls
+  308  kmdir tic_tac_toe
+  309  mkdir tic_tac_toe
+  310  tic_tac_toe
+  311  git clone https://github.com/GG-Haaland/u1_hw_tic_tac_toe.git
+  312  ls
+  313  u1_hw_control_flow_adventure
+  314  ls
+  315  starter
+  316  ls
+  317  less script.js
+  318  ls
+  319  u1_hw_control_flow_adventure
+  320  ls
+  321  git commit -m "First commit"
+  322  git push origin main
+  323  ls
+  324  tic_tac_toe
+  325  ls
+  326  u1_hw_tic_tac_toe
+  327  ls
+  328  touch game.js
+  329  cd
+  330  ls
+  331  desktop
+  332  ga_homework
+  333  ls
+  334  mkdir
+  335  mkdir Tac
+  336  tac
+  337  git clone https://github.com/GG-Haaland/tic-tac-toe-vanilla-js.git
+  338  cd -
+  339  ls
+  340  tic_tac_toe
+  341  ls
+  342  u1_hw_tic_tac_toe
+  343  ls
+  344  touch test.js
+  345  touch index.html, app.js, style.css
+  346  ls
+  347  desktop
+  348  mkdir week2
+  349  week2
+  350  ls
+  351  u1_hw_tic_tac_toe
+  352  mkdir testpo
+  353  tespo
+  354  testpo
+  355  touch index.html
+  356  touch style.css
+  357  touch app.js
+  358  cd
+  359  desktop
+  360  cd
+  361  desktop
+  362  mkdir testpo
+  363  touch index.html
+  364  touch style.cdd
+  365  touch style.css
+  366  touch app.js
+  367  rm style.cdd
+  368  tespo
+  369  testpo
+  370  touch index.html
+  371  touch style.css
+  372  touch app.js
+  373  desktop
+  374  ga_homework
+  375  ls
+  376  kmdir
+  377  git clone https://github.com/GG-Haaland/u1_hw_star_wars.git
+  378  ls
+  379  clear
+  380  u1_hw_star_wars
+  381  ls
+  382  mkdir star_wars
+  383  star_wars
+  384  mkdir empire rebellion
+  385  ls
+  386  empire
+  387  touch darth_vader.txt
+  388  ls
+  389  echo "...heavy breathing..." >> darth_vader.txt
+  390  cat darth_vader.txt
+  391  touch emperor_palpatine.txt
+  392  mkdir death_star
+  393  mv darth_vader.txt death_star
+  394  ls
+  395  death_star
+  396  ls
+  397  git add .
+  398  git commit -m "end of act 1"
+  399  cd--
+  400  --cd
+  401  -cd
+  402  cd
+  403  desktop
+  404  ga_homework
+  405  ls
+  406  u1_hw_star_wars
+  407  ls
+  408  star_wars
+  409  rebellion
+  410  touch princess_leia.txt && echo princess_leia.txt >> "Help me, Obi-Wan…"
+  411  touch  obi_wan.txt
+  412  touch luke_skywalker.txt
+  413  mkdir millenium_falcon
+  414  millenium_falcon
+  415  touch han_solo.txt chewbacca.txt
+  416  cd..
+  417  cd ..
+  418  mv luke_skywalker.txt obi_wan.txt princess_leia.txt millenium_falcon
+  419  mv millenium_falcon death_star
+  420  ls
+  421  git add .
+  422  git commit -m "end of second act"
+  423  cd ..
+  424  mv * millenium_falcon death_star
+  425  ls
+  426  rebellion
+  427  ls
+  428  deathstar
+  429  death_star
+  430  ls
+  431  rm obi_won.txt
+  432  rm obi_wan.txt
+  433  mv chewbacca.txt han_solo.txt luke_skywalker.txt princess_leia.txt millenium_falcon
+  434  mkdir millenium_falcon
+  435  mv chewbacca.txt han_solo.txt luke_skywalker.txt princess_leia.txt millenium_falcon
+  436  ls
+  437  mv millenium_falcon rebellion
+  438  mv darth_vader empire
+  439  ls
+  440  rm death_star
+  441  gistory
